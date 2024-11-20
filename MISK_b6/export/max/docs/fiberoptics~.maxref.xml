@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="fiberoptics~">
+<metadatalist>
+<metadata name="tag">audio</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in1"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="cutoff" get="1" set="1" size="1" type="float64">
+<digest>cutoff</digest>
+</attribute>
+<attribute name="q" get="1" set="1" size="1" type="float64">
+<digest>q</digest>
+</attribute>
+</attributelist>
+</c74object>

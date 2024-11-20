@@ -1,0 +1,74 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "fiberoptics",
+	"origin" : "fiberoptics",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 1,
+	"snapshot" : 	{
+		"__sps" : 		{
+			"poly" : [ 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+ ]
+		}
+,
+		"cutoff" : 		{
+			"value" : 0.83
+		}
+,
+		"q" : 		{
+			"value" : 0.35
+		}
+,
+		"__presetid" : "fiberoptics"
+	}
+
+}

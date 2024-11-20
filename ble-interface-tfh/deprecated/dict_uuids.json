@@ -1,0 +1,34 @@
+{
+    "device" : {
+        "uuid" : "7CB0CC2B-01BF-537C-1338-C2D2F9293BFE",
+        "uuid-win" : "EF9BE4CC140B",
+        "name" : "TFH Bubble Tube 661836"
+    },
+    "generic-access" : {
+        "service" : "00001800-0000-1000-8000-00805F9B34FB",
+        "device-name" : "00002A00-0000-1000-8000-00805F9B34FB"
+    },
+    "generic-attribute" : {
+        "service" : "00001801-0000-1000-8000-00805F9B34FB"
+    },
+    "device-information" : {
+        "service" : "0000180A-0000-1000-8000-00805F9B34FB",
+        "model-number" : "00002A24-0000-1000-8000-00805F9B34FB",
+        "serial-number" : "00002A25-0000-1000-8000-00805F9B34FB",
+        "firmware" : "00002A26-0000-1000-8000-00805F9B34FB",
+        "software" : "00002A28-0000-1000-8000-00805F9B34FB",
+        "manufacturer" : "00002A29-0000-1000-8000-00805F9B34FB"
+    },
+    "tfh" : {
+        "service" : "030013AC-4102-CD8D-EB11-1E8EF43639C5",
+        "mode-options" : "B074725B-E0DD-DFB0-E842-8E5AE2DD64F4",
+        "mode" : "CC588E94-E480-A289-C04A-7532F921E133",
+        "group" : "549C23A4-8BD6-F883-0843-D311373EB222",
+        "speed" : "7EDFF190-963A-F1BB-6346-62E06D28DD38",
+        "action" : "9DEEBE9D-B52B-4ACF-83F6-2D63A052D20E",
+        "relative-brightness" : "00AC0924-B5A3-CF89-7646-9EBBB985C62C",
+        "brightness" : "764B3935-953E-FFA1-734A-2E2F1C5E116A",
+        "colour" : "F177FA2A-2C95-7495-0340-ABCD84B721C2",
+        "standby" : "020012AC-4202-998C-EE11-1056E8DB2AFB"
+    }
+}

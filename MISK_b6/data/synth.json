@@ -1,0 +1,417 @@
+{
+	"pattrstorage" : 	{
+		"name" : "synth",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"synth_chooser" : [ 0 ],
+					"synth_gain" : [ -0.709510203749545 ],
+					"synthen::Delay_tid_vibrato" : [ 342.252374999999404 ],
+					"synthen::FMAmount" : [ 0.0 ],
+					"synthen::FM_ratio" : [ 2.0 ],
+					"synthen::Filter_cutoff" : [ 1482.054000000000315 ],
+					"synthen::Filter_mode" : [ "edit_mode", 1 ],
+					"synthen::Vibrato_amount" : [ 0.813751627503263 ],
+					"synthen::Vibrato_speed" : [ 8.76532953065907 ],
+					"synthen::choose" : [ 0 ],
+					"synthen::cutoff" : [ 1482.054000000000315 ],
+					"synthen::decay" : [ 262.384524769049392 ],
+					"synthen::filter_gain" : [ 0.484701909617878 ],
+					"synthen::filter_q" : [ 2.0 ],
+					"synthen::gain" : [ 1.0 ],
+					"synthen::kontroll1" : [ 0.0 ],
+					"synthen::kontroll1[1]" : [ 0.0 ],
+					"synthen::kontroll_in" : [ 0 ],
+					"synthen::kontroll_in[1]" : [ 0 ],
+					"synthen::kontroll_in[2]" : [ 0 ],
+					"synthen::live.text" : [ 0.0 ],
+					"synthen::overdrive_drive" : [ 0.0 ],
+					"synthen::pulsbredd" : [ 0.0 ],
+					"synthen::release" : [ 692.107384214770832 ],
+					"synthen::rnbo~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "synth_simple",
+							"origin" : "synth_simple",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"release" : 								{
+									"value" : 692.107384214770832
+								}
+,
+								"decay" : 								{
+									"value" : 262.384524769049392
+								}
+,
+								"sq_pulsew" : 								{
+									"value" : 0.0
+								}
+,
+								"attack" : 								{
+									"value" : 343.914687829375339
+								}
+,
+								"FMAmount" : 								{
+									"value" : 0.0
+								}
+,
+								"sustain" : 								{
+									"value" : 0.740157480314961
+								}
+,
+								"__sps" : 								{
+									"poly" : [ 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+ ]
+								}
+,
+								"vibrato_speed" : 								{
+									"value" : 8.76532953065907
+								}
+,
+								"vib_delay" : 								{
+									"value" : 342.252374999999404
+								}
+,
+								"vib_amount" : 								{
+									"value" : 0.813751627503263
+								}
+,
+								"__presetid" : "synth_simple",
+								"waveform" : 								{
+									"value" : 1.0
+								}
+,
+								"FMRatio" : 								{
+									"value" : 157.480314960629926
+								}
+
+							}
+
+						}
+ ],
+					"synthen::skala_kontroll" : [ 0 ],
+					"synthen::skala_kontroll[1]" : [ 0 ],
+					"synthen::sustain" : [ 0.740157480314961 ],
+					"synthen::synt_attack" : [ 343.914687829375339 ],
+					"synthen::waveform" : [ 0.0 ],
+					"synthen::s1_synthen" : [ -1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"synth_chooser" : [ 0 ],
+					"synth_gain" : [ -0.709510203749545 ],
+					"synthen::Delay_tid_vibrato" : [ 342.252374999999404 ],
+					"synthen::FMAmount" : [ 0.0 ],
+					"synthen::FM_ratio" : [ 2.0 ],
+					"synthen::Filter_cutoff" : [ 1482.054000000000315 ],
+					"synthen::Filter_mode" : [ "edit_mode", 1 ],
+					"synthen::Vibrato_amount" : [ 0.813751627503263 ],
+					"synthen::Vibrato_speed" : [ 8.76532953065907 ],
+					"synthen::choose" : [ 0 ],
+					"synthen::cutoff" : [ 1482.054000000000315 ],
+					"synthen::decay" : [ 262.384524769049392 ],
+					"synthen::filter_gain" : [ 0.484701909617878 ],
+					"synthen::filter_q" : [ 2.0 ],
+					"synthen::gain" : [ 1.0 ],
+					"synthen::kontroll1" : [ 0.0 ],
+					"synthen::kontroll1[1]" : [ 0.0 ],
+					"synthen::kontroll_in" : [ 0 ],
+					"synthen::kontroll_in[1]" : [ 0 ],
+					"synthen::kontroll_in[2]" : [ 0 ],
+					"synthen::live.text" : [ 0.0 ],
+					"synthen::overdrive_drive" : [ 0.0 ],
+					"synthen::pulsbredd" : [ 0.0 ],
+					"synthen::release" : [ 178.746357492716299 ],
+					"synthen::rnbo~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "synth_simple",
+							"origin" : "synth_simple",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"release" : 								{
+									"value" : 178.746357492716299
+								}
+,
+								"decay" : 								{
+									"value" : 262.384524769049392
+								}
+,
+								"sq_pulsew" : 								{
+									"value" : 0.0
+								}
+,
+								"attack" : 								{
+									"value" : 26.784053568107133
+								}
+,
+								"FMAmount" : 								{
+									"value" : 0.0
+								}
+,
+								"sustain" : 								{
+									"value" : 0.377952755905513
+								}
+,
+								"__sps" : 								{
+									"poly" : [ 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+ ]
+								}
+,
+								"vibrato_speed" : 								{
+									"value" : 8.76532953065907
+								}
+,
+								"vib_delay" : 								{
+									"value" : 342.252374999999404
+								}
+,
+								"vib_amount" : 								{
+									"value" : 0.813751627503263
+								}
+,
+								"__presetid" : "synth_simple",
+								"waveform" : 								{
+									"value" : 2.0
+								}
+,
+								"FMRatio" : 								{
+									"value" : 157.480314960629926
+								}
+
+							}
+
+						}
+ ],
+					"synthen::skala_kontroll" : [ 0 ],
+					"synthen::skala_kontroll[1]" : [ 0 ],
+					"synthen::sustain" : [ 0.377952755905513 ],
+					"synthen::synt_attack" : [ 26.784053568107133 ],
+					"synthen::waveform" : [ 1.0 ],
+					"synthen::s1_synthen" : [ -1 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"synth_chooser" : [ 0 ],
+					"synth_gain" : [ -0.709510203749545 ],
+					"synthen::Delay_tid_vibrato" : [ 342.252374999999404 ],
+					"synthen::FMAmount" : [ 0.0 ],
+					"synthen::FM_ratio" : [ 2.0 ],
+					"synthen::Filter_cutoff" : [ 1482.054000000000315 ],
+					"synthen::Filter_mode" : [ "edit_mode", 1 ],
+					"synthen::Vibrato_amount" : [ 0.813751627503263 ],
+					"synthen::Vibrato_speed" : [ 8.76532953065907 ],
+					"synthen::choose" : [ 0 ],
+					"synthen::cutoff" : [ 1482.054000000000315 ],
+					"synthen::decay" : [ 262.384524769049392 ],
+					"synthen::filter_gain" : [ 0.484701909617878 ],
+					"synthen::filter_q" : [ 2.0 ],
+					"synthen::gain" : [ 1.0 ],
+					"synthen::kontroll1" : [ 0.0 ],
+					"synthen::kontroll1[1]" : [ 0.0 ],
+					"synthen::kontroll_in" : [ 0 ],
+					"synthen::kontroll_in[1]" : [ 0 ],
+					"synthen::kontroll_in[2]" : [ 0 ],
+					"synthen::live.text" : [ 0.0 ],
+					"synthen::overdrive_drive" : [ 0.0 ],
+					"synthen::pulsbredd" : [ 0.0 ],
+					"synthen::release" : [ 178.746357492716299 ],
+					"synthen::rnbo~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "synth_simple",
+							"origin" : "synth_simple",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"release" : 								{
+									"value" : 178.746357492716299
+								}
+,
+								"decay" : 								{
+									"value" : 262.384524769049392
+								}
+,
+								"sq_pulsew" : 								{
+									"value" : 0.0
+								}
+,
+								"attack" : 								{
+									"value" : 26.784053568107133
+								}
+,
+								"FMAmount" : 								{
+									"value" : 0.0
+								}
+,
+								"sustain" : 								{
+									"value" : 0.377952755905513
+								}
+,
+								"__sps" : 								{
+									"poly" : [ 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+, 										{
+
+										}
+ ]
+								}
+,
+								"vibrato_speed" : 								{
+									"value" : 8.76532953065907
+								}
+,
+								"vib_delay" : 								{
+									"value" : 342.252374999999404
+								}
+,
+								"vib_amount" : 								{
+									"value" : 0.813751627503263
+								}
+,
+								"__presetid" : "synth_simple",
+								"waveform" : 								{
+									"value" : 0.0
+								}
+,
+								"FMRatio" : 								{
+									"value" : 157.480314960629926
+								}
+
+							}
+
+						}
+ ],
+					"synthen::skala_kontroll" : [ 0 ],
+					"synthen::skala_kontroll[1]" : [ 0 ],
+					"synthen::sustain" : [ 0.377952755905513 ],
+					"synthen::synt_attack" : [ 26.784053568107133 ],
+					"synthen::waveform" : [ 2.0 ],
+					"synthen::s1_synthen" : [ -1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
