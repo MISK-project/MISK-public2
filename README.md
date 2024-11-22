@@ -9,3 +9,6 @@ MIT-license
 
 Read more at 
 https://goteborg.se/wps/portal/enhetssida/eldorado/kunskap/misk
+
+Right now you need to run the software from Max MSP
+Executeable versions is avaible on MISKs website
