@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 439.0, 168.0, 389.0, 649.0 ],
+		"rect" : [ 220.0, 172.0, 900.0, 677.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -8.0, 805.0, 70.0, 22.0 ],
+					"text" : "loadmess 0",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -340,7 +353,8 @@
 								}
 
 							}
- ]
+ ],
+						"autosave" : 0
 					}
 ,
 					"patching_rect" : [ 48.0, 942.0, 122.0, 22.0 ],
@@ -363,7 +377,7 @@
 					"presentation_rect" : [ 99.5, 174.0, 42.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[549]",
+							"parameter_longname" : "live.dial[548]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Overdrive",
 							"parameter_type" : 0,
@@ -433,7 +447,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "Noise" ],
-							"parameter_longname" : "live.tab[102]",
+							"parameter_longname" : "live.tab[101]",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[101]",
@@ -737,7 +751,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[2]",
+							"parameter_longname" : "Kontroll1[6]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -1058,7 +1072,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[386]",
+							"parameter_longname" : "live.text[1134]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[225]",
@@ -1163,7 +1177,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[23]",
+							"parameter_longname" : "live.dial[185]",
 							"parameter_mmax" : 6000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "CutOff",
@@ -1442,7 +1456,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[21]",
+							"parameter_longname" : "live.dial[188]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
@@ -1473,7 +1487,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[27]",
+							"parameter_longname" : "live.dial[184]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Ratio",
 							"parameter_type" : 0,
@@ -1718,14 +1732,14 @@
 					"outlettype" : [ "signal", "int", "list" ],
 					"patching_rect" : [ 48.0, 854.0, 329.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"vibrato_speed" : 						{
-							"label" : "vibrato_speed",
+						"FMAmount" : 						{
+							"label" : "FMAmount",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"FMRatio" : 						{
-							"label" : "FMRatio",
+						"vibrato_speed" : 						{
+							"label" : "vibrato_speed",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1736,26 +1750,14 @@
 							"parsestring" : ""
 						}
 ,
-						"release" : 						{
-							"label" : "release",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"vib_delay" : 						{
-							"label" : "vib_delay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"vib_amount" : 						{
 							"label" : "vib_amount",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"FMRatio" : 						{
+							"label" : "FMRatio",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1772,8 +1774,20 @@
 							"parsestring" : ""
 						}
 ,
-						"FMAmount" : 						{
-							"label" : "FMAmount",
+						"release" : 						{
+							"label" : "release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sustain" : 						{
+							"label" : "sustain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"vib_delay" : 						{
+							"label" : "vib_delay",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1790,7 +1804,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rnbo~[3]",
+							"parameter_longname" : "rnbo~[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "rnbo~[1]",
 							"parameter_type" : 3
@@ -1816,19 +1830,19 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"release" : 							{
-								"value" : 300.0
+								"value" : 343.914687829377613
 							}
 ,
 							"decay" : 							{
-								"value" : 30.0
+								"value" : 262.384524769049392
 							}
 ,
 							"sq_pulsew" : 							{
-								"value" : 0.0
+								"value" : 0.496062992125984
 							}
 ,
 							"attack" : 							{
-								"value" : 10.0
+								"value" : 0.0
 							}
 ,
 							"FMAmount" : 							{
@@ -1836,7 +1850,7 @@
 							}
 ,
 							"sustain" : 							{
-								"value" : 1.0
+								"value" : 0.740157480314961
 							}
 ,
 							"__sps" : 							{
@@ -1880,15 +1894,15 @@
 							}
 ,
 							"vibrato_speed" : 							{
-								"value" : 0.2
+								"value" : 8.76532953065907
 							}
 ,
 							"vib_delay" : 							{
-								"value" : 500.0
+								"value" : 3000.0
 							}
 ,
 							"vib_amount" : 							{
-								"value" : 0.4
+								"value" : 0.0
 							}
 ,
 							"__presetid" : "synth_simple.rnbopat",
@@ -1897,7 +1911,7 @@
 							}
 ,
 							"FMRatio" : 							{
-								"value" : 0.0
+								"value" : 157.480314960629926
 							}
 
 						}
@@ -1915,19 +1929,19 @@
 									"embed" : 0,
 									"snapshot" : 									{
 										"release" : 										{
-											"value" : 300.0
+											"value" : 343.914687829377613
 										}
 ,
 										"decay" : 										{
-											"value" : 30.0
+											"value" : 262.384524769049392
 										}
 ,
 										"sq_pulsew" : 										{
-											"value" : 0.0
+											"value" : 0.496062992125984
 										}
 ,
 										"attack" : 										{
-											"value" : 10.0
+											"value" : 0.0
 										}
 ,
 										"FMAmount" : 										{
@@ -1935,7 +1949,7 @@
 										}
 ,
 										"sustain" : 										{
-											"value" : 1.0
+											"value" : 0.740157480314961
 										}
 ,
 										"__sps" : 										{
@@ -1979,15 +1993,15 @@
 										}
 ,
 										"vibrato_speed" : 										{
-											"value" : 0.2
+											"value" : 8.76532953065907
 										}
 ,
 										"vib_delay" : 										{
-											"value" : 500.0
+											"value" : 3000.0
 										}
 ,
 										"vib_amount" : 										{
-											"value" : 0.4
+											"value" : 0.0
 										}
 ,
 										"__presetid" : "synth_simple.rnbopat",
@@ -1996,17 +2010,17 @@
 										}
 ,
 										"FMRatio" : 										{
-											"value" : 0.0
+											"value" : 157.480314960629926
 										}
 
 									}
 ,
 									"fileref" : 									{
 										"name" : "synth_simple.rnbopat",
-										"filename" : "synth_simple.rnbopat_20241120.maxsnap",
-										"filepath" : "/Users/Github/Max-patches/MISK_b6/data",
+										"filename" : "synth_simple.rnbopat_20241128.maxsnap",
+										"filepath" : "/Users/Github/Max-patches-public2/MISK_b6/data",
 										"filepos" : -1,
-										"snapshotfileid" : "75b0919058c4a16fa6b03f5e9c821a8b"
+										"snapshotfileid" : "d4616a7d4e613ce34f873609f3f169fc"
 									}
 
 								}
@@ -2055,7 +2069,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
-							"parameter_longname" : "live.dial[24]",
+							"parameter_longname" : "live.dial[186]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FadeIn",
@@ -2088,7 +2102,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[22]",
+							"parameter_longname" : "live.dial[189]",
 							"parameter_mmax" : 21.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
@@ -2121,7 +2135,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[26]",
+							"parameter_longname" : "live.dial[89]",
 							"parameter_mmax" : 64.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Speed",
@@ -2204,7 +2218,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "boost[1]",
+							"parameter_longname" : "boost[3]",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Gain",
@@ -2433,7 +2447,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[3]",
+							"parameter_longname" : "Kontroll1[1]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -2475,7 +2489,7 @@
 						"kontroll_in[1]" : [ 0 ],
 						"kontroll_in[2]" : [ 0 ],
 						"live.text" : [ 0.0 ],
-						"overdrive_drive" : [ 127.0 ],
+						"overdrive_drive" : [ 0.0 ],
 						"pulsbredd" : [ 62.999999999999929 ],
 						"release" : [ 343.914687829377613 ],
 						"rnbo~" : [ 							{
@@ -2489,19 +2503,19 @@
 								"embed" : 1,
 								"snapshot" : 								{
 									"release" : 									{
-										"value" : 300.0
+										"value" : 343.914687829377613
 									}
 ,
 									"decay" : 									{
-										"value" : 30.0
+										"value" : 262.384524769049392
 									}
 ,
 									"sq_pulsew" : 									{
-										"value" : 0.0
+										"value" : 0.496062992125984
 									}
 ,
 									"attack" : 									{
-										"value" : 10.0
+										"value" : 0.0
 									}
 ,
 									"FMAmount" : 									{
@@ -2509,7 +2523,7 @@
 									}
 ,
 									"sustain" : 									{
-										"value" : 1.0
+										"value" : 0.740157480314961
 									}
 ,
 									"__sps" : 									{
@@ -2553,15 +2567,15 @@
 									}
 ,
 									"vibrato_speed" : 									{
-										"value" : 0.2
+										"value" : 8.76532953065907
 									}
 ,
 									"vib_delay" : 									{
-										"value" : 500.0
+										"value" : 3000.0
 									}
 ,
 									"vib_amount" : 									{
-										"value" : 0.4
+										"value" : 0.0
 									}
 ,
 									"__presetid" : "synth_simple.rnbopat",
@@ -2570,7 +2584,7 @@
 									}
 ,
 									"FMRatio" : 									{
-										"value" : 0.0
+										"value" : 157.480314960629926
 									}
 
 								}
@@ -2609,7 +2623,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[25]",
+							"parameter_longname" : "live.dial[187]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pulswidth",
 							"parameter_type" : 0,
@@ -2840,7 +2854,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "release[1]",
+							"parameter_longname" : "release[3]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "release",
@@ -2874,7 +2888,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "sustain[1]",
+							"parameter_longname" : "sustain[3]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "sustain",
@@ -2907,7 +2921,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "decay[1]",
+							"parameter_longname" : "decay[3]",
 							"parameter_mmax" : 2000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "decay",
@@ -2940,7 +2954,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "attack[1]",
+							"parameter_longname" : "attack[3]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "attack",
@@ -3089,6 +3103,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"source" : [ "obj-104", 0 ]
 				}
 
 			}
