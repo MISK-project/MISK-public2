@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 137.0, 9.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"chord_dict" : [ "maj" ],
+						"grundton_chord_dict" : [ 0 ],
+						"live.dial" : [ 127.0 ],
+						"live.drop" : [ "" ],
+						"live.menu" : [ 0.0 ],
+						"live.menu[1]" : [ 0.0 ],
+						"live.text" : [ 0.0 ],
+						"live.text[1]" : [ 0.0 ],
+						"live.text[2]" : [ 0.0 ],
+						"loop[1]" : [ 0.0 ],
+						"record" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u903013348"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -911,6 +938,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"hidden" : 1,
 					"id" : "obj-106",
 					"items" : [ "gitarrstrata A#dur.wav", ",", "gitarrstrata A#m.wav", ",", "gitarrstrata Adur.wav", ",", "gitarrstrata Am.wav", ",", "gitarrstrata Bdur.wav", ",", "gitarrstrata Bm.wav", ",", "gitarrstrata C#dur.wav", ",", "gitarrstrata C#m.wav", ",", "gitarrstrata Cdur.wav", ",", "gitarrstrata Cm.wav", ",", "gitarrstrata D#dur.wav", ",", "gitarrstrata D#m.wav", ",", "gitarrstrata Ddur.wav", ",", "gitarrstrata Dm.wav", ",", "gitarrstrata Edur.wav", ",", "gitarrstrata Em.wav", ",", "gitarrstrata F#dur.wav", ",", "gitarrstrata F#m.wav", ",", "gitarrstrata Fdur.wav", ",", "gitarrstrata Fm.wav", ",", "gitarrstrata G#dur.wav", ",", "gitarrstrata G#m.wav", ",", "gitarrstrata Gdur.wav", ",", "gitarrstrata Gm.wav" ],
 					"maxclass" : "umenu",
@@ -948,7 +976,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 495.0, 433.0, 81.0, 22.0 ],
-					"prefix" : "/Users/Github/Max-patches/ljudbank/",
+					"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 83.0, 113.0, 22.0 ],
 					"textcolor" : [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ],
@@ -1566,7 +1594,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 622.0, 326.0, 100.0, 22.0 ],
-													"prefix" : "/Users/Github/Max-patches/ljudbank/",
+													"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
 													"types" : "fold"
 												}
 
@@ -1574,11 +1602,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-5",
+													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 364.0, 162.0, 341.0, 20.0 ],
-													"text" : "Macintosh HD:/Users/Github/Max-patches/MISK_b6/patchers/"
+													"text" : "Macintosh HD:/Users/Github/Max-patches-public2/MISK_b6/patchers/"
 												}
 
 											}
