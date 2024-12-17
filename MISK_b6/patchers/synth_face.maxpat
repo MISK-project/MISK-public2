@@ -260,7 +260,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 278.0, 57.0, 50.0, 35.0 ],
-					"text" : "triggerstate 2"
+					"text" : "triggerstate 1"
 				}
 
 			}
@@ -310,7 +310,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 433.0, 1186.0, 170.0, 22.0 ],
+					"patching_rect" : [ 433.0, 1181.0, 170.0, 22.0 ],
 					"text" : "mc.receive~ #1_simplesynth 2"
 				}
 
@@ -393,7 +393,7 @@
 				"box" : 				{
 					"comment" : "ton + vel",
 					"id" : "obj-71",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -420,7 +420,7 @@
 				"box" : 				{
 					"comment" : "MidiUt",
 					"id" : "obj-73",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -530,7 +530,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 433.0, 1238.0, 48.0, 136.0 ],
+					"patching_rect" : [ 433.0, 1268.0, 48.0, 136.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 386.0, 146.0, 48.0, 122.0 ],
 					"saved_attribute_attributes" : 					{
@@ -617,7 +617,7 @@
 				"box" : 				{
 					"comment" : "preset",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -699,7 +699,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 572.0, 1424.0, 112.0, 25.0 ]
+					"patching_rect" : [ 529.0, 1450.021370232105255, 112.0, 25.0 ]
 				}
 
 			}
@@ -1187,7 +1187,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-88",
-					"items" : [ "synth_chooser", ",", "synth_gain", ",", "synthen::Delay_tid_vibrato", ",", "synthen::FMAmount", ",", "synthen::FM_ratio", ",", "synthen::Filter_cutoff", ",", "synthen::Filter_mode", ",", "synthen::Vibrato_amount", ",", "synthen::Vibrato_speed", ",", "synthen::choose", ",", "synthen::cutoff", ",", "synthen::decay", ",", "synthen::filter_gain", ",", "synthen::filter_q", ",", "synthen::gain", ",", "synthen::kontroll1", ",", "synthen::kontroll1[1]", ",", "synthen::kontroll_in", ",", "synthen::kontroll_in[1]", ",", "synthen::kontroll_in[2]", ",", "synthen::live.text", ",", "synthen::overdrive_drive", ",", "synthen::pulsbredd", ",", "synthen::release", ",", "synthen::rnbo~", ",", "synthen::rnbo~[1]", ",", "synthen::skala_kontroll", ",", "synthen::skala_kontroll[1]", ",", "synthen::sustain", ",", "synthen::synt_attack", ",", "synthen::waveform", ",", "synthen::#1_synthen", ",", "dump" ],
+					"items" : [ "synth_chooser", ",", "synth_gain", ",", "synthen::Delay_tid_vibrato", ",", "synthen::FMAmount", ",", "synthen::FM_ratio", ",", "synthen::Filter_cutoff", ",", "synthen::Filter_mode", ",", "synthen::Vibrato_amount", ",", "synthen::Vibrato_speed", ",", "synthen::choose", ",", "synthen::cutoff", ",", "synthen::decay", ",", "synthen::filter_gain", ",", "synthen::filter_q", ",", "synthen::gain", ",", "synthen::kontroll1", ",", "synthen::kontroll1[1]", ",", "synthen::kontroll_in", ",", "synthen::kontroll_in[1]", ",", "synthen::kontroll_in[2]", ",", "synthen::live.text", ",", "synthen::overdrive_drive", ",", "synthen::pulsbredd", ",", "synthen::release", ",", "synthen::rnbo~", ",", "synthen::skala_kontroll", ",", "synthen::skala_kontroll[1]", ",", "synthen::sustain", ",", "synthen::synt_attack", ",", "synthen::waveform", ",", "synthen::s1_synthen", ",", "dump" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1405,7 +1405,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1430,7 +1430,7 @@
 				"box" : 				{
 					"comment" : "Filtrera upprepningar",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1650,7 +1650,7 @@
 				"box" : 				{
 					"comment" : "Notlängd",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1664,7 +1664,7 @@
 				"box" : 				{
 					"comment" : "panic",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1691,7 +1691,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1705,7 +1705,7 @@
 				"box" : 				{
 					"comment" : "ljudsignal ut",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2639,85 +2639,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-101::obj-109" : [ "live.tab[101]", "live.tab[101]", 0 ],
-			"obj-101::obj-11" : [ "live.dial[185]", "CutOff", 0 ],
-			"obj-101::obj-133" : [ "live.dial[548]", "Overdrive", 0 ],
-			"obj-101::obj-14" : [ "live.dial[187]", "Pulswidth", 0 ],
-			"obj-101::obj-19" : [ "rnbo~[2]", "rnbo~[1]", 0 ],
-			"obj-101::obj-21" : [ "Kontroll1[1]", "Kontroll1", 0 ],
-			"obj-101::obj-26" : [ "boost[3]", "Gain", 0 ],
-			"obj-101::obj-41" : [ "live.dial[89]", "Speed", 0 ],
-			"obj-101::obj-43" : [ "live.dial[189]", "Amount", 0 ],
-			"obj-101::obj-55" : [ "live.dial[186]", "FadeIn", 0 ],
-			"obj-101::obj-62" : [ "live.dial[184]", "Ratio", 0 ],
-			"obj-101::obj-63" : [ "live.dial[188]", "Amount", 0 ],
-			"obj-101::obj-64" : [ "live.text[1134]", "live.text[225]", 0 ],
-			"obj-101::obj-71" : [ "attack[3]", "attack", 0 ],
-			"obj-101::obj-74" : [ "decay[3]", "decay", 0 ],
-			"obj-101::obj-80" : [ "sustain[3]", "sustain", 0 ],
-			"obj-101::obj-81" : [ "release[3]", "release", 0 ],
-			"obj-101::obj-83" : [ "Kontroll1[6]", "Kontroll1", 0 ],
-			"obj-60" : [ "synth_gain[1]", "synth_gain", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "MISK-synthen.maxpat",
-				"bootpath" : "/Users/Github/Max-patches/MISK_b6/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "saw.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "synth_simple.rnbopat",
-				"bootpath" : "/Users/Github/Max-patches/MISK_b6/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "synth_simple.rnbopat_20241120.maxsnap",
-				"bootpath" : "/Users/Github/Max-patches/MISK_b6/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "MISK2",
 				"default" : 				{
