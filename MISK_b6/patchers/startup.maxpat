@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2093.0, -361.0, 589.0, 688.0 ],
+		"rect" : [ 259.0, 117.0, 589.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -88,7 +88,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 378.0, 134.0, 156.0, 33.0 ],
-					"text" : "Select Quickbutton to map, \nthen press key or button"
+					"text" : "Select Quickbutton to map, \nthen press key or button",
+					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ]
 				}
 
 			}
@@ -234,7 +235,7 @@
 						"pointer_vfx_selector" : [ 0.0 ],
 						"preset_numberkeys" : [ 0.0 ],
 						"qb_learn" : [ 0.0 ],
-						"startup_ctrl_selector" : [ 1.0 ]
+						"startup_ctrl_selector" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2185,6 +2186,7 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"hidden" : 1,
 					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2192,7 +2194,8 @@
 					"patching_rect" : [ 1483.0, 227.0, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 140.5, 86.0, 20.0 ],
-					"text" : "Quickbuttons"
+					"text" : "Quickbuttons",
+					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ]
 				}
 
 			}
@@ -2233,6 +2236,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-53",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2345,6 +2349,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"gradient" : 1,
+					"hidden" : 1,
 					"id" : "obj-76",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -2444,7 +2449,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-322",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2548,6 +2552,7 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-102",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2579,6 +2584,7 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-100",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2610,6 +2616,7 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-97",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2641,6 +2648,7 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-91",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2965,7 +2973,6 @@
 , 			{
 				"box" : 				{
 					"bubblesize" : 30,
-					"hidden" : 1,
 					"id" : "obj-36",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -3013,7 +3020,8 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 2467.0, 205.0, 116.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 171.0, 116.0, 14.0 ]
+					"presentation_rect" : [ 49.0, 171.0, 116.0, 14.0 ],
+					"slidercolor" : [ 0.15, 0.15, 0.15, 1.0 ]
 				}
 
 			}
@@ -3075,6 +3083,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 84.0, 79.0, 20.0 ],
 					"text" : "Presets",
+					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3201,7 +3210,7 @@
 					"name" : "startup2.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"offset" : [ -4033.0, 0.0 ],
+					"offset" : [ -3500.0, 0.0 ],
 					"patching_rect" : [ 532.0, 426.0, 495.0, 217.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 207.0, 513.0, 332.0 ],
@@ -3238,6 +3247,9 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.588235294117647, 0.588235294117647, 0.533333333333333, 1.0 ],
+					"bgcolor" : [ 0.849562346935272, 0.852111458778381, 0.766697764396667, 1.0 ],
+					"bgoncolor" : [ 0.585589561616945, 0.585589421302297, 0.585589457968756, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "live.tab",
 					"multiline" : 0,
@@ -3252,6 +3264,18 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 7.5, 534.0, 76.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "presets", "button", "mouse", "facear", "microphone" ],
 							"parameter_longname" : "live.tab[125]",
@@ -3282,6 +3306,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 439.0, 84.0, 81.0, 33.0 ],
 					"text" : "Microphone\nAudio input",
+					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3296,6 +3321,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 334.0, 84.0, 79.0, 20.0 ],
 					"text" : "FaceMusic",
+					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3312,6 +3338,7 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 122.0, 84.0, 74.0, 47.0 ],
 					"text" : "Buttons\nSwitches\nKeys",
+					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3328,6 +3355,7 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 226.0, 84.0, 80.5, 47.0 ],
 					"text" : "Pointer\nMouse\nEyetracker",
+					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -4475,7 +4503,8 @@
 				}
 
 			}
- ]
+ ],
+		"default_bgcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 	}
 
 }
