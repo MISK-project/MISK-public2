@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 172.0, 137.0, 754.0, 667.0 ],
+		"rect" : [ 961.0, 232.0, 754.0, 667.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -142,12 +142,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-19",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.0, 468.5, 196.0, 51.0 ],
-					"text" : "Ger ett index till varje ackord och sparar grundton och färgning till coll"
+					"patching_rect" : [ 835.0, 468.5, 196.0, 37.0 ],
+					"text" : "Gives index and savesnote and flavour to coll"
 				}
 
 			}
@@ -1476,7 +1476,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 985.0, 901.0, 68.5, 22.0 ],
-					"text" : "2 6 9 12"
+					"text" : "4 8 11"
 				}
 
 			}
@@ -1552,7 +1552,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1303.0, 81.0, 50.0, 22.0 ],
-					"text" : "1 127"
+					"text" : "3 127"
 				}
 
 			}
@@ -1906,7 +1906,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1466.0, 665.0, 50.0, 22.0 ],
-					"text" : "1 3"
+					"text" : "127 3"
 				}
 
 			}
@@ -2077,8 +2077,8 @@
 					"restore" : 					{
 						"chord[1]" : [ 0 ],
 						"chord[2]" : [ 0 ],
-						"chord[3]" : [ 0 ],
-						"chord[4]" : [ 1 ],
+						"chord[3]" : [ 1 ],
+						"chord[4]" : [ 0 ],
 						"chord[5]" : [ 0 ],
 						"chord[6]" : [ 0 ],
 						"chord[7]" : [ 0 ],
@@ -3418,6 +3418,7 @@
 				"patchline" : 				{
 					"color" : [ 0.990554571151733, 0.509274840354919, 0.032973017543554, 1.0 ],
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 1394.0, 645.0, 1356.0, 645.0, 1356.0, 690.0, 1361.5, 690.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
