@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 459.0, 98.0, 500.0, 751.0 ],
+		"rect" : [ 338.0, 164.0, 892.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,72 @@
 		"assistshowspatchername" : 0,
 		"globalpatchername" : "start",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-305",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1386.0, 449.0, 46.0, 22.0 ],
+					"text" : "route 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-303",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1413.0, 476.0, 29.5, 22.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-299",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3621.0, 349.0, 33.0, 22.0 ],
+					"text" : "read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-167",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 3621.0, 321.0, 54.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3673.0, 66.0, 94.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
+							"parameter_longname" : "live.text[751]",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.text[1928]",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Open other list",
+					"varname" : "settings[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-269",
@@ -452,7 +518,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 252.0, 1679.0, 81.0, 22.0 ],
-					"prefix" : "/Users/Github/Max-patches/ljudbank/",
+					"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 1101.0, 113.0, 22.0 ],
 					"textcolor" : [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ],
@@ -883,7 +949,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 622.0, 326.0, 100.0, 22.0 ],
-													"prefix" : "/Users/Github/Max-patches/ljudbank/",
+													"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
 													"types" : "fold"
 												}
 
@@ -891,11 +957,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-5",
+													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 364.0, 162.0, 341.0, 20.0 ],
-													"text" : "Macintosh HD:/Users/Github/Max-patches/MISK_b6/patchers/"
+													"text" : "Macintosh HD:/Users/Github/Max-patches-public2/MISK_b6/patchers/"
 												}
 
 											}
@@ -1992,8 +2059,9 @@
 						"save" : [ 0.0 ],
 						"save[1]" : [ 0.0 ],
 						"settings" : [ 0.0 ],
+						"settings[1]" : [ 0.0 ],
 						"synth-route" : [ 0.0 ],
-						"synth_routing" : [ 1.0 ],
+						"synth_routing" : [ 0.0 ],
 						"vel_toggle" : [ 0.0 ]
 					}
 ,
@@ -3750,18 +3818,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-190",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1384.0, 440.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-189",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -3903,14 +3959,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1384.0, 480.0, 60.0, 15.0 ],
+					"patching_rect" : [ 1385.0, 429.5, 60.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 524.0, 121.5, 73.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Synth", "Ljudfil", "Midi" ],
+							"parameter_enum" : [ "Choose", "Synth", "Sample", "Midi" ],
 							"parameter_longname" : "live.menu[253]",
-							"parameter_mmax" : 2,
+							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "synth_router",
 							"parameter_type" : 2
@@ -5555,7 +5611,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3747.0, 202.0, 140.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3499.5, 65.0, 140.0, 22.0 ],
+					"presentation_rect" : [ 3499.5, 65.0, 162.5, 22.0 ],
 					"textcolor" : [ 0.102046459913254, 0.091540455818176, 0.095082558691502, 1.0 ]
 				}
 
@@ -5709,7 +5765,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 3432.0, 106.0, 44.0, 15.0 ],
+					"patching_rect" : [ 3441.0, 95.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3789.0, 94.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -5777,7 +5833,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 3501.0, 43.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3789.0, 121.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 3789.0, 123.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -6945,7 +7001,7 @@
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 622.0, 326.0, 100.0, 22.0 ],
-																	"prefix" : "/Users/Github/Max-patches/ljudbank/",
+																	"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
 																	"types" : "fold"
 																}
 
@@ -6953,11 +7009,12 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-5",
+																	"linecount" : 2,
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 364.0, 162.0, 341.0, 20.0 ],
-																	"text" : "Macintosh HD:/Users/Github/Max-patches/MISK_b6/patchers/"
+																	"text" : "Macintosh HD:/Users/Github/Max-patches-public2/MISK_b6/patchers/"
 																}
 
 															}
@@ -7987,7 +8044,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 370.25, 366.0, 179.0, 22.0 ],
-					"prefix" : "/Users/Github/Max-patches/ljudbank/Drums/",
+					"prefix" : "/Users/Github/Max-patches-public2/ljudbank/Drums/",
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 104.0, 146.0, 22.0 ],
 					"textcolor" : [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ]
@@ -8016,7 +8073,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 230.0, 366.0, 81.0, 22.0 ],
-					"prefix" : "/Users/Github/Max-patches/ljudbank/",
+					"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 73.0, 146.0, 22.0 ],
 					"textcolor" : [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ],
@@ -8657,6 +8714,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-299", 0 ],
+					"source" : [ "obj-167", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-127", 0 ],
 					"source" : [ "obj-168", 0 ]
 				}
@@ -8692,17 +8756,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-182", 0 ],
-					"order" : 1,
-					"source" : [ "obj-176", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-185", 0 ],
-					"midpoints" : [ 1393.5, 498.0, 1632.0, 498.0, 1632.0, 462.0, 1654.5, 462.0 ],
-					"order" : 0,
+					"destination" : [ "obj-305", 0 ],
 					"source" : [ "obj-176", 0 ]
 				}
 
@@ -8786,23 +8840,6 @@
 					"destination" : [ "obj-52", 3 ],
 					"midpoints" : [ 533.049999999999955, 177.0, 561.0, 177.0, 561.0, 288.0, 528.0, 288.0, 528.0, 312.0, 367.0, 312.0 ],
 					"source" : [ "obj-19", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-176", 0 ],
-					"order" : 1,
-					"source" : [ "obj-190", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-198", 0 ],
-					"midpoints" : [ 1393.5, 465.0, 1632.0, 465.0, 1632.0, 447.0, 1937.0, 447.0 ],
-					"order" : 0,
-					"source" : [ "obj-190", 0 ]
 				}
 
 			}
@@ -9855,6 +9892,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"midpoints" : [ 3630.5, 372.0, 3567.0, 372.0, 3567.0, 198.0, 3498.0, 198.0, 3498.0, 162.0, 3510.5, 162.0 ],
+					"source" : [ "obj-299", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-132", 1 ],
 					"midpoints" : [ 376.5, 759.0, 618.0, 759.0, 618.0, 858.0, 584.0, 858.0 ],
 					"source" : [ "obj-30", 0 ]
@@ -9877,8 +9922,32 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-182", 0 ],
+					"order" : 1,
+					"source" : [ "obj-303", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-185", 0 ],
+					"midpoints" : [ 1422.5, 498.0, 1632.0, 498.0, 1632.0, 462.0, 1654.5, 462.0 ],
+					"order" : 0,
+					"source" : [ "obj-303", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-302", 0 ],
 					"source" : [ "obj-304", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-303", 0 ],
+					"source" : [ "obj-305", 1 ]
 				}
 
 			}
@@ -10631,7 +10700,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 3441.5, 132.0, 3486.0, 132.0, 3486.0, 126.0, 3510.5, 126.0 ],
+					"midpoints" : [ 3450.5, 126.0, 3510.5, 126.0 ],
 					"source" : [ "obj-70", 0 ]
 				}
 
