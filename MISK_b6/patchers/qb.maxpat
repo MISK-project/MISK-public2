@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 647.0, 153.0, 523.0, 480.0 ],
+		"rect" : [ -1059.0, 835.0, 523.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 453.25, 700.0, 103.0, 22.0 ],
+					"text" : "join 2 @triggers 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "newobj",
@@ -554,7 +566,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 462.0, 626.0, 44.0, 15.0 ],
+					"patching_rect" : [ 427.0, 625.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.0, 136.0, 37.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -938,16 +950,15 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"hidden" : 1,
 					"id" : "obj-106",
-					"items" : [ "gitarrstrata A#dur.wav", ",", "gitarrstrata A#m.wav", ",", "gitarrstrata Adur.wav", ",", "gitarrstrata Am.wav", ",", "gitarrstrata Bdur.wav", ",", "gitarrstrata Bm.wav", ",", "gitarrstrata C#dur.wav", ",", "gitarrstrata C#m.wav", ",", "gitarrstrata Cdur.wav", ",", "gitarrstrata Cm.wav", ",", "gitarrstrata D#dur.wav", ",", "gitarrstrata D#m.wav", ",", "gitarrstrata Ddur.wav", ",", "gitarrstrata Dm.wav", ",", "gitarrstrata Edur.wav", ",", "gitarrstrata Em.wav", ",", "gitarrstrata F#dur.wav", ",", "gitarrstrata F#m.wav", ",", "gitarrstrata Fdur.wav", ",", "gitarrstrata Fm.wav", ",", "gitarrstrata G#dur.wav", ",", "gitarrstrata G#m.wav", ",", "gitarrstrata Gdur.wav", ",", "gitarrstrata Gm.wav" ],
+					"items" : [ "blupp1.wav", ",", "blupp2.wav", ",", "blupp3.wav", ",", "blupp4.wav", ",", "blupp5.wav", ",", "blupp6.wav", ",", "blupp7.wav", ",", "blupp8.wav", ",", "Brontosaurus Wail.m4a", ",", "christmas_bells.mp3", ",", "copper-bells-85490.mp3", ",", "cykeltuta.wav", ",", "delfin.wav", ",", "fågel.wav", ",", "Gräsand.mp3", ",", "harp-glissando.mp3", ",", "Insjömiljö.mp3", ",", "kalkon.wav", ",", "Lövsångare.mp3", ",", "mås.wav", ",", "Näktergal.mp3", ",", "näktergal1.wav", ",", "näktergal2.wav", ",", "näktergal3.wav", ",", "plask.wav", ",", "Regnroer_16s.mp3", ",", "Regnroer_3s.mp3", ",", "Regnroer_rytm.wav", ",", "rödhake.wav", ",", "skogsfåglar.wav", ",", "Tagstation.mp3", ",", "Tuta.wav", ",", "vattendroppar_grotta.mp3", ",", "vattenplask kortad.wav", ",", "vattenplask.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 526.0, 554.0, 179.0, 22.0 ],
-					"prefix" : "/Users/Github/Max-patches/ljudbank/Gitarrstrata/",
+					"prefix" : "/Users/Github/Max-patches-public2/ljudbank/FX/",
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 110.0, 113.0, 22.0 ],
 					"textcolor" : [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ]
@@ -1178,7 +1189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 660.0, 48.0, 22.0 ],
+					"patching_rect" : [ 453.0, 661.0, 48.0, 22.0 ],
 					"text" : "load #1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1191,8 +1202,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 573.0, 669.0, 101.0, 22.0 ],
-					"text" : "prepend samples",
+					"patching_rect" : [ 573.0, 669.0, 117.0, 22.0 ],
+					"text" : "prepend prelistening",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2213,6 +2224,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
+					"source" : [ "obj-178", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 1 ],
+					"order" : 1,
 					"source" : [ "obj-178", 0 ]
 				}
 
@@ -2424,8 +2444,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 471.5, 708.0, 582.5, 708.0 ],
+					"destination" : [ "obj-77", 0 ],
+					"midpoints" : [ 462.5, 693.0, 462.75, 693.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -2641,6 +2661,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 462.75, 744.0, 570.0, 744.0, 570.0, 708.0, 582.5, 708.0 ],
+					"source" : [ "obj-77", 0 ]
 				}
 
 			}
