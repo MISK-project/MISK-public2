@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 752.0, 173.0, 900.0, 677.0 ],
+		"rect" : [ 578.0, 191.0, 900.0, 677.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 383.0, 280.0, 640.0, 480.0 ],
+						"rect" : [ 36.0, 483.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,7 +84,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -92,7 +91,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 138.0, 44.0, 22.0 ],
+									"patching_rect" : [ 143.0, 135.0, 44.0, 22.0 ],
 									"text" : "mix $1"
 								}
 
@@ -113,7 +112,7 @@
 								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patcher" : 									{
@@ -455,18 +454,6 @@
 					}
 ,
 					"varname" : "overdrive_drive"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -8.0, 918.5, 48.0, 22.0 ],
-					"text" : "gain $1"
 				}
 
 			}
@@ -1755,338 +1742,18 @@
 			}
 , 			{
 				"box" : 				{
-					"autosave" : 1,
 					"id" : "obj-19",
-					"inletInfo" : 					{
-						"IOInfo" : [ 							{
-								"type" : "midi",
-								"index" : -1,
-								"tag" : "",
-								"comment" : ""
-							}
- ]
-					}
-,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outletInfo" : 					{
-						"IOInfo" : [ 							{
-								"type" : "signal",
-								"index" : 1,
-								"tag" : "out1",
-								"comment" : ""
-							}
-, 							{
-								"type" : "midi",
-								"index" : -1,
-								"tag" : "",
-								"comment" : ""
-							}
- ]
-					}
-,
-					"outlettype" : [ "signal", "int", "list" ],
-					"patching_rect" : [ 48.0, 854.0, 329.0, 22.0 ],
-					"rnboattrcache" : 					{
-						"vibrato_speed" : 						{
-							"label" : "vibrato_speed",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"attack" : 						{
-							"label" : "attack",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"vib_amount" : 						{
-							"label" : "vib_amount",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"release" : 						{
-							"label" : "release",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sq_pulsew" : 						{
-							"label" : "sq_pulsew",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"FMRatio" : 						{
-							"label" : "FMRatio",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"vib_delay" : 						{
-							"label" : "vib_delay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"decay" : 						{
-							"label" : "decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"FMAmount" : 						{
-							"label" : "FMAmount",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"waveform" : 						{
-							"label" : "waveform",
-							"isEnum" : 1,
-							"parsestring" : "\"sine\" \"saw\" \"square\" \"noise\""
-						}
-
-					}
-,
-					"rnboversion" : "1.3.3",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "rnbo~[2]",
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "rnbo~[1]",
-							"parameter_type" : 3
-						}
-
-					}
-,
+					"outlettype" : [ "signal", "", "" ],
+					"patching_rect" : [ 48.0, 854.0, 198.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"optimization" : "O1",
-						"parameter_enable" : 1,
-						"polyphony" : 12,
-						"uuid" : "019c0b47-a75a-11ef-8b47-3e836e1eaef6"
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "rnbo~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"release" : 							{
-								"value" : 343.914687829377613
-							}
-,
-							"decay" : 							{
-								"value" : 262.384524769049392
-							}
-,
-							"sq_pulsew" : 							{
-								"value" : 0.496062992125984
-							}
-,
-							"attack" : 							{
-								"value" : 0.0
-							}
-,
-							"FMAmount" : 							{
-								"value" : 0.0
-							}
-,
-							"sustain" : 							{
-								"value" : 0.740157480314961
-							}
-,
-							"__sps" : 							{
-								"poly" : [ 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
- ]
-							}
-,
-							"vibrato_speed" : 							{
-								"value" : 8.76532953065907
-							}
-,
-							"vib_delay" : 							{
-								"value" : 3000.0
-							}
-,
-							"vib_amount" : 							{
-								"value" : 0.0
-							}
-,
-							"__presetid" : "synth_simple.rnbopat",
-							"waveform" : 							{
-								"value" : 1.0
-							}
-,
-							"FMRatio" : 							{
-								"value" : 157.480314960629926
-							}
-
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "synth_simple.rnbopat",
-									"origin" : "synth_simple.rnbopat",
-									"type" : "rnbo",
-									"subtype" : "",
-									"embed" : 0,
-									"snapshot" : 									{
-										"release" : 										{
-											"value" : 343.914687829377613
-										}
-,
-										"decay" : 										{
-											"value" : 262.384524769049392
-										}
-,
-										"sq_pulsew" : 										{
-											"value" : 0.496062992125984
-										}
-,
-										"attack" : 										{
-											"value" : 0.0
-										}
-,
-										"FMAmount" : 										{
-											"value" : 0.0
-										}
-,
-										"sustain" : 										{
-											"value" : 0.740157480314961
-										}
-,
-										"__sps" : 										{
-											"poly" : [ 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
-, 												{
-
-												}
- ]
-										}
-,
-										"vibrato_speed" : 										{
-											"value" : 8.76532953065907
-										}
-,
-										"vib_delay" : 										{
-											"value" : 3000.0
-										}
-,
-										"vib_amount" : 										{
-											"value" : 0.0
-										}
-,
-										"__presetid" : "synth_simple.rnbopat",
-										"waveform" : 										{
-											"value" : 1.0
-										}
-,
-										"FMRatio" : 										{
-											"value" : 157.480314960629926
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "synth_simple.rnbopat",
-										"filename" : "synth_simple.rnbopat_20241128.maxsnap",
-										"filepath" : "/Users/Github/Max-patches-public2/MISK_b6/data",
-										"filepos" : -1,
-										"snapshotfileid" : "d4616a7d4e613ce34f873609f3f169fc"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "rnbo~ @patchername synth_simple.rnbopat @polyphony 12",
+					"text" : "synth_simple~.mxo @polyphony 12",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "rnbo~"
 				}
@@ -2550,100 +2217,89 @@
 						"pulsbredd" : [ 62.999999999999929 ],
 						"release" : [ 343.914687829377613 ],
 						"rnbo~" : [ 							{
-								"filetype" : "C74Snapshot",
-								"version" : 2,
-								"minorversion" : 0,
-								"name" : "synth_simple.rnbopat",
-								"origin" : "synth_simple.rnbopat",
-								"type" : "rnbo",
-								"subtype" : "",
-								"embed" : 1,
-								"snapshot" : 								{
-									"release" : 									{
-										"value" : 343.914687829377613
-									}
+								"release" : 								{
+									"value" : 300.0
+								}
 ,
-									"decay" : 									{
-										"value" : 262.384524769049392
-									}
+								"decay" : 								{
+									"value" : 30.0
+								}
 ,
-									"sq_pulsew" : 									{
-										"value" : 0.496062992125984
-									}
+								"sq_pulsew" : 								{
+									"value" : 0.0
+								}
 ,
-									"attack" : 									{
-										"value" : 0.0
-									}
+								"attack" : 								{
+									"value" : 10.0
+								}
 ,
-									"FMAmount" : 									{
-										"value" : 0.0
-									}
+								"FMAmount" : 								{
+									"value" : 0.0
+								}
 ,
-									"sustain" : 									{
-										"value" : 0.740157480314961
-									}
+								"sustain" : 								{
+									"value" : 1.0
+								}
 ,
-									"__sps" : 									{
-										"poly" : [ 											{
+								"__sps" : 								{
+									"poly" : [ 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
-, 											{
+										}
+, 										{
 
-											}
+										}
  ]
-									}
+								}
 ,
-									"vibrato_speed" : 									{
-										"value" : 8.76532953065907
-									}
+								"vibrato_speed" : 								{
+									"value" : 0.2
+								}
 ,
-									"vib_delay" : 									{
-										"value" : 3000.0
-									}
+								"vib_delay" : 								{
+									"value" : 500.0
+								}
 ,
-									"vib_amount" : 									{
-										"value" : 0.0
-									}
+								"vib_amount" : 								{
+									"value" : 0.4
+								}
 ,
-									"__presetid" : "synth_simple.rnbopat",
-									"waveform" : 									{
-										"value" : 1.0
-									}
+								"__presetid" : "rnbo",
+								"waveform" : 								{
+									"value" : 1.0
+								}
 ,
-									"FMRatio" : 									{
-										"value" : 157.480314960629926
-									}
-
+								"FMRatio" : 								{
+									"value" : 0.0
 								}
 
 							}
@@ -3241,7 +2897,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-110", 1 ],
 					"source" : [ "obj-133", 0 ]
 				}
 
@@ -3440,13 +3096,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-110", 1 ],
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
@@ -3613,8 +3262,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 361.0, 381.0, 189.0, 381.0, 189.0, 774.0, 367.5, 774.0 ],
-					"order" : 0,
+					"midpoints" : [ 361.0, 381.0, 189.0, 381.0, 189.0, 774.0, 236.5, 774.0 ],
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -3631,7 +3280,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -3784,7 +3433,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-105", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -3792,8 +3441,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 182.5, 774.0, 367.5, 774.0 ],
-					"order" : 0,
+					"midpoints" : [ 182.5, 774.0, 236.5, 774.0 ],
+					"order" : 2,
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -3802,7 +3451,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"midpoints" : [ 182.5, 114.0, 256.5, 114.0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-69", 0 ]
 				}
 

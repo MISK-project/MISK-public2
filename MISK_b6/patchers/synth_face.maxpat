@@ -47,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 272.0, 100.0, 50.0, 22.0 ],
-					"text" : "62 0"
+					"text" : "54 127"
 				}
 
 			}
@@ -97,7 +97,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.0, 478.0, 50.0, 22.0 ],
-					"text" : "67"
+					"text" : "54"
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.0, 652.0, 50.0, 22.0 ],
-					"text" : "65 0"
+					"text" : "54 0"
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 411.0, 50.0, 22.0 ],
-					"text" : "62"
+					"text" : "54"
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.0, 329.0, 50.0, 22.0 ],
-					"text" : "62"
+					"text" : "54"
 				}
 
 			}
@@ -185,7 +185,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 96.0, 161.0, 50.0, 22.0 ],
-					"text" : "62 0"
+					"text" : "54 127"
 				}
 
 			}
@@ -254,13 +254,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-104",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 57.0, 50.0, 35.0 ],
-					"text" : "triggerstate 1"
+					"patching_rect" : [ 278.0, 57.0, 50.0, 22.0 ],
+					"text" : "54 127"
 				}
 
 			}
@@ -298,7 +297,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 1044.0, 50.0, 22.0 ],
-					"text" : "126 0"
+					"text" : "54 0"
 				}
 
 			}
@@ -385,7 +384,7 @@
 					"patching_rect" : [ 162.5, 1198.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 381.0, 29.0, 150.0, 20.0 ],
-					"text" : "126 0"
+					"text" : "54 0"
 				}
 
 			}
@@ -558,7 +557,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 930.0, 50.0, 22.0 ],
-					"text" : "126 0"
+					"text" : "54 0"
 				}
 
 			}
