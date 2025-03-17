@@ -84,6 +84,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -185,8 +186,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 129.0, 186.0, 29.0, 22.0 ],
-													"text" : "/ 20"
+													"patching_rect" : [ 129.0, 186.0, 22.0, 22.0 ],
+													"text" : "/ 3"
 												}
 
 											}
@@ -323,7 +324,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 22.0, 18.0, 30.0, 30.0 ]
 								}
 
@@ -1745,14 +1746,9 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 854.0, 198.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
 					"text" : "synth_simple~.mxo @polyphony 12",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "rnbo~"
@@ -2081,7 +2077,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-88",
-					"items" : [ "Delay_tid_vibrato", ",", "FMAmount", ",", "FM_ratio", ",", "Filter_cutoff", ",", "Filter_mode", ",", "Vibrato_amount", ",", "Vibrato_speed", ",", "choose", ",", "cutoff", ",", "decay", ",", "filter_gain", ",", "filter_q", ",", "gain", ",", "kontroll1", ",", "kontroll1[1]", ",", "kontroll_in", ",", "kontroll_in[1]", ",", "kontroll_in[2]", ",", "live.text", ",", "overdrive_drive", ",", "pulsbredd", ",", "release", ",", "rnbo~", ",", "skala_kontroll", ",", "skala_kontroll[1]", ",", "sustain", ",", "synt_attack", ",", "waveform", ",", "dump" ],
+					"items" : [ "Delay_tid_vibrato", ",", "FMAmount", ",", "FM_ratio", ",", "Filter_cutoff", ",", "Filter_mode", ",", "Vibrato_amount", ",", "Vibrato_speed", ",", "choose", ",", "cutoff", ",", "decay", ",", "filter_gain", ",", "filter_q", ",", "gain", ",", "kontroll1", ",", "kontroll1[1]", ",", "kontroll_in", ",", "kontroll_in[1]", ",", "kontroll_in[2]", ",", "live.text", ",", "overdrive_drive", ",", "pulsbredd", ",", "release", ",", "skala_kontroll", ",", "skala_kontroll[1]", ",", "sustain", ",", "synt_attack", ",", "waveform", ",", "dump" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2216,94 +2212,6 @@
 						"overdrive_drive" : [ 0.0 ],
 						"pulsbredd" : [ 62.999999999999929 ],
 						"release" : [ 343.914687829377613 ],
-						"rnbo~" : [ 							{
-								"release" : 								{
-									"value" : 300.0
-								}
-,
-								"decay" : 								{
-									"value" : 30.0
-								}
-,
-								"sq_pulsew" : 								{
-									"value" : 0.0
-								}
-,
-								"attack" : 								{
-									"value" : 10.0
-								}
-,
-								"FMAmount" : 								{
-									"value" : 0.0
-								}
-,
-								"sustain" : 								{
-									"value" : 1.0
-								}
-,
-								"__sps" : 								{
-									"poly" : [ 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
-, 										{
-
-										}
- ]
-								}
-,
-								"vibrato_speed" : 								{
-									"value" : 0.2
-								}
-,
-								"vib_delay" : 								{
-									"value" : 500.0
-								}
-,
-								"vib_amount" : 								{
-									"value" : 0.4
-								}
-,
-								"__presetid" : "rnbo",
-								"waveform" : 								{
-									"value" : 1.0
-								}
-,
-								"FMRatio" : 								{
-									"value" : 0.0
-								}
-
-							}
- ],
 						"skala_kontroll" : [ 0 ],
 						"skala_kontroll[1]" : [ 0 ],
 						"sustain" : [ 0.740157480314961 ],
@@ -2685,7 +2593,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-92",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2699,7 +2607,7 @@
 				"box" : 				{
 					"comment" : "Overdrive",
 					"id" : "obj-94",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3711,6 +3619,62 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-109" : [ "live.tab[101]", "live.tab[101]", 0 ],
+			"obj-11" : [ "live.dial[185]", "CutOff", 0 ],
+			"obj-133" : [ "live.dial[548]", "Overdrive", 0 ],
+			"obj-14" : [ "live.dial[187]", "Pulswidth", 0 ],
+			"obj-21" : [ "Kontroll1[1]", "Kontroll1", 0 ],
+			"obj-26" : [ "boost[3]", "Gain", 0 ],
+			"obj-41" : [ "live.dial[89]", "Speed", 0 ],
+			"obj-43" : [ "live.dial[189]", "Amount", 0 ],
+			"obj-55" : [ "live.dial[186]", "FadeIn", 0 ],
+			"obj-62" : [ "live.dial[184]", "Ratio", 0 ],
+			"obj-63" : [ "live.dial[188]", "Amount", 0 ],
+			"obj-64" : [ "live.text[1134]", "live.text[225]", 0 ],
+			"obj-71" : [ "attack[3]", "attack", 0 ],
+			"obj-74" : [ "decay[3]", "decay", 0 ],
+			"obj-80" : [ "sustain[3]", "sustain", 0 ],
+			"obj-81" : [ "release[3]", "release", 0 ],
+			"obj-83" : [ "Kontroll1[6]", "Kontroll1", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "MISK2",
 				"default" : 				{
