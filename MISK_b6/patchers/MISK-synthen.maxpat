@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 578.0, 191.0, 900.0, 677.0 ],
+		"rect" : [ 117.0, 121.0, 900.0, 677.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 36.0, 483.0, 640.0, 480.0 ],
+						"rect" : [ 36.0, 413.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,7 +84,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -324,7 +323,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 22.0, 18.0, 30.0, 30.0 ]
 								}
 
@@ -497,16 +496,16 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 534.5, 257.0, 100.0, 20.0 ],
-					"pictures" : [ "saw.svg", "square.svg", "sine.svg", "random.svg" ],
+					"pictures" : [ "saw.svg", "square.svg", "sine.svg", "random.svg", "string.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 19.0, 80.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "Noise" ],
+							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "Noise", "String" ],
 							"parameter_longname" : "live.tab[101]",
-							"parameter_mmax" : 3,
+							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.tab[101]",
+							"parameter_shortname" : "waveform",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
@@ -1311,7 +1310,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 1107.5, 162.0, 22.0 ],
+					"patching_rect" : [ 48.0, 1143.0, 162.0, 22.0 ],
 					"text" : "mc.send~ #1_simplesynth 2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1743,13 +1742,662 @@
 			}
 , 			{
 				"box" : 				{
+					"autosave" : 1,
 					"id" : "obj-19",
+					"inletInfo" : 					{
+						"IOInfo" : [ 							{
+								"type" : "midi",
+								"index" : -1,
+								"tag" : "",
+								"comment" : ""
+							}
+ ]
+					}
+,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 854.0, 198.0, 22.0 ],
-					"text" : "synth_simple~.mxo @polyphony 12",
+					"numoutlets" : 3,
+					"outletInfo" : 					{
+						"IOInfo" : [ 							{
+								"type" : "signal",
+								"index" : 1,
+								"tag" : "out1",
+								"comment" : ""
+							}
+, 							{
+								"type" : "midi",
+								"index" : -1,
+								"tag" : "",
+								"comment" : ""
+							}
+ ]
+					}
+,
+					"outlettype" : [ "signal", "int", "list" ],
+					"patching_rect" : [ 48.0, 854.0, 622.0, 22.0 ],
+					"rnboattrcache" : 					{
+						"poly/osc.analog/damping" : 						{
+							"label" : "damping",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sustain" : 						{
+							"label" : "sustain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"vib_delay" : 						{
+							"label" : "vib_delay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"FMAmount" : 						{
+							"label" : "FMAmount",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"poly/osc.analog/decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"vibrato_speed" : 						{
+							"label" : "vibrato_speed",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sq_pulsew" : 						{
+							"label" : "sq_pulsew",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"release" : 						{
+							"label" : "release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"attack" : 						{
+							"label" : "attack",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"vib_amount" : 						{
+							"label" : "vib_amount",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"FMRatio" : 						{
+							"label" : "FMRatio",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"waveform" : 						{
+							"label" : "waveform",
+							"isEnum" : 1,
+							"parsestring" : "\"sine\" \"saw\" \"square\" \"noise\" \"string\""
+						}
+
+					}
+,
+					"rnboversion" : "1.3.3",
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "rnbo~",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "rnbo~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"optimization" : "O1",
+						"parameter_enable" : 1,
+						"polyphony" : 12,
+						"uuid" : "a8ce9e37-0eea-11f0-9e37-3e836e1eaef7"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "rnbo~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"release" : 							{
+								"value" : 343.914687829377613
+							}
+,
+							"decay" : 							{
+								"value" : 262.384524769049392
+							}
+,
+							"sq_pulsew" : 							{
+								"value" : 0.496062992125984
+							}
+,
+							"sustain" : 							{
+								"value" : 0.740157480314961
+							}
+,
+							"vib_delay" : 							{
+								"value" : 3000.0
+							}
+,
+							"__sps" : 							{
+								"poly" : [ 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+, 									{
+										"__sps" : 										{
+											"osc.analog" : 											{
+												"decay" : 												{
+													"value" : 10.0
+												}
+,
+												"damping" : 												{
+													"value" : 0.4
+												}
+
+											}
+
+										}
+
+									}
+ ]
+							}
+,
+							"vibrato_speed" : 							{
+								"value" : 8.76532953065907
+							}
+,
+							"attack" : 							{
+								"value" : 0.0
+							}
+,
+							"FMAmount" : 							{
+								"value" : 0.0
+							}
+,
+							"vib_amount" : 							{
+								"value" : 0.0
+							}
+,
+							"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+							"waveform" : 							{
+								"value" : 1.0
+							}
+,
+							"FMRatio" : 							{
+								"value" : 157.480314960629926
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+									"origin" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+									"type" : "rnbo",
+									"subtype" : "",
+									"embed" : 0,
+									"snapshot" : 									{
+										"release" : 										{
+											"value" : 343.914687829377613
+										}
+,
+										"decay" : 										{
+											"value" : 262.384524769049392
+										}
+,
+										"sq_pulsew" : 										{
+											"value" : 0.496062992125984
+										}
+,
+										"sustain" : 										{
+											"value" : 0.740157480314961
+										}
+,
+										"vib_delay" : 										{
+											"value" : 3000.0
+										}
+,
+										"__sps" : 										{
+											"poly" : [ 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+, 												{
+													"__sps" : 													{
+														"osc.analog" : 														{
+															"decay" : 															{
+																"value" : 10.0
+															}
+,
+															"damping" : 															{
+																"value" : 0.4
+															}
+
+														}
+
+													}
+
+												}
+ ]
+										}
+,
+										"vibrato_speed" : 										{
+											"value" : 8.76532953065907
+										}
+,
+										"attack" : 										{
+											"value" : 0.0
+										}
+,
+										"FMAmount" : 										{
+											"value" : 0.0
+										}
+,
+										"vib_amount" : 										{
+											"value" : 0.0
+										}
+,
+										"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+										"waveform" : 										{
+											"value" : 1.0
+										}
+,
+										"FMRatio" : 										{
+											"value" : 157.480314960629926
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+										"filename" : ".maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "292cf9edbd518181be660d2eec470236"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "rnbo~ @patchername /Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat @polyphony 12",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "rnbo~"
 				}
@@ -2077,7 +2725,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-88",
-					"items" : [ "Delay_tid_vibrato", ",", "FMAmount", ",", "FM_ratio", ",", "Filter_cutoff", ",", "Filter_mode", ",", "Vibrato_amount", ",", "Vibrato_speed", ",", "choose", ",", "cutoff", ",", "decay", ",", "filter_gain", ",", "filter_q", ",", "gain", ",", "kontroll1", ",", "kontroll1[1]", ",", "kontroll_in", ",", "kontroll_in[1]", ",", "kontroll_in[2]", ",", "live.text", ",", "overdrive_drive", ",", "pulsbredd", ",", "release", ",", "skala_kontroll", ",", "skala_kontroll[1]", ",", "sustain", ",", "synt_attack", ",", "waveform", ",", "dump" ],
+					"items" : [ "Delay_tid_vibrato", ",", "FMAmount", ",", "FM_ratio", ",", "Filter_cutoff", ",", "Filter_mode", ",", "Vibrato_amount", ",", "Vibrato_speed", ",", "choose", ",", "cutoff", ",", "decay", ",", "filter_gain", ",", "filter_q", ",", "gain", ",", "kontroll1", ",", "kontroll1[1]", ",", "kontroll_in", ",", "kontroll_in[1]", ",", "kontroll_in[2]", ",", "live.text", ",", "overdrive_drive", ",", "pulsbredd", ",", "release", ",", "rnbo~", ",", "skala_kontroll", ",", "skala_kontroll[1]", ",", "sustain", ",", "synt_attack", ",", "waveform", ",", "dump" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2212,6 +2860,261 @@
 						"overdrive_drive" : [ 0.0 ],
 						"pulsbredd" : [ 62.999999999999929 ],
 						"release" : [ 343.914687829377613 ],
+						"rnbo~" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+								"origin" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+								"type" : "rnbo",
+								"subtype" : "",
+								"embed" : 1,
+								"snapshot" : 								{
+									"release" : 									{
+										"value" : 343.914687829377613
+									}
+,
+									"decay" : 									{
+										"value" : 262.384524769049392
+									}
+,
+									"sq_pulsew" : 									{
+										"value" : 0.496062992125984
+									}
+,
+									"sustain" : 									{
+										"value" : 0.740157480314961
+									}
+,
+									"vib_delay" : 									{
+										"value" : 3000.0
+									}
+,
+									"__sps" : 									{
+										"poly" : [ 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+, 											{
+												"__sps" : 												{
+													"osc.analog" : 													{
+														"decay" : 														{
+															"value" : 10.0
+														}
+,
+														"damping" : 														{
+															"value" : 0.4
+														}
+
+													}
+
+												}
+
+											}
+ ]
+									}
+,
+									"vibrato_speed" : 									{
+										"value" : 8.76532953065907
+									}
+,
+									"attack" : 									{
+										"value" : 0.0
+									}
+,
+									"FMAmount" : 									{
+										"value" : 0.0
+									}
+,
+									"vib_amount" : 									{
+										"value" : 0.0
+									}
+,
+									"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
+									"waveform" : 									{
+										"value" : 1.0
+									}
+,
+									"FMRatio" : 									{
+										"value" : 157.480314960629926
+									}
+
+								}
+
+							}
+ ],
 						"skala_kontroll" : [ 0 ],
 						"skala_kontroll[1]" : [ 0 ],
 						"sustain" : [ 0.740157480314961 ],
@@ -2848,6 +3751,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-19", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -3169,18 +4079,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 361.0, 381.0, 189.0, 381.0, 189.0, 774.0, 236.5, 774.0 ],
-					"order" : 1,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
 					"midpoints" : [ 361.0, 381.0, 190.5, 381.0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -3342,15 +4243,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-105", 1 ],
 					"order" : 0,
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 182.5, 774.0, 236.5, 774.0 ],
-					"order" : 2,
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -3620,10 +4512,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-109" : [ "live.tab[101]", "live.tab[101]", 0 ],
+			"obj-109" : [ "live.tab[101]", "waveform", 0 ],
 			"obj-11" : [ "live.dial[185]", "CutOff", 0 ],
 			"obj-133" : [ "live.dial[548]", "Overdrive", 0 ],
 			"obj-14" : [ "live.dial[187]", "Pulswidth", 0 ],
+			"obj-19" : [ "rnbo~", "rnbo~", 0 ],
 			"obj-21" : [ "Kontroll1[1]", "Kontroll1", 0 ],
 			"obj-26" : [ "boost[3]", "Gain", 0 ],
 			"obj-41" : [ "live.dial[89]", "Speed", 0 ],
@@ -3650,6 +4543,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : ".maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../misk/Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "random.svg",
 				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
@@ -3671,6 +4571,13 @@
 				"name" : "square.svg",
 				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synth_simple.rnbopat",
+				"bootpath" : "/Users/Github/Max-patches-public2/MISK_b6/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
 				"implicit" : 1
 			}
  ],

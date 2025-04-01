@@ -2,8 +2,8 @@
 	"name" : "MISK_b6",
 	"version" : 1,
 	"creationdate" : 3796723771,
-	"modificationdate" : 3813600986,
-	"viewrect" : [ 90.0, 154.0, 300.0, 500.0 ],
+	"modificationdate" : 3826354050,
+	"viewrect" : [ 865.0, 208.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"MISK-synthen.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"synth_simple.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
 			}
 ,
 			"bp_sp_ch.maxpat" : 			{
@@ -59,6 +69,16 @@
 				"local" : 1
 			}
 ,
+			"jit.gl.textureset.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kamera_input.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"metronom.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -95,6 +115,69 @@
 			}
 ,
 			"qb.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"startup.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"startup2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"styrsatt.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"synth_face.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"thru.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"timer_tidstock.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"video-handler.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vzgl-outputdim.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vz.kaleidr.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vzgl-object.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"vz.slidr.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"vz.tessel8r.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"yafr2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -144,90 +227,7 @@
 				"local" : 1
 			}
 ,
-			"startup.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"startup2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"styrsatt.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"thru.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"unreal_osc.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"video-handler.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vzgl-outputdim.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vz.kaleidr.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vzgl-object.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vz.slidr.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
-			"vz.tessel8r.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
-			"yafr2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"MISK-synthen.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"synth_simple.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
-			"jit.gl.textureset.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"kamera_input.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"synth_face.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"timer_tidstock.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -320,6 +320,23 @@
 		}
 ,
 		"media" : 		{
+			"random.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
+,
+			"saw.svg" : 			{
+				"kind" : "vectorimagefile"
+			}
+,
+			"sine.svg" : 			{
+				"kind" : "vectorimagefile"
+			}
+,
+			"square.svg" : 			{
+				"kind" : "vectorimagefile"
+			}
+,
 			"MISK_logga.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -336,6 +353,20 @@
 			}
 ,
 			"audio_file.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"loop.svg" : 			{
+				"kind" : "vectorimagefile"
+			}
+,
+			"play_arrow.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
+,
+			"colorswatch.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -363,10 +394,6 @@
 			"hem.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
-			}
-,
-			"loop.svg" : 			{
-				"kind" : "vectorimagefile"
 			}
 ,
 			"mic.png" : 			{
@@ -398,8 +425,9 @@
 				"local" : 1
 			}
 ,
-			"sine.svg" : 			{
-				"kind" : "vectorimagefile"
+			"string.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
 			}
 ,
 			"up.svg" : 			{
@@ -411,11 +439,6 @@
 			}
 ,
 			"ut.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"wall.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -435,20 +458,7 @@
 				"local" : 1
 			}
 ,
-			"random.svg" : 			{
-				"kind" : "vectorimagefile",
-				"local" : 1
-			}
-,
-			"saw.svg" : 			{
-				"kind" : "vectorimagefile"
-			}
-,
-			"square.svg" : 			{
-				"kind" : "vectorimagefile"
-			}
-,
-			"colorswatch.png" : 			{
+			"wall.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -463,7 +473,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "/Users/Github/Max-patches/ljudbank/Samplertoner_C",
-					"projectrelativepath" : "../ljudbank/Samplertoner_C"
+					"projectrelativepath" : "../../Max-patches/ljudbank/Samplertoner_C"
 				}
 
 			}
@@ -522,11 +532,6 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
-,
-			"play_arrow.svg" : 			{
-				"kind" : "vectorimagefile",
-				"local" : 1
-			}
 
 		}
 ,
@@ -546,12 +551,12 @@
 				"local" : 1
 			}
 ,
-			"vizzie-global.js" : 			{
+			"jitgltextureset.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"jitgltextureset.js" : 			{
+			"vizzie-global.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -606,18 +611,28 @@
 ,
 			"dict_tfh_ble.json" : 			{
 				"kind" : "json",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches/ljudbank/Samplertoner_C",
+					"projectrelativepath" : "../../Max-patches/ljudbank/Samplertoner_C"
+				}
+
 			}
 
 		}
 ,
 		"externals" : 		{
-			"jit.mo.time.mxo" : 			{
+			"cv.jit.faces.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"max-ble.mxo" : 			{
+			"facear~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.mo.time.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -627,14 +642,18 @@
 				"local" : 1
 			}
 ,
-			"cv.jit.faces.mxo" : 			{
+			"synth_simple~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"max-ble.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
 			"rnbo.ringmod~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
+				"kind" : "object"
 			}
 ,
 			"rnbo.noisegate~.mxo" : 			{
@@ -662,7 +681,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "/Users/Github/Max-patches/MISK_b6/externals",
-					"projectrelativepath" : "./externals"
+					"projectrelativepath" : "../../Max-patches/MISK_b6/externals"
 				}
 
 			}
@@ -671,20 +690,10 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Github/Max-patches/MISK_b6/code",
+					"bootpath" : "/Users/Github/Max-patches-public2/MISK_b6/code",
 					"projectrelativepath" : "./code"
 				}
 
-			}
-,
-			"facear~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"synth_simple~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
 			}
 
 		}
