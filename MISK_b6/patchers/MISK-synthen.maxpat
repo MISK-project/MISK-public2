@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 72.0, 369.0, 199.0, 20.0 ],
+					"text" : "Connect to RNBO-synth Midi-in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 48.0, 368.0, 19.0, 22.0 ],
+					"text" : "t l"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-110",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -444,7 +467,7 @@
 					"presentation_rect" : [ 99.5, 174.0, 42.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[548]",
+							"parameter_longname" : "live.dial[549]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Overdrive",
 							"parameter_type" : 0,
@@ -502,7 +525,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "Noise", "String" ],
-							"parameter_longname" : "live.tab[101]",
+							"parameter_longname" : "live.tab[102]",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "waveform",
@@ -574,7 +597,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 788.0, 50.0, 22.0 ],
+					"patching_rect" : [ 360.0, 294.0, 50.0, 22.0 ],
 					"text" : "0"
 				}
 
@@ -795,7 +818,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[6]",
+							"parameter_longname" : "Kontroll1[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -1116,7 +1139,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1134]",
+							"parameter_longname" : "live.text[386]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[225]",
@@ -1221,7 +1244,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[185]",
+							"parameter_longname" : "live.dial[23]",
 							"parameter_mmax" : 6000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "CutOff",
@@ -1500,7 +1523,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[188]",
+							"parameter_longname" : "live.dial[21]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
@@ -1531,7 +1554,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[184]",
+							"parameter_longname" : "live.dial[27]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Ratio",
 							"parameter_type" : 0,
@@ -1586,28 +1609,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 368.0, 952.0, 84.0, 22.0 ],
 					"text" : "FMAmount $1",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.955324411392212, 0.647122621536255, 0.131862342357635, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.955324411392212, 0.647122621536255, 0.131862342357635, 1.0 ],
-					"bgfillcolor_color1" : [ 0.609689116477966, 0.882273256778717, 0.677530944347382, 1.0 ],
-					"bgfillcolor_color2" : [ 0.263682, 0.004541, 0.038797, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"id" : "obj-50",
-					"items" : [ "saw", ",", "square", ",", "sine", ",", "noise" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 208.0, 660.0, 100.0, 22.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1776,20 +1777,14 @@
 					"outlettype" : [ "signal", "int", "list" ],
 					"patching_rect" : [ 48.0, 854.0, 622.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"FMRatio" : 						{
-							"label" : "FMRatio",
+						"vib_delay" : 						{
+							"label" : "vib_delay",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"decay" : 						{
-							"label" : "decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"vibrato_speed" : 						{
-							"label" : "vibrato_speed",
+						"sustain" : 						{
+							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1800,14 +1795,8 @@
 							"parsestring" : ""
 						}
 ,
-						"release" : 						{
-							"label" : "release",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sq_pulsew" : 						{
-							"label" : "sq_pulsew",
+						"poly/osc.analog/damping" : 						{
+							"label" : "damping",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1818,14 +1807,32 @@
 							"parsestring" : ""
 						}
 ,
-						"vib_delay" : 						{
-							"label" : "vib_delay",
+						"FMAmount" : 						{
+							"label" : "FMAmount",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"FMAmount" : 						{
-							"label" : "FMAmount",
+						"FMRatio" : 						{
+							"label" : "FMRatio",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sq_pulsew" : 						{
+							"label" : "sq_pulsew",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"release" : 						{
+							"label" : "release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"vibrato_speed" : 						{
+							"label" : "vibrato_speed",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1836,14 +1843,8 @@
 							"parsestring" : ""
 						}
 ,
-						"poly/osc.analog/damping" : 						{
-							"label" : "damping",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
+						"decay" : 						{
+							"label" : "decay",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1860,7 +1861,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rnbo~",
+							"parameter_longname" : "rnbo~[1]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "rnbo~",
 							"parameter_type" : 3
@@ -1886,7 +1887,7 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"release" : 							{
-								"value" : 2250.60450120900623
+								"value" : 542.37708475417287
 							}
 ,
 							"decay" : 							{
@@ -2119,7 +2120,7 @@
 ,
 							"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
 							"waveform" : 							{
-								"value" : 1.0
+								"value" : 4.0
 							}
 ,
 							"FMRatio" : 							{
@@ -2141,7 +2142,7 @@
 									"embed" : 0,
 									"snapshot" : 									{
 										"release" : 										{
-											"value" : 2250.60450120900623
+											"value" : 542.37708475417287
 										}
 ,
 										"decay" : 										{
@@ -2374,7 +2375,7 @@
 ,
 										"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
 										"waveform" : 										{
-											"value" : 1.0
+											"value" : 4.0
 										}
 ,
 										"FMRatio" : 										{
@@ -2437,7 +2438,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
-							"parameter_longname" : "live.dial[186]",
+							"parameter_longname" : "live.dial[24]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FadeIn",
@@ -2470,7 +2471,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[189]",
+							"parameter_longname" : "live.dial[22]",
 							"parameter_mmax" : 21.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
@@ -2503,7 +2504,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[89]",
+							"parameter_longname" : "live.dial[26]",
 							"parameter_mmax" : 64.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Speed",
@@ -2586,7 +2587,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "boost[3]",
+							"parameter_longname" : "boost[1]",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Gain",
@@ -2815,7 +2816,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[1]",
+							"parameter_longname" : "Kontroll1[3]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -2859,7 +2860,7 @@
 						"live.text" : [ 0.0 ],
 						"overdrive_drive" : [ 0.0 ],
 						"pulsbredd" : [ 62.999999999999929 ],
-						"release" : [ 2250.60450120900623 ],
+						"release" : [ 542.37708475417287 ],
 						"rnbo~" : [ 							{
 								"filetype" : "C74Snapshot",
 								"version" : 2,
@@ -2871,7 +2872,7 @@
 								"embed" : 1,
 								"snapshot" : 								{
 									"release" : 									{
-										"value" : 2250.60450120900623
+										"value" : 542.37708475417287
 									}
 ,
 									"decay" : 									{
@@ -3104,7 +3105,7 @@
 ,
 									"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
 									"waveform" : 									{
-										"value" : 1.0
+										"value" : 4.0
 									}
 ,
 									"FMRatio" : 									{
@@ -3119,7 +3120,7 @@
 						"skala_kontroll[1]" : [ 0 ],
 						"sustain" : [ 0.740157480314961 ],
 						"synt_attack" : [ 125.736251472502815 ],
-						"waveform" : [ 0.0 ]
+						"waveform" : [ 4.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -3147,7 +3148,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[187]",
+							"parameter_longname" : "live.dial[25]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pulswidth",
 							"parameter_type" : 0,
@@ -3378,7 +3379,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "release[3]",
+							"parameter_longname" : "release[1]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "release",
@@ -3412,7 +3413,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "sustain[3]",
+							"parameter_longname" : "sustain[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "sustain",
@@ -3445,7 +3446,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "decay[3]",
+							"parameter_longname" : "decay[1]",
 							"parameter_mmax" : 2000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "decay",
@@ -3478,7 +3479,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "attack[3]",
+							"parameter_longname" : "attack[1]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "attack",
@@ -3671,8 +3672,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 544.0, 297.0, 510.0, 297.0, 510.0, 486.0, 426.0, 486.0, 426.0, 567.0, 217.5, 567.0 ],
+					"destination" : [ "obj-49", 0 ],
+					"midpoints" : [ 544.0, 297.0, 510.0, 297.0, 510.0, 486.0, 426.0, 486.0, 426.0, 567.0, 256.5, 567.0 ],
 					"order" : 2,
 					"source" : [ "obj-109", 0 ]
 				}
@@ -3906,6 +3907,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 1 ],
+					"midpoints" : [ 57.5, 476.0, 660.5, 476.0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"midpoints" : [ 213.5, 645.0, 72.0, 645.0, 72.0, 840.0, 57.5, 840.0 ],
 					"source" : [ "obj-37", 0 ]
@@ -4000,14 +4009,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"midpoints" : [ 258.0, 696.0, 256.5, 696.0 ],
-					"source" : [ "obj-50", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"midpoints" : [ 358.5, 645.0, 72.0, 645.0, 72.0, 840.0, 57.5, 840.0 ],
 					"source" : [ "obj-51", 0 ]
@@ -4079,8 +4080,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 361.0, 557.5, 660.5, 557.5 ],
+					"destination" : [ "obj-31", 1 ],
+					"midpoints" : [ 361.0, 279.0, 400.5, 279.0 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -4088,8 +4089,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"midpoints" : [ 361.0, 447.0, 190.5, 447.0 ],
+					"destination" : [ "obj-36", 0 ],
 					"order" : 2,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -4258,6 +4258,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"order" : 2,
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"midpoints" : [ 182.5, 114.0, 256.5, 114.0 ],
 					"order" : 0,
@@ -4342,7 +4350,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 1 ],
+					"midpoints" : [ 289.5, 557.5, 660.5, 557.5 ],
+					"order" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"order" : 1,
 					"source" : [ "obj-80", 0 ]
 				}
 
