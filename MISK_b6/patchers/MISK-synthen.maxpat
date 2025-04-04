@@ -495,7 +495,7 @@
 					"presentation_rect" : [ 99.5, 174.0, 42.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[548]",
+							"parameter_longname" : "live.dial[549]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Overdrive",
 							"parameter_type" : 0,
@@ -553,7 +553,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "String" ],
-							"parameter_longname" : "live.tab[101]",
+							"parameter_longname" : "live.tab[102]",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "waveform",
@@ -846,7 +846,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[6]",
+							"parameter_longname" : "Kontroll1[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -1167,7 +1167,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1134]",
+							"parameter_longname" : "live.text[386]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[225]",
@@ -1272,7 +1272,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[185]",
+							"parameter_longname" : "live.dial[23]",
 							"parameter_mmax" : 6000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "CutOff",
@@ -1551,7 +1551,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[188]",
+							"parameter_longname" : "live.dial[21]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
@@ -1582,7 +1582,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[184]",
+							"parameter_longname" : "live.dial[27]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Ratio",
 							"parameter_type" : 0,
@@ -1822,7 +1822,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
-							"parameter_longname" : "live.dial[186]",
+							"parameter_longname" : "live.dial[24]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FadeIn",
@@ -1855,7 +1855,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[189]",
+							"parameter_longname" : "live.dial[22]",
 							"parameter_mmax" : 21.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
@@ -1888,7 +1888,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[89]",
+							"parameter_longname" : "live.dial[26]",
 							"parameter_mmax" : 64.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Speed",
@@ -1971,7 +1971,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "boost[3]",
+							"parameter_longname" : "boost[1]",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Gain",
@@ -2200,7 +2200,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[1]",
+							"parameter_longname" : "Kontroll1[3]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -2247,88 +2247,244 @@
 						"release" : [ 542.37708475417287 ],
 						"rnbo~" : [ 							{
 								"release" : 								{
-									"value" : 300.0
+									"value" : 542.37708475417287
 								}
 ,
 								"decay" : 								{
-									"value" : 30.0
+									"value" : 262.384524769049392
 								}
 ,
 								"sq_pulsew" : 								{
-									"value" : 0.0
-								}
-,
-								"attack" : 								{
-									"value" : 10.0
-								}
-,
-								"FMAmount" : 								{
-									"value" : 0.0
+									"value" : 0.496062992125984
 								}
 ,
 								"sustain" : 								{
-									"value" : 1.0
+									"value" : 0.740157480314961
+								}
+,
+								"vib_delay" : 								{
+									"value" : 3000.0
 								}
 ,
 								"__sps" : 								{
 									"poly" : [ 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
 , 										{
+											"__sps" : 											{
+												"osc.analog" : 												{
+													"decay" : 													{
+														"value" : 10.0
+													}
+,
+													"damping" : 													{
+														"value" : 0.4
+													}
+
+												}
+
+											}
 
 										}
  ]
 								}
 ,
 								"vibrato_speed" : 								{
-									"value" : 0.2
+									"value" : 8.76532953065907
 								}
 ,
-								"vib_delay" : 								{
-									"value" : 500.0
+								"attack" : 								{
+									"value" : 125.736251472502815
+								}
+,
+								"FMAmount" : 								{
+									"value" : 0.0
 								}
 ,
 								"vib_amount" : 								{
-									"value" : 0.4
+									"value" : 0.0
 								}
 ,
 								"__presetid" : "rnbo",
 								"waveform" : 								{
-									"value" : 1.0
+									"value" : 0.0
 								}
 ,
 								"FMRatio" : 								{
-									"value" : 0.0
+									"value" : 157.480314960629926
 								}
 
 							}
@@ -2365,7 +2521,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[187]",
+							"parameter_longname" : "live.dial[25]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pulswidth",
 							"parameter_type" : 0,
@@ -2596,7 +2752,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "release[3]",
+							"parameter_longname" : "release[1]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "release",
@@ -2630,7 +2786,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "sustain[3]",
+							"parameter_longname" : "sustain[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "sustain",
@@ -2663,7 +2819,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "decay[3]",
+							"parameter_longname" : "decay[1]",
 							"parameter_mmax" : 2000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "decay",
@@ -2696,7 +2852,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "attack[3]",
+							"parameter_longname" : "attack[1]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "attack",
@@ -2976,13 +3132,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
-					"source" : [ "obj-19", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -3132,7 +3281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 151.5, 476.0, 150.5, 476.0 ],
+					"midpoints" : [ 151.5, 741.0, 63.0, 741.0, 63.0, 840.0, 150.5, 840.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -3281,7 +3430,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
-					"midpoints" : [ 377.5, 975.0, 354.0, 975.0, 354.0, 912.0, 285.0, 912.0, 285.0, 888.0, 45.0, 888.0, 45.0, 849.0, 33.5, 849.0 ],
+					"midpoints" : [ 377.5, 975.0, 354.0, 975.0, 354.0, 912.0, 285.0, 912.0, 285.0, 741.0, 33.5, 741.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -3339,7 +3488,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
-					"midpoints" : [ 208.5, 1029.0, 150.0, 1029.0, 150.0, 951.0, 117.0, 951.0, 117.0, 939.0, 45.0, 939.0, 45.0, 849.0, 33.5, 849.0 ],
+					"midpoints" : [ 208.5, 1029.0, 150.0, 1029.0, 150.0, 930.0, 51.0, 930.0, 51.0, 876.0, 45.0, 876.0, 45.0, 837.0, 63.0, 837.0, 63.0, 741.0, 33.5, 741.0 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
