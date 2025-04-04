@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 431.0, 414.0, 523.0, 480.0 ],
+		"rect" : [ 86.0, 352.0, 523.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 906.0, 133.0, 29.5, 22.0 ],
+					"text" : "!= 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 907.0, 196.0, 61.0, 22.0 ],
+					"text" : "hidden $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 907.0, 385.0, 95.0, 22.0 ],
-					"text" : "s camera_photo"
+					"patching_rect" : [ 907.0, 385.0, 80.0, 22.0 ],
+					"text" : "s knappbilder"
 				}
 
 			}
@@ -64,7 +88,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-92",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -215,15 +238,15 @@
 					"patching_rect" : [ 137.0, 9.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"chord_dict" : [ "maj" ],
-						"extra_functions_menu" : [ 4.0 ],
-						"grundton_chord_dict" : [ 0 ],
+						"extra_functions_menu" : [ 3.0 ],
+						"grundton_chord_dict" : [ 8 ],
 						"live.dial" : [ 127.0 ],
 						"live.menu" : [ 0.0 ],
 						"live.text" : [ 0.0 ],
 						"live.text[1]" : [ 0.0 ],
 						"live.text[2]" : [ 0.0 ],
 						"loop[1]" : [ 0.0 ],
-						"photo_drop" : [ "" ],
+						"photo_drop" : [ "Macintosh HD:/Users/misk/Desktop/Skärmavbild 2024-11-23 kl. 17.49.57.png" ],
 						"record" : [ 0.0 ]
 					}
 ,
@@ -518,12 +541,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 636.0, 743.0, 110.25, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.375, 227.0, 111.625, 15.0 ],
+					"presentation_rect" : [ 3.375, 204.0, 111.625, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Select extra function", "Trigger movieclip", "Next movieclip", "Show photo (Camera)" ],
+							"parameter_enum" : [ "Select extra function", "Trigger movieclip", "Next movieclip", "Show photo (Camera)", "Step Quickbuttons" ],
 							"parameter_longname" : "live.menu[1]",
-							"parameter_mmax" : 3,
+							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "extra_functions",
 							"parameter_type" : 2
@@ -786,7 +809,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 122.0, 80.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.375, 175.0, 80.0, 20.0 ],
+					"presentation_rect" : [ 3.0, 153.0, 80.0, 20.0 ],
 					"text" : "Synth Chord"
 				}
 
@@ -862,7 +885,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 38.0, 554.0, 48.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.375, 197.0, 35.0, 22.0 ],
+					"presentation_rect" : [ 3.0, 175.0, 35.0, 22.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "grundton_chord_dict"
@@ -881,7 +904,6 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"hidden" : 1,
 					"id" : "obj-26",
 					"items" : [ "maj", ",", "minor", ",", "no3", ",", "dom7", ",", "minor7", ",", "maj7", ",", "dim", ",", "aug", ",", "sus2", ",", "sus4" ],
 					"maxclass" : "umenu",
@@ -892,7 +914,7 @@
 					"patching_rect" : [ 129.0, 668.0, 76.0, 22.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 42.375, 197.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 42.0, 175.0, 55.0, 22.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "chord_dict"
 				}
@@ -1298,7 +1320,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 907.0, 236.0, 119.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 152.5, 113.1875, 20.0 ],
+					"presentation_rect" : [ 2.59375, 221.0, 112.40625, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -1755,7 +1777,7 @@
 													"fontname" : "Verdana",
 													"fontsize" : 11.0,
 													"id" : "obj-104",
-													"items" : "<empty>",
+													"items" : [ "Drums", ",", "Eldorado", ",", "Fnitter", ",", "FX", ",", "Gitarrstrata", ",", "Joymusic", ",", "Keyboard 2", ",", "Lead 1", ",", "Loopar", ",", "Piano", ",", "Samplertoner_C", ",", "Synt80", ",", "Synth_fat_chord", ",", "Synth_jupiter7" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -2659,7 +2681,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -2667,7 +2689,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"order" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -2869,6 +2899,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-76", 0 ]
 				}
 
 			}
