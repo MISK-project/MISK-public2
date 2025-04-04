@@ -519,14 +519,14 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 534.5, 257.0, 100.0, 20.0 ],
-					"pictures" : [ "saw.svg", "square.svg", "sine.svg", "random.svg", "string.svg" ],
+					"pictures" : [ "saw.svg", "square.svg", "sine.svg", "string.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 19.0, 80.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "Noise", "String" ],
+							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "String" ],
 							"parameter_longname" : "live.tab[102]",
-							"parameter_mmax" : 4,
+							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "waveform",
 							"parameter_type" : 2,
@@ -1777,32 +1777,8 @@
 					"outlettype" : [ "signal", "int", "list" ],
 					"patching_rect" : [ 48.0, 854.0, 622.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"vib_delay" : 						{
-							"label" : "vib_delay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"poly/osc.analog/decay" : 						{
-							"label" : "decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"poly/osc.analog/damping" : 						{
-							"label" : "damping",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"attack" : 						{
-							"label" : "attack",
+						"release" : 						{
+							"label" : "release",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1813,26 +1789,32 @@
 							"parsestring" : ""
 						}
 ,
-						"FMRatio" : 						{
-							"label" : "FMRatio",
+						"attack" : 						{
+							"label" : "attack",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"sq_pulsew" : 						{
-							"label" : "sq_pulsew",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"release" : 						{
-							"label" : "release",
+						"poly/osc.analog/decay" : 						{
+							"label" : "decay",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"vibrato_speed" : 						{
 							"label" : "vibrato_speed",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"FMRatio" : 						{
+							"label" : "FMRatio",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"poly/osc.analog/damping" : 						{
+							"label" : "damping",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1849,15 +1831,33 @@
 							"parsestring" : ""
 						}
 ,
+						"vib_delay" : 						{
+							"label" : "vib_delay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sustain" : 						{
+							"label" : "sustain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sq_pulsew" : 						{
+							"label" : "sq_pulsew",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"waveform" : 						{
 							"label" : "waveform",
 							"isEnum" : 1,
-							"parsestring" : "\"sine\" \"saw\" \"square\" \"noise\" \"string\""
+							"parsestring" : "\"sine\" \"saw\" \"square\" \"string\""
 						}
 
 					}
 ,
-					"rnboversion" : "1.3.3",
+					"rnboversion" : "1.3.4",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -2120,7 +2120,7 @@
 ,
 							"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
 							"waveform" : 							{
-								"value" : 4.0
+								"value" : 1.0
 							}
 ,
 							"FMRatio" : 							{
@@ -2375,7 +2375,7 @@
 ,
 										"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
 										"waveform" : 										{
-											"value" : 4.0
+											"value" : 1.0
 										}
 ,
 										"FMRatio" : 										{
@@ -2858,7 +2858,7 @@
 						"kontroll_in[1]" : [ 0 ],
 						"kontroll_in[2]" : [ 0 ],
 						"live.text" : [ 0.0 ],
-						"overdrive_drive" : [ 0.0 ],
+						"overdrive_drive" : [ 127.0 ],
 						"pulsbredd" : [ 62.999999999999929 ],
 						"release" : [ 542.37708475417287 ],
 						"rnbo~" : [ 							{
@@ -3105,7 +3105,7 @@
 ,
 									"__presetid" : "/Users/Github/Max-patches-public2/MISK_b6/patchers/synth_simple.rnbopat",
 									"waveform" : 									{
-										"value" : 4.0
+										"value" : 1.0
 									}
 ,
 									"FMRatio" : 									{

@@ -238,15 +238,15 @@
 					"patching_rect" : [ 137.0, 9.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"chord_dict" : [ "maj" ],
-						"extra_functions_menu" : [ 3.0 ],
-						"grundton_chord_dict" : [ 8 ],
+						"extra_functions_menu" : [ 0.0 ],
+						"grundton_chord_dict" : [ 0 ],
 						"live.dial" : [ 127.0 ],
 						"live.menu" : [ 0.0 ],
 						"live.text" : [ 0.0 ],
 						"live.text[1]" : [ 0.0 ],
 						"live.text[2]" : [ 0.0 ],
 						"loop[1]" : [ 0.0 ],
-						"photo_drop" : [ "Macintosh HD:/Users/misk/Desktop/Skärmavbild 2024-11-23 kl. 17.49.57.png" ],
+						"photo_drop" : [ "Macintosh HD:/Users/misk/Desktop/Skärmavbild 2024-11-22 kl. 14.31.05.png" ],
 						"record" : [ 0.0 ]
 					}
 ,
@@ -904,6 +904,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"hidden" : 1,
 					"id" : "obj-26",
 					"items" : [ "maj", ",", "minor", ",", "no3", ",", "dom7", ",", "minor7", ",", "maj7", ",", "dim", ",", "aug", ",", "sus2", ",", "sus4" ],
 					"maxclass" : "umenu",
@@ -1311,6 +1312,7 @@
 , 			{
 				"box" : 				{
 					"decodemode" : 1,
+					"hidden" : 1,
 					"id" : "obj-3",
 					"legend" : "drop photo",
 					"maxclass" : "live.drop",
