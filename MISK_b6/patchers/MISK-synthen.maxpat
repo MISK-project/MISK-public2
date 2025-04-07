@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 117.0, 121.0, 900.0, 677.0 ],
+		"rect" : [ 141.0, 154.0, 900.0, 677.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -495,7 +495,7 @@
 					"presentation_rect" : [ 99.5, 174.0, 42.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[549]",
+							"parameter_longname" : "live.dial[548]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Overdrive",
 							"parameter_type" : 0,
@@ -547,13 +547,13 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 534.5, 257.0, 100.0, 20.0 ],
-					"pictures" : [ "saw.svg", "square.svg", "sine.svg", "string.svg" ],
+					"pictures" : [ "sine.svg", "square.svg", "saw.svg", "string.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 19.0, 80.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Sawtooth", "Square", "Sinus", "String" ],
-							"parameter_longname" : "live.tab[102]",
+							"parameter_enum" : [ "Sinus", "Square", "Sawtooth", "String" ],
+							"parameter_longname" : "live.tab[101]",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "waveform",
@@ -602,7 +602,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.0, 294.0, 50.0, 49.0 ],
-					"text" : "midievent 144 126 0"
+					"text" : "midievent 144 45 0"
 				}
 
 			}
@@ -675,7 +675,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 419.0, 165.0, 50.0, 22.0 ],
-					"text" : "126 0",
+					"text" : "45 0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -846,7 +846,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[2]",
+							"parameter_longname" : "Kontroll1[6]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -1167,7 +1167,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[386]",
+							"parameter_longname" : "live.text[1134]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[225]",
@@ -1272,7 +1272,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[23]",
+							"parameter_longname" : "live.dial[185]",
 							"parameter_mmax" : 6000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "CutOff",
@@ -1551,7 +1551,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[21]",
+							"parameter_longname" : "live.dial[188]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
@@ -1582,7 +1582,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[27]",
+							"parameter_longname" : "live.dial[184]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Ratio",
 							"parameter_type" : 0,
@@ -1822,7 +1822,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
-							"parameter_longname" : "live.dial[24]",
+							"parameter_longname" : "live.dial[186]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FadeIn",
@@ -1855,7 +1855,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[22]",
+							"parameter_longname" : "live.dial[189]",
 							"parameter_mmax" : 21.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
@@ -1888,7 +1888,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[26]",
+							"parameter_longname" : "live.dial[89]",
 							"parameter_mmax" : 64.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Speed",
@@ -1971,7 +1971,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "boost[1]",
+							"parameter_longname" : "boost[3]",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Gain",
@@ -2200,7 +2200,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[3]",
+							"parameter_longname" : "Kontroll1[1]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -2480,7 +2480,7 @@
 ,
 								"__presetid" : "rnbo",
 								"waveform" : 								{
-									"value" : 0.0
+									"value" : 1.0
 								}
 ,
 								"FMRatio" : 								{
@@ -2493,7 +2493,7 @@
 						"skala_kontroll[1]" : [ 0 ],
 						"sustain" : [ 0.740157480314961 ],
 						"synt_attack" : [ 125.736251472502815 ],
-						"waveform" : [ 0.0 ]
+						"waveform" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2505,7 +2505,6 @@
 , 			{
 				"box" : 				{
 					"appearance" : 1,
-					"hidden" : 1,
 					"id" : "obj-14",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -2521,7 +2520,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[25]",
+							"parameter_longname" : "live.dial[187]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pulswidth",
 							"parameter_type" : 0,
@@ -2752,7 +2751,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "release[1]",
+							"parameter_longname" : "release[3]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "release",
@@ -2786,7 +2785,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "sustain[1]",
+							"parameter_longname" : "sustain[3]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "sustain",
@@ -2819,7 +2818,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "decay[1]",
+							"parameter_longname" : "decay[3]",
 							"parameter_mmax" : 2000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "decay",
@@ -2852,7 +2851,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "attack[1]",
+							"parameter_longname" : "attack[3]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "attack",
