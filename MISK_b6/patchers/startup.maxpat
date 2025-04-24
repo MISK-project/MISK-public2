@@ -221,7 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 220.0, 180.0, 37.0 ],
+					"patching_rect" : [ 186.0, 220.0, 181.0, 37.0 ],
 					"text" : "Show/hide different umenus, sets the view"
 				}
 
@@ -2542,7 +2542,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1469.0, 91.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 481.0, 162.5, 44.0, 15.0 ],
+					"presentation_rect" : [ 481.0, 166.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
