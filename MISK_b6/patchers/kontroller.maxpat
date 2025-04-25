@@ -77,7 +77,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[554]",
+							"parameter_longname" : "live.text[292]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "process",
@@ -788,6 +788,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-86",
+													"int" : 1,
 													"maxclass" : "gswitch2",
 													"numinlets" : 2,
 													"numoutlets" : 2,
@@ -3107,7 +3108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.5, 1399.5, 50.0, 22.0 ],
-					"text" : "63.5"
+					"text" : "0."
 				}
 
 			}
@@ -3364,7 +3365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 2100.0, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "57"
 				}
 
 			}
@@ -3453,7 +3454,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 571.0, 448.000005781650543, 106.0, 22.0 ],
-					"text" : "VFX_cubes_2"
+					"text" : "Mouse"
 				}
 
 			}
@@ -4550,6 +4551,7 @@
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"bordercolor" : [ 0.76078431372549, 0.701960784313725, 0.701960784313725, 0.0 ],
 					"focusbordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
@@ -4584,7 +4586,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Index", "Value" ],
-							"parameter_longname" : "live.tab[20]",
+							"parameter_longname" : "live.tab[16]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "index_value_toggle",
@@ -5507,7 +5509,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -133.375, 784.0, 131.75, 22.0 ],
-					"text" : "1 0"
+					"text" : "201"
 				}
 
 			}
@@ -5768,12 +5770,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 268.0, 2320.0, 50.0, 22.0 ],
-					"text" : "2 0"
+					"text" : "57 57"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-93",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5787,7 +5790,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.numbox[635]",
+							"parameter_longname" : "live.numbox[642]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : -10000.0,
 							"parameter_modmode" : 3,
@@ -6169,7 +6172,7 @@
 					"patching_rect" : [ 252.0, 418.000005781650543, 117.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.5, 627.0, 108.0, 20.0 ],
-					"text" : "VFX_cubes_2",
+					"text" : "Mouse",
 					"varname" : "kontrollnamn"
 				}
 
@@ -6188,7 +6191,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[628]",
+							"parameter_longname" : "live.text[395]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "active",
@@ -6236,7 +6239,7 @@
 					"patching_rect" : [ 290.5, 532.0, 51.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 73.0, 53.0, 20.0 ],
-					"text" : "1",
+					"text" : "201",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "filter"
 				}
@@ -6262,7 +6265,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -133.0, 745.6000115275383, 131.0, 22.0 ],
-					"text" : "2_VFX_kuber"
+					"text" : "Mouse::x"
 				}
 
 			}
@@ -7682,7 +7685,7 @@
 					"name" : "kontroller_bearbetning.maxpat",
 					"numinlets" : 8,
 					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ -1750.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 96.0, 1863.0, 247.0, 168.0 ],
 					"presentation" : 1,
@@ -7760,7 +7763,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.numbox[637]",
+							"parameter_longname" : "live.numbox[536]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : -10000.0,
 							"parameter_modmode" : 3,
@@ -7843,7 +7846,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[627]",
+							"parameter_longname" : "live.text[342]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[4]",
@@ -7871,7 +7874,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[626]",
+							"parameter_longname" : "live.text[341]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[4]",
@@ -7900,7 +7903,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.numbox[634]",
+							"parameter_longname" : "live.numbox[539]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[3]",
@@ -7928,7 +7931,7 @@
 					"presentation_rect" : [ 124.5, 629.0, 34.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[630]",
+							"parameter_longname" : "live.numbox[534]",
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "index",
 							"parameter_type" : 0,
@@ -8007,7 +8010,7 @@
 					"presentation_rect" : [ 65.0, 247.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[647]",
+							"parameter_longname" : "live.numbox[535]",
 							"parameter_mmin" : -127.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "offset",
@@ -8035,7 +8038,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[629]",
+							"parameter_longname" : "live.text[340]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[1]",
@@ -8064,7 +8067,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[625]",
+							"parameter_longname" : "live.text[427]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "slide_toggle",
@@ -8094,9 +8097,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[191]",
+							"parameter_longname" : "live.dial[14]",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Down",
+							"parameter_shortname" : "Up",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -8122,9 +8125,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[47]",
+							"parameter_longname" : "live.dial[20]",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Up",
+							"parameter_shortname" : "Down",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -8334,7 +8337,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 286.5, 87.0, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "201"
 								}
 
 							}
@@ -8436,7 +8439,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 153.0, 412.0, 50.0, 22.0 ],
-									"text" : "2."
+									"text" : "1400."
 								}
 
 							}
@@ -8456,7 +8459,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 37.0, 410.0, 50.0, 22.0 ],
-									"text" : "0."
+									"text" : "300."
 								}
 
 							}
@@ -9775,7 +9778,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[630]",
+							"parameter_longname" : "live.text[201]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -9827,7 +9830,7 @@
 					"presentation_rect" : [ 39.0, 170.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[632]",
+							"parameter_longname" : "live.numbox[538]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : -10000.0,
 							"parameter_modmode" : 3,
@@ -9855,7 +9858,7 @@
 					"presentation_rect" : [ 111.0, 170.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[631]",
+							"parameter_longname" : "live.numbox[537]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : -10000.0,
 							"parameter_modmode" : 3,
@@ -9885,7 +9888,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-97",
-					"items" : [ "All", ",", 0, ",", 1, ",", 2 ],
+					"items" : [ "x", ",", "y", ",", "klick", ",", "All" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9949,26 +9952,26 @@
 					"restore" : 					{
 						"Filter0andminus1" : [ 0.0 ],
 						"FilterRepetition" : [ 1.0 ],
-						"Index_in" : [ 1.0 ],
-						"Index_ut" : [ 2.0 ],
-						"Value_in" : [ 0.0 ],
-						"Value_ut" : [ 0.0 ],
-						"bar1" : [ 63 ],
-						"bar2" : [ 63 ],
-						"bar2[1]" : [ 2 ],
+						"Index_in" : [ 201.0 ],
+						"Index_ut" : [ 57.0 ],
+						"Value_in" : [ 201.0 ],
+						"Value_ut" : [ 57.0 ],
+						"bar1" : [ 0 ],
+						"bar2" : [ 0 ],
+						"bar2[1]" : [ 57 ],
 						"blink1" : [ 0.0 ],
-						"function" : [ 0 ],
+						"function" : [ 7 ],
 						"indexvaluetoggle" : [ 0.0 ],
 						"invertera" : [ 0.0 ],
-						"key_chooser" : [ "All" ],
-						"ktrl_select" : [ 12 ],
+						"key_chooser" : [ "x" ],
+						"ktrl_select" : [ 3 ],
 						"learn_toggle" : [ 0.0 ],
 						"offset_toggle" : [ 0.0 ],
 						"offset_value" : [ 0.0 ],
 						"process" : [ 1.0 ],
 						"qmetro_toggle" : [ 1.0 ],
-						"scale_high" : [ 2.0 ],
-						"scale_low" : [ 0.0 ],
+						"scale_high" : [ 1400.0 ],
+						"scale_low" : [ 300.0 ],
 						"slide_down" : [ 0.0 ],
 						"slide_toggle" : [ 0.0 ],
 						"slide_up" : [ 0.0 ],
@@ -10049,6 +10052,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-100",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -10060,7 +10064,7 @@
 					"presentation_rect" : [ 160.5, 629.0, 34.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[633]",
+							"parameter_longname" : "live.numbox[649]",
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "value",
 							"parameter_type" : 0,
