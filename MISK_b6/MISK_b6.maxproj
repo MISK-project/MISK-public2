@@ -2,7 +2,7 @@
 	"name" : "MISK_b6",
 	"version" : 1,
 	"creationdate" : 3796723771,
-	"modificationdate" : 3826354050,
+	"modificationdate" : 3828421412,
 	"viewrect" : [ 865.0, 208.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,11 +18,6 @@
 ,
 			"MISK-synthen.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"synth_simple.rnbopat" : 			{
-				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -182,6 +177,11 @@
 				"local" : 1
 			}
 ,
+			"synth_simple.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
 			"readtfhchar.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -320,11 +320,6 @@
 		}
 ,
 		"media" : 		{
-			"random.svg" : 			{
-				"kind" : "vectorimagefile",
-				"local" : 1
-			}
-,
 			"saw.svg" : 			{
 				"kind" : "vectorimagefile"
 			}
@@ -335,6 +330,11 @@
 ,
 			"square.svg" : 			{
 				"kind" : "vectorimagefile"
+			}
+,
+			"string.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
 			}
 ,
 			"MISK_logga.png" : 			{
@@ -425,11 +425,6 @@
 				"local" : 1
 			}
 ,
-			"string.svg" : 			{
-				"kind" : "vectorimagefile",
-				"local" : 1
-			}
-,
 			"up.svg" : 			{
 				"kind" : "vectorimagefile"
 			}
@@ -456,6 +451,10 @@
 			"wfmodes.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
+			}
+,
+			"random.svg" : 			{
+				"kind" : "vectorimagefile"
 			}
 ,
 			"wall.jpg" : 			{
@@ -531,6 +530,106 @@
 			"Gamelan1.mp3" : 			{
 				"kind" : "audiofile",
 				"local" : 1
+			}
+,
+			"909 virvel.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 ride.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 puka2.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 puka.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 hihatopen.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 hihatclosed.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 crash.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 click.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 clap.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
+			}
+,
+			"909 bastrumma.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Github/Max-patches-public2/ljudbank/Drums",
+					"projectrelativepath" : "../ljudbank/Drums"
+				}
+
 			}
 
 		}
@@ -622,12 +721,12 @@
 		}
 ,
 		"externals" : 		{
-			"cv.jit.faces.mxo" : 			{
+			"synth_simple~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"facear~.mxo" : 			{
+			"cv.jit.faces.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -642,7 +741,7 @@
 				"local" : 1
 			}
 ,
-			"synth_simple~.mxo" : 			{
+			"facear~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
