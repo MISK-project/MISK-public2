@@ -118,7 +118,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 36.0, 413.0, 640.0, 480.0 ],
+						"rect" : [ 589.0, 446.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -153,7 +153,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 143.0, 135.0, 44.0, 22.0 ],
+									"patching_rect" : [ 143.0, 151.0, 44.0, 22.0 ],
 									"text" : "mix $1"
 								}
 
@@ -165,7 +165,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 143.0, 83.0, 39.0, 22.0 ],
+									"patching_rect" : [ 143.0, 62.0, 39.0, 22.0 ],
 									"text" : "/ 127."
 								}
 
@@ -602,7 +602,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.0, 294.0, 50.0, 49.0 ],
-					"text" : "midievent 144 45 0"
+					"text" : "midievent 144 49 0"
 				}
 
 			}
@@ -675,7 +675,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 419.0, 165.0, 50.0, 22.0 ],
-					"text" : "45 0",
+					"text" : "49 0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1940,12 +1940,11 @@
 					"bgfillcolor_type" : "color",
 					"gradient" : 1,
 					"id" : "obj-22",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1027.0, 593.0, 98.0, 35.0 ],
+					"patching_rect" : [ 1027.0, 593.0, 117.0, 22.0 ],
 					"text" : "Delay_tid_vibrato",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2116,7 +2115,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 954.0, 540.0, 100.0, 22.0 ],
+					"patching_rect" : [ 954.0, 540.0, 136.0, 22.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "kontroll_in"
 				}
@@ -2227,14 +2226,14 @@
 						"FMAmount" : [ 0.0 ],
 						"FM_ratio" : [ 2.0 ],
 						"Filter_cutoff" : [ 1482.054000000000315 ],
-						"Filter_mode" : [ "edit_mode", 1 ],
+						"Filter_mode" : [ "edit_mode", 3 ],
 						"Vibrato_amount" : [ 0.0 ],
-						"Vibrato_speed" : [ 8.76532953065907 ],
+						"Vibrato_speed" : [ 0.0 ],
 						"choose" : [ 127 ],
 						"cutoff" : [ 1482.054000000000315 ],
 						"decay" : [ 262.384524769049392 ],
-						"filter_gain" : [ 0.484701909617878 ],
-						"filter_q" : [ 2.0 ],
+						"filter_gain" : [ 0.848411374757405 ],
+						"filter_q" : [ 0.326940687128831 ],
 						"gain" : [ 1.0 ],
 						"kontroll1" : [ 127.0 ],
 						"kontroll1[1]" : [ 127.0 ],
@@ -2244,10 +2243,10 @@
 						"live.text" : [ 0.0 ],
 						"overdrive_drive" : [ 0.0 ],
 						"pulsbredd" : [ 62.999999999999929 ],
-						"release" : [ 542.37708475417287 ],
+						"release" : [ 1074.338148676301216 ],
 						"rnbo~" : [ 							{
 								"release" : 								{
-									"value" : 542.37708475417287
+									"value" : 1074.338148676301216
 								}
 ,
 								"decay" : 								{
@@ -2463,7 +2462,7 @@
 								}
 ,
 								"vibrato_speed" : 								{
-									"value" : 8.76532953065907
+									"value" : 0.0
 								}
 ,
 								"attack" : 								{
@@ -2480,7 +2479,7 @@
 ,
 								"__presetid" : "rnbo",
 								"waveform" : 								{
-									"value" : 1.0
+									"value" : 0.0
 								}
 ,
 								"FMRatio" : 								{
@@ -2493,7 +2492,7 @@
 						"skala_kontroll[1]" : [ 0 ],
 						"sustain" : [ 0.740157480314961 ],
 						"synt_attack" : [ 125.736251472502815 ],
-						"waveform" : [ 1.0 ]
+						"waveform" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2505,6 +2504,7 @@
 , 			{
 				"box" : 				{
 					"appearance" : 1,
+					"hidden" : 1,
 					"id" : "obj-14",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -2548,7 +2548,7 @@
 					"patching_rect" : [ 345.0, 745.0, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 132.0, 153.0, 55.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 1482.053955078125, 0.484701901674271, 2.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 3, 1, 0, 0, 1091.7655029296875, 0.848411381244659, 0.326940685510635, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3632,6 +3632,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 182.5, 225.0, 204.0, 225.0, 204.0, 291.0, 177.0, 291.0, 177.0, 678.0, 151.5, 678.0 ],
 					"order" : 2,
 					"source" : [ "obj-69", 0 ]
 				}
@@ -3790,7 +3791,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
-					"midpoints" : [ 1004.0, 579.0, 1115.5, 579.0 ],
+					"midpoints" : [ 1022.0, 579.0, 1134.5, 579.0 ],
 					"order" : 0,
 					"source" : [ "obj-88", 1 ]
 				}

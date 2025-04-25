@@ -462,17 +462,17 @@
 						"cubes2" : [ 3.0 ],
 						"facear_sel" : [ 0.0 ],
 						"kuber_co" : [ 5.0 ],
-						"live.text[6]" : [ 0.0 ],
-						"live.text[7]" : [ 0.0 ],
-						"live.text[8]" : [ 0.0 ],
-						"live.text[9]" : [ 0.0 ],
 						"mic_sel" : [ 1.0 ],
 						"pointer_sel" : [ 0.0 ],
 						"pointer_size" : [ 0.141259842519685 ],
 						"pointer_vfx_selector" : [ 0.0 ],
 						"preset_numberkeys" : [ 0.0 ],
+						"qb1" : [ 0.0 ],
+						"qb2" : [ 0.0 ],
+						"qb3" : [ 0.0 ],
+						"qb4" : [ 0.0 ],
 						"qb_learn" : [ 0.0 ],
-						"startup_ctrl_selector" : [ 1.0 ]
+						"startup_ctrl_selector" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -969,7 +969,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 155.0, 546.0, 974.0, 480.0 ],
+						"rect" : [ 155.0, 495.0, 974.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2485,6 +2485,7 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"hidden" : 1,
 					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2534,6 +2535,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-53",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2646,6 +2648,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"gradient" : 1,
+					"hidden" : 1,
 					"id" : "obj-76",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -2732,7 +2735,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-322",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2790,6 +2792,7 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-102",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2803,10 +2806,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[2123]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text[1298]",
+							"parameter_shortname" : "qb[1]",
 							"parameter_type" : 2
 						}
 
@@ -2814,13 +2818,14 @@
 ,
 					"text" : "4",
 					"texton" : "4",
-					"varname" : "live.text[9]"
+					"varname" : "qb4"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-100",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2834,10 +2839,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[2124]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text[1298]",
+							"parameter_shortname" : "qb[1]",
 							"parameter_type" : 2
 						}
 
@@ -2845,13 +2851,14 @@
 ,
 					"text" : "3",
 					"texton" : "3",
-					"varname" : "live.text[8]"
+					"varname" : "qb3"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-97",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2865,10 +2872,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[2125]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text[1298]",
+							"parameter_shortname" : "qb[1]",
 							"parameter_type" : 2
 						}
 
@@ -2876,13 +2884,14 @@
 ,
 					"text" : "2",
 					"texton" : "2",
-					"varname" : "live.text[7]"
+					"varname" : "qb2"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontsize" : 18.0,
+					"hidden" : 1,
 					"id" : "obj-91",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2896,10 +2905,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[2126]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text[1298]",
+							"parameter_shortname" : "qb[1]",
 							"parameter_type" : 2
 						}
 
@@ -2907,7 +2917,7 @@
 ,
 					"text" : "1",
 					"texton" : "1",
-					"varname" : "live.text[6]"
+					"varname" : "qb1"
 				}
 
 			}
@@ -3207,7 +3217,6 @@
 , 			{
 				"box" : 				{
 					"bubblesize" : 30,
-					"hidden" : 1,
 					"id" : "obj-36",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -3444,7 +3453,7 @@
 					"name" : "startup2.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"offset" : [ -4033.0, 0.0 ],
+					"offset" : [ -3500.0, 0.0 ],
 					"patching_rect" : [ 532.0, 426.0, 495.0, 217.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 207.0, 513.0, 332.0 ],

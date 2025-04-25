@@ -167,7 +167,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 4011.0, 358.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4098.0, 314.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 4104.0, 314.0, 34.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
