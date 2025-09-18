@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="facear~">
+<metadatalist>
+<metadata name="tag">audio</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in1"><digest>message input</digest><description>message input</description></method>
+<method name="scale"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="scale_note" get="1" set="1" size="1" type="float64">
+<digest>scale_note</digest>
+</attribute>
+<attribute name="pitch" get="1" set="1" size="1" type="float64">
+<digest>pitch</digest>
+</attribute>
+<attribute name="od" get="1" set="1" size="1" type="float64">
+<digest>od</digest>
+</attribute>
+<attribute name="vibrato" get="1" set="1" size="1" type="float64">
+<digest>vibrato</digest>
+</attribute>
+<attribute name="length" get="1" set="1" size="1" type="float64">
+<digest>length</digest>
+</attribute>
+<attribute name="scale" get="1" set="1" size="1" type="float64">
+<digest>scale</digest>
+</attribute>
+<attribute name="cutoff" get="1" set="1" size="1" type="float64">
+<digest>cutoff</digest>
+</attribute>
+<attribute name="osc2_gain" get="1" set="1" size="1" type="float64">
+<digest>osc2_gain</digest>
+</attribute>
+<attribute name="sub_gain" get="1" set="1" size="1" type="float64">
+<digest>sub_gain</digest>
+</attribute>
+<attribute name="osc2_pitchbend_up" get="1" set="1" size="1" type="float64">
+<digest>osc2_pitchbend_up</digest>
+</attribute>
+</attributelist>
+</c74object>
