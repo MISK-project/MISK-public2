@@ -10,9 +10,10 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 307.0, 301.0, 523.0, 480.0 ],
+		"rect" : [ 389.0, 373.0, 523.0, 480.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
+		"style" : "chiba",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-80",
@@ -292,6 +293,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.286274509803922, 0.349019607843137, 1.0, 1.0 ],
 					"appearance" : 1,
 					"id" : "obj-64",
 					"maxclass" : "live.dial",
@@ -303,6 +305,18 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 81.5, 2.0, 33.5, 23.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"tricolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[203]",
 							"parameter_modmode" : 3,
@@ -314,6 +328,8 @@
 					}
 ,
 					"showname" : 0,
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "live.dial"
 				}
 
@@ -391,6 +407,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 1.0 ],
 					"id" : "obj-59",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -402,6 +419,22 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 136.0, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textoffcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[1958]",
@@ -414,6 +447,8 @@
 					}
 ,
 					"text" : "Folder",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoffcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "live.text[2]"
 				}
 
@@ -520,6 +555,8 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 1.0 ],
+					"hlttextcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -530,6 +567,22 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.375, 204.0, 111.625, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"hlttextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"tricolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Select extra function", "Trigger movieclip", "Next movieclip", "Show photo (Camera)", "Step Quickbuttons" ],
 							"parameter_longname" : "live.menu[1]",
@@ -611,7 +664,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 215.0, 781.0, 39.0, 22.0 ],
 					"text" : "t b #1"
 				}
@@ -634,7 +687,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 21.5, 350.0, 39.0, 22.0 ],
 					"text" : "t b #1"
 				}
@@ -653,6 +706,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 1.0 ],
 					"id" : "obj-45",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -664,6 +718,22 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 71.0, 66.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textoffcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[1534]",
@@ -676,6 +746,8 @@
 					}
 ,
 					"text" : "Record",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoffcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "Record",
 					"varname" : "record"
 				}
@@ -683,6 +755,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 1.0 ],
 					"id" : "obj-44",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -694,6 +767,22 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 136.0, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textoffcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[2272]",
@@ -706,6 +795,8 @@
 					}
 ,
 					"text" : "Clear",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoffcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "live.text[1]"
 				}
 
@@ -724,6 +815,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 1.0 ],
 					"id" : "obj-36",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -735,6 +827,22 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 79.0, 136.0, 37.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textoffcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[2271]",
@@ -747,6 +855,8 @@
 					}
 ,
 					"text" : "Load",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoffcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "live.text"
 				}
 
@@ -797,7 +907,8 @@
 					"patching_rect" : [ 5.0, 122.0, 80.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 153.0, 80.0, 20.0 ],
-					"text" : "Synth Chord"
+					"text" : "Synth Chord",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -996,6 +1107,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 1.0 ],
 					"id" : "obj-140",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1007,6 +1119,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 66.0, 21.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[2267]",
@@ -1025,7 +1141,9 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 1.0 ],
 					"id" : "obj-22",
+					"inactivelcdcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1035,6 +1153,26 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 66.0, 46.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"hlttextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"inactivelcdcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"tricolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Trigger", "Gate", "Toggle" ],
 							"parameter_longname" : "live.menu[218]",
@@ -1168,7 +1306,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 495.0, 433.0, 81.0, 22.0 ],
-					"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
+					"prefix" : "~/Documents/GitHub/MISK-public2/ljudbank/",
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 83.0, 113.0, 22.0 ],
 					"textcolor" : [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ],
@@ -1186,7 +1324,8 @@
 					"patching_rect" : [ 9.0, 11.0, 51.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, -2.0, 51.0, 20.0 ],
-					"text" : "Sample"
+					"text" : "Sample",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1288,7 +1427,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "Samplers2.1",
+					"buffername" : "Samplers2.#1",
 					"id" : "obj-8",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -1327,6 +1466,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.59375, 221.0, 112.40625, 20.0 ],
 					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.drop[3]",
@@ -1337,6 +1480,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.588235294117647, 0.588235294117647, 0.588235294117647, 1.0 ],
 					"varname" : "photo_drop"
 				}
 
@@ -1345,7 +1489,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1357,7 +1501,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1737,7 +1881,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 622.0, 326.0, 100.0, 22.0 ],
-													"prefix" : "/Users/Github/Max-patches-public2/ljudbank/",
+													"prefix" : "~/Documents/GitHub/MISK-public2/ljudbank/",
 													"types" : "fold"
 												}
 
@@ -1745,12 +1889,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-5",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 364.0, 162.0, 341.0, 33.0 ],
-													"text" : "Macintosh HD:/Users/Github/Max-patches-public2/MISK_b6/patchers/"
+													"text" : "Macintosh HD:/Users/john/Documents/GitHub/MISK-public2/MISK_b7/patchers/"
 												}
 
 											}
@@ -2930,7 +3074,39 @@
 
 			}
  ],
-		"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+		"parameters" : 		{
+			"obj-140" : [ "live.text[2267]", "loop", 0 ],
+			"obj-162" : [ "grundton_chord_dict", "grundton_chord_dict", 0 ],
+			"obj-22" : [ "live.menu[218]", "live.menu[233]", 0 ],
+			"obj-3" : [ "live.drop[3]", "live.drop[3]", 0 ],
+			"obj-36" : [ "live.text[2271]", "live.text[2271]", 0 ],
+			"obj-44" : [ "live.text[2272]", "live.text[2272]", 0 ],
+			"obj-45" : [ "live.text[1534]", "live.text[1534]", 0 ],
+			"obj-48" : [ "live.menu[1]", "extra_functions", 0 ],
+			"obj-59" : [ "live.text[1958]", "live.text[2272]", 0 ],
+			"obj-64" : [ "live.dial[203]", "live.dial[203]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "loop.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+		"oscreceiveudpport" : 0
 	}
 
 }
