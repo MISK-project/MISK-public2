@@ -2,42 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 5,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 141.0, 154.0, 900.0, 677.0 ],
-		"bglocked" : 0,
+		"rect" : [ 255.0, 154.0, 900.0, 677.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
 		"style" : "MISK2",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-116",
@@ -110,42 +86,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 589.0, 446.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -180,42 +130,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
-											"revision" : 5,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "dsp.gen",
 										"rect" : [ 59.0, 81.0, 600.0, 450.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-9",
@@ -430,13 +354,6 @@
 					}
 ,
 					"patching_rect" : [ 48.0, 952.0, 67.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
 					"text" : "p distortion",
 					"varname" : "distortion"
 				}
@@ -495,7 +412,7 @@
 					"presentation_rect" : [ 99.5, 174.0, 42.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[548]",
+							"parameter_longname" : "live.dial[549]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Overdrive",
 							"parameter_type" : 0,
@@ -553,7 +470,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Sinus", "Square", "Sawtooth", "String" ],
-							"parameter_longname" : "live.tab[101]",
+							"parameter_longname" : "live.tab[102]",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "waveform",
@@ -640,20 +557,6 @@
 					"patching_rect" : [ 849.0, 548.0, 68.0, 22.0 ],
 					"text" : "route k1 k2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1075.0, 907.0, 50.0, 22.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "choose"
 				}
 
 			}
@@ -846,7 +749,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[6]",
+							"parameter_longname" : "Kontroll1[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -856,6 +759,7 @@
 					}
 ,
 					"showname" : 0,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "kontroll1[1]"
 				}
 
@@ -971,42 +875,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 113.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-104",
@@ -1139,13 +1017,6 @@
 					}
 ,
 					"patching_rect" : [ 802.0, 708.0, 55.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
 					"text" : "p noteon",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1167,7 +1038,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1134]",
+							"parameter_longname" : "live.text[386]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[225]",
@@ -1272,7 +1143,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[185]",
+							"parameter_longname" : "live.dial[23]",
 							"parameter_mmax" : 6000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "CutOff",
@@ -1282,6 +1153,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "cutoff"
 				}
 
@@ -1551,7 +1423,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[188]",
+							"parameter_longname" : "live.dial[21]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
@@ -1560,6 +1432,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "FMAmount"
 				}
 
@@ -1582,7 +1455,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[184]",
+							"parameter_longname" : "live.dial[27]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Ratio",
 							"parameter_type" : 0,
@@ -1591,6 +1464,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "FM_ratio"
 				}
 
@@ -1822,7 +1696,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
-							"parameter_longname" : "live.dial[186]",
+							"parameter_longname" : "live.dial[24]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FadeIn",
@@ -1832,6 +1706,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Delay_tid_vibrato"
 				}
 
@@ -1855,7 +1730,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[189]",
+							"parameter_longname" : "live.dial[22]",
 							"parameter_mmax" : 21.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Amount",
@@ -1865,6 +1740,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Vibrato_amount"
 				}
 
@@ -1888,7 +1764,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "live.dial[89]",
+							"parameter_longname" : "live.dial[26]",
 							"parameter_mmax" : 64.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Speed",
@@ -1898,6 +1774,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Vibrato_speed"
 				}
 
@@ -1970,7 +1847,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "boost[3]",
+							"parameter_longname" : "boost[1]",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Gain",
@@ -1980,6 +1857,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "gain"
 				}
 
@@ -2199,7 +2077,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Kontroll1[1]",
+							"parameter_longname" : "Kontroll1[3]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Kontroll1",
 							"parameter_type" : 0,
@@ -2209,6 +2087,7 @@
 					}
 ,
 					"showname" : 0,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "kontroll1"
 				}
 
@@ -2229,7 +2108,6 @@
 						"Filter_mode" : [ "edit_mode", 3 ],
 						"Vibrato_amount" : [ 0.0 ],
 						"Vibrato_speed" : [ 0.0 ],
-						"choose" : [ 127 ],
 						"cutoff" : [ 1482.054000000000315 ],
 						"decay" : [ 262.384524769049392 ],
 						"filter_gain" : [ 0.848411374757405 ],
@@ -2520,7 +2398,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[187]",
+							"parameter_longname" : "live.dial[25]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pulswidth",
 							"parameter_type" : 0,
@@ -2529,6 +2407,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "pulsbredd"
 				}
 
@@ -2548,7 +2427,7 @@
 					"patching_rect" : [ 345.0, 745.0, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 162.0, 132.0, 153.0, 55.0 ],
-					"setfilter" : [ 0, 3, 1, 0, 0, 1091.7655029296875, 0.848411381244659, 0.326940685510635, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 3, 1, 0, 0, 1482.053955078125, 0.848411381244659, 0.326940685510635, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2751,7 +2630,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "release[3]",
+							"parameter_longname" : "release[1]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "release",
@@ -2761,6 +2640,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "release"
 				}
 
@@ -2785,7 +2665,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "sustain[3]",
+							"parameter_longname" : "sustain[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "sustain",
@@ -2795,6 +2675,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "sustain"
 				}
 
@@ -2818,7 +2699,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "decay[3]",
+							"parameter_longname" : "decay[1]",
 							"parameter_mmax" : 2000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "decay",
@@ -2828,6 +2709,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "decay"
 				}
 
@@ -2851,7 +2733,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_longname" : "attack[3]",
+							"parameter_longname" : "attack[1]",
 							"parameter_mmax" : 3000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "attack",
@@ -2861,6 +2743,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "synt_attack"
 				}
 
