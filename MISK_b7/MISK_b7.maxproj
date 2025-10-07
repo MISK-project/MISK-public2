@@ -1,9 +1,9 @@
 {
-	"name" : "MISK_b6",
+	"name" : "MISK_b7",
 	"version" : 1,
 	"creationdate" : 3796723771,
-	"modificationdate" : 3828421412,
-	"viewrect" : [ 865.0, 208.0, 300.0, 500.0 ],
+	"modificationdate" : 3842610692,
+	"viewrect" : [ 614.0, 241.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -60,11 +60,6 @@
 			}
 ,
 			"irrbloss.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"jit.gl.textureset.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -173,6 +168,11 @@
 			}
 ,
 			"yafr2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jit.gl.textureset.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -357,6 +357,11 @@
 				"local" : 1
 			}
 ,
+			"gamepad.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"loop.svg" : 			{
 				"kind" : "vectorimagefile"
 			}
@@ -371,22 +376,12 @@
 				"local" : 1
 			}
 ,
-			"facear.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"forrest.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
 			"fullscreen.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"grid_view.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -449,6 +444,16 @@
 			}
 ,
 			"wfmodes.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"facear.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"grid_view.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -668,12 +673,12 @@
 		}
 ,
 		"data" : 		{
-			"main1.json" : 			{
+			"synth.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"synth.json" : 			{
+			"main1.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -789,7 +794,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Github/Max-patches-public2/MISK_b6/code",
+					"bootpath" : "/Users/Github/Max-patches-public2/MISK_b7/code",
 					"projectrelativepath" : "./code"
 				}
 
