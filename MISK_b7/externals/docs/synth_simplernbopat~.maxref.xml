@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="synth_simplernbopat~">
+<metadatalist>
+<metadata name="tag">audio</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="FMRatio" get="1" set="1" size="1" type="float64">
+<digest>FMRatio</digest>
+</attribute>
+<attribute name="vib_amount" get="1" set="1" size="1" type="float64">
+<digest>vib_amount</digest>
+</attribute>
+<attribute name="FMAmount" get="1" set="1" size="1" type="float64">
+<digest>FMAmount</digest>
+</attribute>
+<attribute name="vibrato_speed" get="1" set="1" size="1" type="float64">
+<digest>vibrato_speed</digest>
+</attribute>
+<attribute name="waveform" get="1" set="1" size="1" type="float64">
+<digest>waveform</digest>
+</attribute>
+<attribute name="vib_delay" get="1" set="1" size="1" type="float64">
+<digest>vib_delay</digest>
+</attribute>
+<attribute name="sq_pulsew" get="1" set="1" size="1" type="float64">
+<digest>sq_pulsew</digest>
+</attribute>
+<attribute name="attack" get="1" set="1" size="1" type="float64">
+<digest>attack</digest>
+</attribute>
+<attribute name="decay" get="1" set="1" size="1" type="float64">
+<digest>decay</digest>
+</attribute>
+<attribute name="sustain" get="1" set="1" size="1" type="float64">
+<digest>sustain</digest>
+</attribute>
+<attribute name="release" get="1" set="1" size="1" type="float64">
+<digest>release</digest>
+</attribute>
+<attribute name="poly/osc.analog/damping" get="1" set="1" size="1" type="float64">
+<digest>damping</digest>
+</attribute>
+<attribute name="poly/osc.analog/decay" get="1" set="1" size="1" type="float64">
+<digest>decay</digest>
+</attribute>
+</attributelist>
+</c74object>

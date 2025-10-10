@@ -1,0 +1,254 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "synth_simple.rnbopat",
+	"origin" : "synth_simple.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"__presetid" : "synth_simple.rnbopat",
+		"FMRatio" : 		{
+			"value" : 157.480314960629926
+		}
+,
+		"attack" : 		{
+			"value" : 125.736251472502815
+		}
+,
+		"vib_amount" : 		{
+			"value" : 0.0
+		}
+,
+		"FMAmount" : 		{
+			"value" : 0.0
+		}
+,
+		"sq_pulsew" : 		{
+			"value" : 0.496062992125984
+		}
+,
+		"vibrato_speed" : 		{
+			"value" : 0.0
+		}
+,
+		"waveform" : 		{
+			"value" : 1.0
+		}
+,
+		"vib_delay" : 		{
+			"value" : 3000.0
+		}
+,
+		"decay" : 		{
+			"value" : 262.384524769049392
+		}
+,
+		"sustain" : 		{
+			"value" : 0.740157480314961
+		}
+,
+		"release" : 		{
+			"value" : 1074.338148676301216
+		}
+,
+		"__sps" : 		{
+			"poly" : [ 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+, 				{
+					"__sps" : 					{
+						"osc.analog" : 						{
+							"decay" : 							{
+								"value" : 10.0
+							}
+,
+							"damping" : 							{
+								"value" : 0.4
+							}
+
+						}
+
+					}
+
+				}
+ ]
+		}
+
+	}
+
+}
