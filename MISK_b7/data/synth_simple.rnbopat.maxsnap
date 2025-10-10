@@ -9,23 +9,23 @@
 	"embed" : 0,
 	"snapshot" : 	{
 		"release" : 		{
-			"value" : 300.0
+			"value" : 1074.338148676301216
 		}
 ,
 		"decay" : 		{
-			"value" : 30.0
+			"value" : 262.384524769049392
 		}
 ,
 		"sq_pulsew" : 		{
-			"value" : 0.0
+			"value" : 0.496062992125984
 		}
 ,
 		"sustain" : 		{
-			"value" : 1.0
+			"value" : 0.740157480314961
 		}
 ,
 		"vib_delay" : 		{
-			"value" : 500.0
+			"value" : 3000.0
 		}
 ,
 		"__sps" : 		{
@@ -225,11 +225,11 @@
 		}
 ,
 		"vibrato_speed" : 		{
-			"value" : 0.2
+			"value" : 0.0
 		}
 ,
 		"attack" : 		{
-			"value" : 10.0
+			"value" : 125.736251472502815
 		}
 ,
 		"FMAmount" : 		{
@@ -237,7 +237,7 @@
 		}
 ,
 		"vib_amount" : 		{
-			"value" : 0.4
+			"value" : 0.0
 		}
 ,
 		"__presetid" : "synth_simple.rnbopat",
@@ -246,7 +246,7 @@
 		}
 ,
 		"FMRatio" : 		{
-			"value" : 0.0
+			"value" : 157.480314960629926
 		}
 
 	}
