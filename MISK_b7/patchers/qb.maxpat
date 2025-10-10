@@ -562,7 +562,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 365.0, 464.0, 24.0, 24.0 ]
+					"patching_rect" : [ 365.0, 451.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1588,7 +1588,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 867.0, 352.0, 640.0, 480.0 ],
+						"rect" : [ 838.0, 352.0, 640.0, 480.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{

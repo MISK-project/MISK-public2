@@ -16,6 +16,18 @@
 		"globalpatchername" : "start",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-167",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1113.0, 670.0, 59.0, 22.0 ],
+					"text" : "r cubesr2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -5530,7 +5542,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 438.0, 55.0, 83.25, 22.0 ],
-					"text" : "1 0.971209"
+					"text" : "1 0.994783"
 				}
 
 			}
