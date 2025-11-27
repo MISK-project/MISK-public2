@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 255.0, 119.0, 1096.0, 712.0 ],
+        "rect": [ 255.0, 119.0, 620.0, 712.0 ],
         "openinpresentation": 1,
         "description": "MISK",
         "style": "MISK2",
@@ -48,7 +48,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 162.0, 453.0, 35.0, 22.0 ],
+                    "patching_rect": [ 141.0, 501.0, 35.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -59,7 +59,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 155.0, 485.0, 51.0, 22.0 ],
+                    "patching_rect": [ 141.0, 533.0, 51.0, 22.0 ],
                     "text": "pcontrol"
                 }
             },
@@ -141,7 +141,7 @@
                         ],
                         "lines": []
                     },
-                    "patching_rect": [ 155.0, 530.0, 78.0, 22.0 ],
+                    "patching_rect": [ 141.0, 561.0, 78.0, 22.0 ],
                     "text": "p aboutMISK"
                 }
             },
@@ -154,7 +154,7 @@
                     "numoutlets": 4,
                     "outlettype": [ "bang", "bang", "", "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 36.0, 454.0, 68.0, 42.0 ],
+                    "patching_rect": [ 124.0, 454.0, 68.0, 42.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 782.0, 2.0, 288.0, 82.0 ]
                 }
@@ -173,7 +173,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 47.0, 1301.0, 249.0, 28.0 ],
+                    "patching_rect": [ 32.0, 1299.0, 249.0, 28.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 16.0, 224.0, 324.0, 21.0 ],
                     "saved_attribute_attributes": {
@@ -855,7 +855,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-97",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -867,7 +867,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-96",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -879,7 +879,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-112",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1066,7 +1066,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-114",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1135,7 +1135,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-83",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1261,7 +1261,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-71",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1288,7 +1288,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-85",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1300,7 +1300,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-65",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -1337,7 +1337,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-56",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1361,7 +1361,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-48",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1429,7 +1429,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-26",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1488,7 +1488,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-137",
                     "maxclass": "newobj",
                     "numinlets": 5,
@@ -2870,7 +2870,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-49",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -2883,7 +2883,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-162",
                     "maxclass": "newobj",
                     "numinlets": 4,
@@ -3396,7 +3396,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-110",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -5214,7 +5214,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-30",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -5426,7 +5426,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-348",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -5448,7 +5448,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-146",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -5484,7 +5484,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-142",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -6000,7 +6000,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-75",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -6252,6 +6252,7 @@
             },
             {
                 "box": {
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-77",
                     "maxclass": "newobj",
                     "numinlets": 7,
@@ -6623,6 +6624,7 @@
             },
             {
                 "box": {
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-76",
                     "maxclass": "newobj",
                     "numinlets": 7,
@@ -7247,6 +7249,7 @@
             },
             {
                 "box": {
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-44",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -7275,6 +7278,7 @@
             },
             {
                 "box": {
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-25",
                     "maxclass": "newobj",
                     "numinlets": 7,
@@ -7287,7 +7291,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 0.964705882352941, 0.12156862745098, 1.0, 1.0 ],
                     "id": "obj-20",
                     "maxclass": "newobj",
@@ -7303,7 +7307,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1096.0, 686.0 ],
+                        "rect": [ 0.0, 26.0, 620.0, 686.0 ],
                         "openinpresentation": 1,
                         "showontab": 1,
                         "globalpatchername": "ut",
@@ -9531,7 +9535,7 @@
                         "kamera::flik": 0,
                         "ljud_in::flik": 0
                     },
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "fontface": 1,
                     "id": "obj-1",
@@ -9694,7 +9698,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-14",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -9706,7 +9710,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 0.964705882352941, 0.12156862745098, 1.0, 1.0 ],
                     "id": "obj-5",
                     "maxclass": "newobj",
@@ -9723,7 +9727,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1096.0, 686.0 ],
+                        "rect": [ 0.0, 26.0, 620.0, 686.0 ],
                         "openinpresentation": 1,
                         "style": "MISK2",
                         "showontab": 1,
@@ -18718,7 +18722,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 0.964705882352941, 0.12156862745098, 1.0, 1.0 ],
                     "id": "obj-152",
                     "maxclass": "newobj",
@@ -18734,7 +18738,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1096.0, 686.0 ],
+                        "rect": [ 0.0, 26.0, 620.0, 686.0 ],
                         "openinpresentation": 1,
                         "showontab": 1,
                         "globalpatchername": "kamera",
@@ -32527,7 +32531,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 0.964705882352941, 0.12156862745098, 1.0, 1.0 ],
                     "id": "obj-123",
                     "maxclass": "newobj",
@@ -32543,7 +32547,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1096.0, 686.0 ],
+                        "rect": [ 0.0, 26.0, 620.0, 686.0 ],
                         "openinpresentation": 1,
                         "showontab": 1,
                         "globalpatchername": "vfx",
@@ -36932,7 +36936,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 458.5, 341.0, 159.0, 22.0 ],
-                                                                    "text": "-1.069836 0.147623 -0.000001"
+                                                                    "text": "-1.017733 0.540128 -0.000001"
                                                                 }
                                                             },
                                                             {
@@ -36966,7 +36970,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 385.0, 229.2236328125, 35.0, 76.0 ],
-                                                                    "text": "-1.069836 0.147623 -0.000001"
+                                                                    "text": "-1.017733 0.540128 -0.000001"
                                                                 }
                                                             },
                                                             {
@@ -39074,7 +39078,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 384.5, 331.0, 200.0, 22.0 ],
-                                                                    "text": "-1.069836 0.264575 0."
+                                                                    "text": "-1.017733 0.437678 0."
                                                                 }
                                                             },
                                                             {
@@ -39085,7 +39089,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 90.0, 336.0, 170.0, 22.0 ],
-                                                                    "text": "0. -1. 0."
+                                                                    "text": "0. 1. 0."
                                                                 }
                                                             },
                                                             {
@@ -40503,7 +40507,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 921.0, 83.0, 133.0, 22.0 ],
-                                                    "text": "-1.069836 0.147623 -0.000001"
+                                                    "text": "-1.017733 0.540128 -0.000001"
                                                 }
                                             },
                                             {
@@ -43350,7 +43354,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 331.0, 158.0, 272.0, 22.0 ],
-                                                                    "text": "-1.069836 0.147623 -0.000001"
+                                                                    "text": "-1.017733 0.540128 -0.000001"
                                                                 }
                                                             },
                                                             {
@@ -43491,13 +43495,12 @@
                                             {
                                                 "box": {
                                                     "id": "obj-17",
-                                                    "linecount": 2,
                                                     "maxclass": "message",
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 40.0, 92.0, 159.0, 35.0 ],
-                                                    "text": "mousePos 0.802377 0.147623"
+                                                    "text": "mousePos 0.7633 0.540128"
                                                 }
                                             },
                                             {
@@ -44992,7 +44995,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 313.0, 340.0, 50.0, 35.0 ],
-                                                                    "text": "592.559029"
+                                                                    "text": "858.976043"
                                                                 }
                                                             },
                                                             {
@@ -53769,7 +53772,7 @@
                                     "patching_rect": [ 735.0, 683.0, 53.5, 20.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 422.0, 215.0, 50.0, 20.0 ],
-                                    "text": "0 1"
+                                    "text": "1 0"
                                 }
                             },
                             {
@@ -54408,7 +54411,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 1075.0, 144.0, 74.0, 49.0 ],
-                                                    "text": "-1.069836 0.147623 -0.000001"
+                                                    "text": "-1.017733 0.540128 -0.000001"
                                                 }
                                             },
                                             {
@@ -59176,6 +59179,7 @@
             },
             {
                 "box": {
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-17",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -59188,7 +59192,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-2",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -59200,7 +59204,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 0.964705882352941, 0.12156862745098, 1.0, 1.0 ],
                     "id": "obj-131",
                     "maxclass": "newobj",
@@ -59217,7 +59221,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1096.0, 686.0 ],
+                        "rect": [ 255.0, 145.0, 620.0, 686.0 ],
                         "openinpresentation": 1,
                         "style": "MISK2",
                         "showontab": 1,
@@ -71916,7 +71920,7 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ],
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                                     "id": "obj-308",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
@@ -79100,7 +79104,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 787.0, 334.0, 50.0, 22.0 ],
-                                                    "text": "3"
+                                                    "text": "1"
                                                 }
                                             },
                                             {
@@ -79122,7 +79126,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 817.0, 230.0, 50.0, 22.0 ],
-                                                    "text": "3"
+                                                    "text": "1"
                                                 }
                                             },
                                             {
@@ -79396,7 +79400,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 147.0, 217.0, 50.0, 22.0 ],
-                                                                    "text": "324"
+                                                                    "text": "451"
                                                                 }
                                                             },
                                                             {
@@ -79407,7 +79411,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 181.0, 394.0, 50.0, 22.0 ],
-                                                                    "text": "3"
+                                                                    "text": "1"
                                                                 }
                                                             },
                                                             {
@@ -82524,7 +82528,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-209",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -82577,7 +82581,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 0.964705882352941, 0.12156862745098, 1.0, 1.0 ],
                     "id": "obj-214",
                     "maxclass": "newobj",
@@ -82593,7 +82597,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1096.0, 686.0 ],
+                        "rect": [ 0.0, 26.0, 620.0, 686.0 ],
                         "openinpresentation": 1,
                         "style": "MISK2",
                         "showontab": 2,
@@ -97125,7 +97129,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-113",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -97148,7 +97152,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-234",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -97160,7 +97164,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "color": [ 0.890196078431372, 0.164705882352941, 0.074509803921569, 1.0 ],
                     "fontface": 1,
                     "id": "obj-4",
@@ -97631,7 +97635,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -97644,7 +97648,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -97694,7 +97698,7 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "id": "obj-3",
                     "maxclass": "newobj",
                     "numinlets": 1,

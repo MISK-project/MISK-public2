@@ -22,7 +22,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 2251.0, 401.0, 61.0, 22.0 ],
+                    "patching_rect": [ 2187.5, 458.0, 61.0, 22.0 ],
                     "text": "s cubesr2"
                 }
             },
@@ -89,7 +89,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 11.0, 640.0, 30.0, 30.0 ]
+                    "patching_rect": [ -1.0, 632.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -135,7 +135,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 52.0, 190.0, 41.0, 22.0 ],
+                    "patching_rect": [ 52.0, 161.0, 41.0, 22.0 ],
                     "text": "set $1"
                 }
             },
@@ -171,7 +171,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 25.0, 159.0, 46.0, 22.0 ],
+                    "patching_rect": [ 25.0, 134.0, 46.0, 22.0 ],
                     "text": "route 0"
                 }
             },
@@ -325,7 +325,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 15.0, 107.0, 56.0, 22.0 ],
+                    "patching_rect": [ 11.0, 79.0, 56.0, 22.0 ],
                     "restore": {
                         "Startup-sel": [ 1 ],
                         "bg_color": [ 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0 ],
@@ -508,7 +508,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 2156.0, 446.0, 174.0, 22.0 ],
+                    "patching_rect": [ 2156.0, 492.0, 174.0, 22.0 ],
                     "text": "pattrforward :vfx::cub2_amount"
                 }
             },
@@ -520,7 +520,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 2102.0, 481.0, 174.0, 22.0 ],
+                    "patching_rect": [ 2102.0, 527.0, 174.0, 22.0 ],
                     "text": "pattrforward :vfx::cub1_amount"
                 }
             },
@@ -2899,7 +2899,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 11.0, 74.0, 67.0, 22.0 ],
+                    "patching_rect": [ 11.0, 50.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -3177,7 +3177,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-51", 0 ],
-                    "midpoints": [ 61.5, 213.0, 93.0, 213.0, 93.0, 135.0, 84.0, 135.0, 84.0, 9.0, 195.5, 9.0 ],
+                    "midpoints": [ 61.5, 186.0, 12.0, 186.0, 12.0, 111.0, 84.0, 111.0, 84.0, 9.0, 195.5, 9.0 ],
                     "source": [ "obj-123", 0 ]
                 }
             },
@@ -3266,7 +3266,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
-                    "midpoints": [ 108.5, 120.0, 81.0, 120.0, 81.0, 144.0, 0.0, 144.0, 0.0, 615.0, 20.5, 615.0 ],
+                    "midpoints": [ 108.5, 120.0, 8.5, 120.0 ],
                     "order": 10,
                     "source": [ "obj-19", 0 ]
                 }
@@ -3274,7 +3274,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-43", 0 ],
-                    "midpoints": [ 108.5, 120.0, 81.0, 120.0, 81.0, 144.0, 34.5, 144.0 ],
+                    "midpoints": [ 108.5, 120.0, 34.5, 120.0 ],
                     "order": 9,
                     "source": [ "obj-19", 0 ]
                 }
@@ -3750,6 +3750,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
+                    "midpoints": [ 2165.5, 444.0, 2197.0, 444.0 ],
                     "order": 0,
                     "source": [ "obj-71", 0 ]
                 }
