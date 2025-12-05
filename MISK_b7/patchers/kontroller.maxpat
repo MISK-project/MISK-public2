@@ -321,7 +321,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[554]",
+                            "parameter_longname": "live.text[38]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "process",
@@ -528,7 +528,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 270.0, 166.0, 640.0, 480.0 ],
+                        "rect": [ 45.0, 160.0, 1011.0, 483.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -768,7 +769,8 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 270.0, 166.0, 929.0, 480.0 ],
+                                        "rect": [ 460.0, 230.0, 929.0, 480.0 ],
+                                        "visible": 1,
                                         "boxes": [
                                             {
                                                 "box": {
@@ -894,6 +896,7 @@
                                             {
                                                 "box": {
                                                     "id": "obj-86",
+                                                    "int": 1,
                                                     "maxclass": "gswitch2",
                                                     "numinlets": 2,
                                                     "numoutlets": 2,
@@ -1842,7 +1845,7 @@
                                                     "numinlets": 1,
                                                     "numoutlets": 2,
                                                     "outlettype": [ "", "" ],
-                                                    "patching_rect": [ 94.0, 323.0, 63.0, 22.0 ],
+                                                    "patching_rect": [ 95.0, 323.0, 63.0, 22.0 ],
                                                     "text": "t getkeys l"
                                                 }
                                             },
@@ -1871,13 +1874,12 @@
                                             {
                                                 "box": {
                                                     "id": "obj-76",
-                                                    "linecount": 4,
                                                     "maxclass": "message",
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
-                                                    "patching_rect": [ 187.0, 394.0, 103.0, 62.0 ],
-                                                    "text": "/MISKBallApp/StringH_ID /MISKBallApp/IPnumberPhone"
+                                                    "patching_rect": [ 227.0, 394.0, 103.0, 22.0 ],
+                                                    "text": "amplitude pitch"
                                                 }
                                             },
                                             {
@@ -1971,7 +1973,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-14", 0 ],
-                                                    "midpoints": [ 235.5, 351.0, 361.5, 351.0 ],
+                                                    "midpoints": [ 235.5, 337.0859375, 361.5, 337.0859375 ],
                                                     "source": [ "obj-121", 0 ]
                                                 }
                                             },
@@ -2135,6 +2137,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-9", 0 ],
+                                                    "midpoints": [ 136.5, 540.0, 29.5, 540.0 ],
                                                     "source": [ "obj-26", 0 ]
                                                 }
                                             },
@@ -2147,7 +2150,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-34", 0 ],
-                                                    "midpoints": [ 146.5, 417.0, 174.0, 417.0, 174.0, 432.0, 200.5, 432.0 ],
+                                                    "midpoints": [ 146.5, 417.0, 200.5, 417.0 ],
                                                     "source": [ "obj-27", 2 ]
                                                 }
                                             },
@@ -2225,7 +2228,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-76", 1 ],
-                                                    "midpoints": [ 125.5, 378.0, 280.5, 378.0 ],
+                                                    "midpoints": [ 125.5, 378.0, 320.5, 378.0 ],
                                                     "order": 0,
                                                     "source": [ "obj-68", 2 ]
                                                 }
@@ -2358,7 +2361,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-135", 0 ],
-                                                    "midpoints": [ 104.5, 312.0, 103.5, 312.0 ],
+                                                    "midpoints": [ 104.5, 312.0, 104.5, 312.0 ],
                                                     "source": [ "obj-89", 1 ]
                                                 }
                                             },
@@ -2928,12 +2931,13 @@
             {
                 "box": {
                     "id": "obj-31",
+                    "linecount": 2,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 73.5, 1399.5, 50.0, 22.0 ],
-                    "text": "0."
+                    "patching_rect": [ 73.5, 1399.5, 50.0, 35.0 ],
+                    "text": "0.044775"
                 }
             },
             {
@@ -3136,7 +3140,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 65.0, 2100.0, 50.0, 22.0 ],
-                    "text": "1"
+                    "text": "3"
                 }
             },
             {
@@ -3218,7 +3222,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 571.0, 448.00000578165054, 106.0, 22.0 ],
-                    "text": "VFX_cubes_2"
+                    "text": "Quickbuttons"
                 }
             },
             {
@@ -3711,7 +3715,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 439.0, 306.0, 640.0, 480.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -4212,7 +4215,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "Index", "Value" ],
-                            "parameter_longname": "live.tab[20]",
+                            "parameter_longname": "live.tab[3]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "index_value_toggle",
@@ -4960,7 +4963,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ -133.375, 784.0, 131.75, 22.0 ],
-                    "text": "0 0"
+                    "text": "0.018333"
                 }
             },
             {
@@ -5165,7 +5168,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 268.0, 2320.0, 50.0, 22.0 ],
-                    "text": "1 0"
+                    "text": "3 3"
                 }
             },
             {
@@ -5183,7 +5186,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_invisible": 2,
-                            "parameter_longname": "live.numbox[635]",
+                            "parameter_longname": "live.numbox[730]",
                             "parameter_mmax": 10000.0,
                             "parameter_mmin": -10000.0,
                             "parameter_modmode": 3,
@@ -5498,7 +5501,7 @@
                     "patching_rect": [ 252.0, 418.00000578165054, 117.5, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 14.5, 627.0, 108.0, 20.0 ],
-                    "text": "VFX_cubes_2",
+                    "text": "Quickbuttons",
                     "textcolor": [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
                     "varname": "kontrollnamn"
                 }
@@ -5524,7 +5527,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[628]",
+                            "parameter_longname": "live.text[353]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "active",
@@ -5568,7 +5571,7 @@
                     "patching_rect": [ 290.5, 532.0, 51.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 140.0, 100.0, 53.0, 20.0 ],
-                    "text": "0",
+                    "text": "All",
                     "varname": "filter"
                 }
             },
@@ -5591,7 +5594,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ -133.0, 745.6000115275383, 131.0, 22.0 ],
-                    "text": "2_VFX_kuber"
+                    "text": "Aux::amplitude"
                 }
             },
             {
@@ -6801,7 +6804,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_invisible": 2,
-                            "parameter_longname": "live.numbox[637]",
+                            "parameter_longname": "live.numbox[476]",
                             "parameter_mmax": 10000.0,
                             "parameter_mmin": -10000.0,
                             "parameter_modmode": 3,
@@ -6877,7 +6880,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[627]",
+                            "parameter_longname": "live.text[508]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text[4]",
@@ -6902,7 +6905,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[626]",
+                            "parameter_longname": "live.text[509]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text[4]",
@@ -6928,7 +6931,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.numbox[634]",
+                            "parameter_longname": "live.numbox[7]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text[3]",
@@ -6953,7 +6956,7 @@
                     "presentation_rect": [ 124.5, 629.0, 34.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.numbox[630]",
+                            "parameter_longname": "live.numbox[475]",
                             "parameter_modmode": 3,
                             "parameter_shortname": "index",
                             "parameter_type": 0,
@@ -6974,7 +6977,7 @@
                     "bgfillcolor_proportion": 0.39,
                     "bgfillcolor_type": "color",
                     "id": "obj-200",
-                    "items": [ "Through", ",", "Off/On", ",", "Peaks", ",", "Remap", ",", "Delta", ",", "Step", ",", "Auto", ",", "Keys" ],
+                    "items": [ "None", ",", "Off/On", ",", "Peaks", ",", "Remap", ",", "Delta", ",", "Step", ",", "Auto", ",", "Keys" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -7026,7 +7029,7 @@
                     "presentation_rect": [ 59.0, 274.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.numbox[647]",
+                            "parameter_longname": "live.numbox[473]",
                             "parameter_mmin": -127.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "offset",
@@ -7051,7 +7054,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[629]",
+                            "parameter_longname": "live.text[39]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text[1]",
@@ -7077,7 +7080,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[625]",
+                            "parameter_longname": "live.text[511]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "slide_toggle",
@@ -7104,9 +7107,9 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 2.0,
-                            "parameter_longname": "live.dial[191]",
+                            "parameter_longname": "live.dial[75]",
                             "parameter_modmode": 3,
-                            "parameter_shortname": "Up",
+                            "parameter_shortname": "Down",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
@@ -7129,9 +7132,9 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 2.0,
-                            "parameter_longname": "live.dial[47]",
+                            "parameter_longname": "live.dial[76]",
                             "parameter_modmode": 3,
-                            "parameter_shortname": "Down",
+                            "parameter_shortname": "Up",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
@@ -7296,12 +7299,13 @@
                             {
                                 "box": {
                                     "id": "obj-8",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 286.5, 87.0, 50.0, 22.0 ],
-                                    "text": "0"
+                                    "text": "0.018333"
                                 }
                             },
                             {
@@ -7395,7 +7399,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 153.0, 412.0, 50.0, 22.0 ],
-                                    "text": "0."
+                                    "text": "52."
                                 }
                             },
                             {
@@ -8569,7 +8573,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[630]",
+                            "parameter_longname": "live.text[510]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -8616,7 +8620,7 @@
                     "presentation_rect": [ 33.0, 197.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.numbox[632]",
+                            "parameter_longname": "live.numbox[474]",
                             "parameter_mmax": 10000.0,
                             "parameter_mmin": -10000.0,
                             "parameter_modmode": 3,
@@ -8641,7 +8645,7 @@
                     "presentation_rect": [ 105.0, 197.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.numbox[631]",
+                            "parameter_longname": "live.numbox[477]",
                             "parameter_mmax": 10000.0,
                             "parameter_mmin": -10000.0,
                             "parameter_modmode": 3,
@@ -8667,7 +8671,7 @@
             {
                 "box": {
                     "id": "obj-97",
-                    "items": [ "All", ",", 0, ",", 1, ",", 2, ",", 3, ",", 4 ],
+                    "items": [ "All", ",", 1, ",", 2, ",", 3, ",", 4 ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -8731,17 +8735,17 @@
                         "Index_in": [ 0.0 ],
                         "Index_ut": [ 1.0 ],
                         "Value_in": [ 0.0 ],
-                        "Value_ut": [ 0.0 ],
+                        "Value_ut": [ 1.0 ],
                         "bar1": [ 0 ],
                         "bar2": [ 0 ],
-                        "bar2[1]": [ 1 ],
+                        "bar2[1]": [ 0 ],
                         "blink1": [ 1.0 ],
                         "function": [ 0 ],
                         "indexvaluetoggle": [ 0.0 ],
                         "invertera": [ 0.0 ],
-                        "key_chooser": [ "All" ],
-                        "ktrl_select": [ 12 ],
-                        "learn_toggle": [ 0.0 ],
+                        "key_chooser": [ "3" ],
+                        "ktrl_select": [ 9 ],
+                        "learn_toggle": [ 1.0 ],
                         "offset_toggle": [ 0.0 ],
                         "offset_value": [ 0.0 ],
                         "process": [ 1.0 ],
@@ -8833,7 +8837,7 @@
                     "presentation_rect": [ 160.5, 629.0, 34.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.numbox[633]",
+                            "parameter_longname": "live.numbox[729]",
                             "parameter_modmode": 3,
                             "parameter_shortname": "value",
                             "parameter_type": 0,

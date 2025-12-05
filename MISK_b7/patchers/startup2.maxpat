@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 255.0, 132.0, 562.0, 751.0 ],
+        "rect": [ 766.0, 94.0, 562.0, 751.0 ],
         "openinpresentation": 1,
         "globalpatchername": "start",
         "boxes": [
@@ -563,7 +563,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 514.0, 1600.0, 115.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 949.0, 115.0, 22.0 ],
+                    "presentation_rect": [ 4609.0, 34.0, 115.0, 22.0 ],
                     "style": "MISK2",
                     "varname": "function"
                 }
@@ -588,7 +588,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 1078.0, 1557.0, 115.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 127.0, 949.0, 115.0, 22.0 ],
+                    "presentation_rect": [ 4732.0, 34.0, 115.0, 22.0 ],
                     "text": "Controller settings..."
                 }
             },
@@ -625,7 +625,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 122.0, 1673.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 127.0, 1105.0, 35.0, 15.0 ],
+                    "presentation_rect": [ 4732.0, 190.0, 35.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -743,7 +743,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 116.0, 1885.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 126.0, 1132.0, 37.0, 15.0 ],
+                    "presentation_rect": [ 4731.0, 217.0, 37.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -801,7 +801,7 @@
                     "patching_rect": [ 283.0, 1800.0, 179.0, 22.0 ],
                     "prefix": "/Users/Github/Max-patches/ljudbank/Lead 1/",
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 1128.0, 113.0, 22.0 ],
+                    "presentation_rect": [ 4610.0, 213.0, 113.0, 22.0 ],
                     "textcolor": [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ]
                 }
             },
@@ -829,7 +829,7 @@
                     "patching_rect": [ 252.0, 1679.0, 81.0, 22.0 ],
                     "prefix": "/Users/Github/Max-patches-public2/ljudbank/",
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 1101.0, 113.0, 22.0 ],
+                    "presentation_rect": [ 4610.0, 186.0, 113.0, 22.0 ],
                     "textcolor": [ 0.10257750749588, 0.037175092846155, 0.013076792471111, 1.0 ],
                     "types": "fold"
                 }
@@ -1679,7 +1679,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 686.75, 1426.0, 25.0, 23.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 162.0, 1080.0, 45.0, 23.0 ],
+                    "presentation_rect": [ 4767.0, 165.0, 45.0, 23.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 127.0 ],
@@ -1706,7 +1706,7 @@
                     "patching_rect": [ 514.0, 1878.0, 37.0, 31.0 ],
                     "pictures": [ "play_arrow.svg", "play_arrow.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 7.0, 973.0, 22.0, 21.75 ],
+                    "presentation_rect": [ 4612.0, 58.0, 22.0, 21.75 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -1749,7 +1749,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 39.0, 1421.0, 69.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 1026.0, 153.0, 74.0 ],
+                    "presentation_rect": [ 4610.0, 111.0, 153.0, 74.0 ],
                     "size": 1.0
                 }
             },
@@ -1765,7 +1765,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 819.25, 1894.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 162.0, 1063.0, 32.99999999999994, 15.0 ],
+                    "presentation_rect": [ 4767.0, 148.0, 32.99999999999994, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "0", "1" ],
@@ -1813,7 +1813,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 811.25, 1806.0, 69.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 162.0, 1029.0, 56.0, 15.0 ],
+                    "presentation_rect": [ 4767.0, 114.0, 56.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Trigger", "Gate", "Toggle", "Mute" ],
@@ -1840,7 +1840,7 @@
                     "patching_rect": [ 552.25, 1806.0, 44.0, 15.0 ],
                     "pictures": [ "loop.svg", "loop.svg" ],
                     "presentation": 1,
-                    "presentation_rect": [ 162.0, 1046.0, 32.99999999999994, 15.0 ],
+                    "presentation_rect": [ 4767.0, 131.0, 32.99999999999994, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "0", "1" ],
@@ -1876,7 +1876,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 14.0, 984.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 1007.0, 148.0, 20.0 ],
+                    "presentation_rect": [ 4610.0, 92.0, 148.0, 20.0 ],
                     "text": "Sample - drop file here "
                 }
             },
@@ -1890,7 +1890,7 @@
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
                     "patching_rect": [ 23.5, 1430.0, 69.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 1029.0, 146.0, 67.0 ]
+                    "presentation_rect": [ 4613.0, 114.0, 146.0, 67.0 ]
                 }
             },
             {
@@ -1960,7 +1960,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 22.0, 1395.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 927.0, 150.0, 20.0 ],
+                    "presentation_rect": [ 4608.0, 12.0, 150.0, 20.0 ],
                     "text": "Mic to Audiofiles"
                 }
             },
@@ -2098,10 +2098,10 @@
                         "fa_scale": [ 0.0 ],
                         "function": [ 0 ],
                         "gain_samplepad_ch": [ 127.0 ],
-                        "key_chord[1]": [ 6 ],
-                        "key_chord[2]": [ 11 ],
-                        "key_chord[3]": [ 1 ],
-                        "key_chord[4]": [ 3 ],
+                        "key_chord[1]": [ 4 ],
+                        "key_chord[2]": [ 9 ],
+                        "key_chord[3]": [ 11 ],
+                        "key_chord[4]": [ 1 ],
                         "key_chord[5]": [ 0 ],
                         "key_chord[6]": [ 0 ],
                         "key_chord[7]": [ 0 ],
@@ -3004,6 +3004,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-265",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3017,6 +3018,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-266",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3030,6 +3032,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-267",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3043,6 +3046,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-268",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3056,6 +3060,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-264",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3069,6 +3074,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-263",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3082,6 +3088,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-262",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3095,6 +3102,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-260",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -3120,6 +3128,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-202",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3175,6 +3184,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-227",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3230,6 +3240,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-232",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3285,6 +3296,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-237",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3340,6 +3352,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-241",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3394,6 +3407,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-245",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3448,6 +3462,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-250",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3502,6 +3517,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "fontface": 0,
+                    "hidden": 1,
                     "id": "obj-257",
                     "items": [ "Off", ",", "A", ",", "Bb", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "Ab" ],
                     "maxclass": "umenu",
@@ -3600,6 +3616,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-198",
                     "maxclass": "live.menu",
                     "numinlets": 1,
