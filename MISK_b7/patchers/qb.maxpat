@@ -276,7 +276,7 @@
                         "chord_dict": [ "minor" ],
                         "extra_functions_menu": [ 0.0 ],
                         "grundton_chord_dict": [ 0 ],
-                        "live.dial": [ 127.0 ],
+                        "live.dial": [ 98.00000000000004 ],
                         "live.menu": [ 0.0 ],
                         "live.text": [ 0.0 ],
                         "live.text[1]": [ 0.0 ],
@@ -335,7 +335,8 @@
             },
             {
                 "box": {
-                    "activeneedlecolor": [ 0.286274509803922, 0.349019607843137, 1.0, 1.0 ],
+                    "activefgdialcolor": [ 0.38823529411764707, 0.38823529411764707, 0.38823529411764707, 1.0 ],
+                    "activeneedlecolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "appearance": 1,
                     "id": "obj-64",
                     "maxclass": "live.dial",
@@ -347,6 +348,9 @@
                     "presentation": 1,
                     "presentation_rect": [ 81.5, 2.0, 33.5, 23.0 ],
                     "saved_attribute_attributes": {
+                        "activefgdialcolor": {
+                            "expression": ""
+                        },
                         "activeneedlecolor": {
                             "expression": ""
                         },
@@ -365,7 +369,6 @@
                         }
                     },
                     "showname": 0,
-                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "tricolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "varname": "live.dial"
                 }

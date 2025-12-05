@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 188.0, 179.0, 576.0, 688.0 ],
+        "rect": [ 113.0, 141.0, 699.0, 707.0 ],
         "openinpresentation": 1,
         "description": "Startup guide",
         "globalpatchername": "startup",
@@ -28,7 +28,6 @@
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-41",
                     "maxclass": "live.tab",
                     "num_lines_patching": 1,
@@ -69,9 +68,9 @@
                     "presentation_rect": [ 7.5, 146.0, 159.0, 20.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "Cubes", "2Cubes", "X", "Y" ],
+                            "parameter_enum": [ "1 Row", "2 Rows" ],
                             "parameter_longname": "live.tab[163]",
-                            "parameter_mmax": 3,
+                            "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "pointer_selector",
                             "parameter_type": 2,
@@ -334,7 +333,7 @@
                         "kuber_co": [ 7.0 ],
                         "mic_sel": [ 0.0 ],
                         "pointer_sel": [ 1.0 ],
-                        "pointer_selector": [ 0.0 ],
+                        "pointer_selector": [ 1.0 ],
                         "pointer_size": [ 0.141259842519685 ],
                         "qb1": [ 0.0 ],
                         "qb2": [ 0.0 ],
@@ -526,7 +525,6 @@
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-71",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -805,7 +803,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 514.0, 26.0, 50.0, 22.0 ],
-                                    "text": "p ktrl 0"
+                                    "text": "p ktrl 1"
                                 }
                             },
                             {
@@ -2048,7 +2046,10 @@
                 "box": {
                     "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "activetextoncolor": [ 0.031372549019608, 0.031372549019608, 0.031372549019608, 1.0 ],
+                    "annotation": "Press \"Learn\" and then one of the big round Quickbuttons to activate learning mode. Then press the physical button you want to use to pair with that Quickbutton. Repeat process until done. ",
+                    "annotation_name": "Learn",
                     "hidden": 1,
+                    "hint": "Press \"Learn\" and then one of the big round Quickbuttons to activate learning mode. Then press the physical button you want to use to pair with that Quickbutton. Repeat process until done. ",
                     "id": "obj-53",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2057,7 +2058,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1469.0, 91.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 481.0, 166.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 220.0, 143.0, 49.0, 23.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": "themecolor.live_display_scale_text"
@@ -2079,7 +2080,7 @@
                             "parameter_longname": "live.text[2190]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.text[2190]",
+                            "parameter_shortname": "qb_learn",
                             "parameter_type": 2
                         }
                     },
