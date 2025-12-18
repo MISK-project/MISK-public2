@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 224.0, 190.0, 1070.0, 714.0 ],
+        "rect": [ 206.0, 166.0, 1070.0, 714.0 ],
         "openinpresentation": 1,
         "description": "MISK",
         "style": "MISK2",
@@ -55822,7 +55822,6 @@
                                         "tempo_noisepattern": [ 0 ],
                                         "vfx_bg_color": [ 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0 ],
                                         "vfx_pointer": [ 1.0 ],
-                                        "video_selector": [ 0 ],
                                         "video_vol": [ 0.0 ]
                                     },
                                     "text": "autopattr",
@@ -75719,7 +75718,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 81.0, 699.0, 50.0, 22.0 ],
-                                                    "text": "64 106"
+                                                    "text": "52 101"
                                                 }
                                             },
                                             {
@@ -76682,7 +76681,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 247.0, 411.809814453125, 55.0, 22.0 ],
-                                                    "text": "12 12 12"
+                                                    "text": "0 12 0"
                                                 }
                                             },
                                             {
@@ -79336,7 +79335,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 787.0, 334.0, 50.0, 22.0 ],
-                                                    "text": "2"
+                                                    "text": "1"
                                                 }
                                             },
                                             {
@@ -79358,7 +79357,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 817.0, 230.0, 50.0, 22.0 ],
-                                                    "text": "2"
+                                                    "text": "1"
                                                 }
                                             },
                                             {
@@ -79631,7 +79630,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 147.0, 217.0, 50.0, 22.0 ],
-                                                                    "text": "282"
+                                                                    "text": "252"
                                                                 }
                                                             },
                                                             {
@@ -79642,7 +79641,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 181.0, 394.0, 50.0, 22.0 ],
-                                                                    "text": "2"
+                                                                    "text": "1"
                                                                 }
                                                             },
                                                             {
@@ -82837,7 +82836,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 224.0, 216.0, 1070.0, 688.0 ],
+                        "rect": [ 0.0, 26.0, 1070.0, 688.0 ],
                         "openinpresentation": 1,
                         "style": "MISK2",
                         "showontab": 2,
@@ -95311,6 +95310,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 12.0,
                                                                     "id": "obj-22",
+                                                                    "linecount": 2,
                                                                     "maxclass": "newobj",
                                                                     "numinlets": 0,
                                                                     "numoutlets": 1,
@@ -95324,7 +95324,7 @@
                                                                     "fontname": "Arial",
                                                                     "fontsize": 12.0,
                                                                     "id": "obj-21",
-                                                                    "linecount": 2,
+                                                                    "linecount": 3,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,

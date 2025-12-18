@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 987.0, 187.0, 223.0, 707.0 ],
+        "rect": [ 802.0, 195.0, 258.0, 692.0 ],
         "openinpresentation": 1,
         "description": "Startup guide",
         "globalpatchername": "startup",
@@ -2055,6 +2055,7 @@
             {
                 "box": {
                     "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activetextcolor": [ 0.8784313725490196, 0.8784313725490196, 0.8784313725490196, 1.0 ],
                     "activetextoncolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "annotation": "Press \"Learn\" and then one of the big round Quickbuttons to activate learning mode. Then press the physical button you want to use to pair with that Quickbutton. Repeat process until done. ",
                     "annotation_name": "Learn",
