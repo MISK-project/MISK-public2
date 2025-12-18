@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 113.0, 141.0, 699.0, 707.0 ],
+        "rect": [ 987.0, 187.0, 223.0, 707.0 ],
         "openinpresentation": 1,
         "description": "Startup guide",
         "globalpatchername": "startup",
@@ -28,6 +28,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-41",
                     "maxclass": "live.tab",
                     "num_lines_patching": 1,
@@ -55,6 +56,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-36",
                     "maxclass": "live.tab",
                     "num_lines_patching": 1,
@@ -340,7 +342,7 @@
                         "qb3": [ 0.0 ],
                         "qb4": [ 0.0 ],
                         "qb_learn": [ 0.0 ],
-                        "startup_ctrl_selector": [ 1.0 ]
+                        "startup_ctrl_selector": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u564058991"
@@ -407,6 +409,7 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "gradient": 1,
+                    "hidden": 1,
                     "id": "obj-94",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -525,6 +528,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-71",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -548,11 +552,13 @@
                             "parameter_unitstyle": 0
                         }
                     },
+                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "cubes2"
                 }
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-136",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -576,11 +582,13 @@
                             "parameter_unitstyle": 0
                         }
                     },
+                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "kuber_co"
                 }
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-70",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -593,6 +601,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-199",
                     "maxclass": "swatch",
                     "numinlets": 3,
@@ -629,6 +638,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-26",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -652,6 +662,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
+                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "pointer_size"
                 }
             },
@@ -1996,7 +2007,6 @@
             {
                 "box": {
                     "fontface": 1,
-                    "hidden": 1,
                     "id": "obj-60",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -2044,11 +2054,10 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
-                    "activetextoncolor": [ 0.031372549019608, 0.031372549019608, 0.031372549019608, 1.0 ],
+                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activetextoncolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "annotation": "Press \"Learn\" and then one of the big round Quickbuttons to activate learning mode. Then press the physical button you want to use to pair with that Quickbutton. Repeat process until done. ",
                     "annotation_name": "Learn",
-                    "hidden": 1,
                     "hint": "Press \"Learn\" and then one of the big round Quickbuttons to activate learning mode. Then press the physical button you want to use to pair with that Quickbutton. Repeat process until done. ",
                     "id": "obj-53",
                     "maxclass": "live.text",
@@ -2172,7 +2181,6 @@
                     "bgfillcolor_proportion": 0.5,
                     "bgfillcolor_type": "color",
                     "gradient": 1,
-                    "hidden": 1,
                     "id": "obj-76",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -2276,11 +2284,10 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
-                    "activetextoncolor": [ 0.031372549019608, 0.031372549019608, 0.031372549019608, 1.0 ],
-                    "bgoncolor": [ 0.654901960784314, 0.654901960784314, 0.654901960784314, 1.0 ],
+                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activetextoncolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "bgoncolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
                     "fontsize": 18.0,
-                    "hidden": 1,
                     "id": "obj-102",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2329,11 +2336,10 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
-                    "activetextoncolor": [ 0.031372549019608, 0.031372549019608, 0.031372549019608, 1.0 ],
-                    "bgoncolor": [ 0.654901960784314, 0.654901960784314, 0.654901960784314, 1.0 ],
+                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activetextoncolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "bgoncolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
                     "fontsize": 18.0,
-                    "hidden": 1,
                     "id": "obj-100",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2382,11 +2388,10 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
-                    "activetextoncolor": [ 0.031372549019608, 0.031372549019608, 0.031372549019608, 1.0 ],
-                    "bgoncolor": [ 0.654901960784314, 0.654901960784314, 0.654901960784314, 1.0 ],
+                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activetextoncolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "bgoncolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
                     "fontsize": 18.0,
-                    "hidden": 1,
                     "id": "obj-97",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2435,11 +2440,10 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
-                    "activetextoncolor": [ 0.031372549019608, 0.031372549019608, 0.031372549019608, 1.0 ],
-                    "bgoncolor": [ 0.654901960784314, 0.654901960784314, 0.654901960784314, 1.0 ],
+                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activetextoncolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "bgoncolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
                     "fontsize": 18.0,
-                    "hidden": 1,
                     "id": "obj-91",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2704,7 +2708,8 @@
                     "outlettype": [ "float", "int" ],
                     "patching_rect": [ 2564.0, 209.0, 116.0, 14.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 49.0, 171.0, 116.0, 14.0 ]
+                    "presentation_rect": [ 49.0, 171.0, 116.0, 14.0 ],
+                    "slidercolor": [ 0.12156862745098039, 0.12156862745098039, 0.12156862745098039, 1.0 ]
                 }
             },
             {
@@ -2871,7 +2876,7 @@
                     "name": "startup2.maxpat",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "offset": [ -510.0, 0.0 ],
+                    "offset": [ -4033.0, 0.0 ],
                     "patching_rect": [ 532.0, 426.0, 495.0, 217.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 207.0, 513.0, 332.0 ],
@@ -3011,7 +3016,7 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
                     "fontsize": 11.0,
                     "hidden": 1,
                     "id": "obj-104",
@@ -3039,6 +3044,7 @@
                             "parameter_type": 2
                         }
                     },
+                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "mic_sel"
                 }
             }
