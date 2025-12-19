@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 206.0, 166.0, 1070.0, 714.0 ],
+        "rect": [ 270.0, 175.0, 1070.0, 714.0 ],
         "openinpresentation": 1,
         "description": "MISK",
         "style": "MISK2",
@@ -18,6 +18,39 @@
         "globalpatchername": "miskroot",
         "title": "MISK",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-166",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 1242.0, 187.0, 55.0, 22.0 ],
+                    "text": "del 1000"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-165",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1242.0, 215.0, 29.5, 22.0 ],
+                    "text": "0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-160",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1242.0, 153.0, 24.0, 24.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-168",
@@ -36,7 +69,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 784.0, 39.0, 64.0, 22.0 ],
+                    "patching_rect": [ 750.0, 39.0, 64.0, 22.0 ],
                     "text": "r activetab"
                 }
             },
@@ -106,7 +139,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -244,9 +277,9 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "annotation_name": "Toggle VFX screen on or off",
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "hint": "Start/stop visual effects in a new window",
                     "id": "obj-22",
                     "maxclass": "live.text",
@@ -280,7 +313,7 @@
                         }
                     },
                     "text": "Start VFX",
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "textcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                     "texton": "Start VFX",
                     "usepicture": 1,
                     "varname": "startVFX"
@@ -333,9 +366,8 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "id": "obj-223",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -494,9 +526,8 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "id": "obj-136",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -532,9 +563,8 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "id": "obj-139",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -601,10 +631,10 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "activetextcolor": [ 0.1, 0.1, 0.1, 1.0 ],
                     "activetextoncolor": [ 0.094525624565048, 0.094525586030663, 0.09452559599708, 1.0 ],
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "id": "obj-150",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -672,13 +702,58 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 270.0, 81.0, 640.0, 480.0 ],
+                        "rect": [ 675.0, 288.0, 640.0, 480.0 ],
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 122.0, 254.0, 32.0, 22.0 ],
+                                    "text": "gate"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-7",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "int", "int" ],
+                                    "patching_rect": [ 135.0, 208.0, 50.0, 22.0 ],
+                                    "text": "split 1 9"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-8",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "patching_rect": [ 135.0, 177.0, 29.5, 22.0 ],
+                                    "text": "- 48"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-6",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "patching_rect": [ 220.0, 208.0, 53.0, 22.0 ],
+                                    "text": "== 4096"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-318",
@@ -719,7 +794,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 4,
                                     "outlettype": [ "int", "int", "int", "int" ],
-                                    "patching_rect": [ 63.0, 100.0, 50.5, 22.0 ],
+                                    "patching_rect": [ 118.0, 71.0, 50.5, 22.0 ],
                                     "text": "key"
                                 }
                             },
@@ -743,7 +818,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 50.0, 269.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 50.0, 371.0, 30.0, 30.0 ]
                                 }
                             }
                         ],
@@ -757,7 +832,21 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-291", 0 ],
-                                    "midpoints": [ 72.5, 125.0, 72.5, 125.0 ],
+                                    "midpoints": [ 127.5, 125.0, 72.5, 125.0 ],
+                                    "order": 1,
+                                    "source": [ "obj-181", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-181", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-8", 0 ],
+                                    "order": 0,
                                     "source": [ "obj-181", 0 ]
                                 }
                             },
@@ -780,6 +869,31 @@
                                     "destination": [ "obj-126", 0 ],
                                     "source": [ "obj-318", 0 ]
                                 }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-6", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 1 ],
+                                    "source": [ "obj-7", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-7", 0 ],
+                                    "midpoints": [ 144.5, 202.0, 144.5, 202.0 ],
+                                    "source": [ "obj-8", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-126", 0 ],
+                                    "source": [ "obj-9", 0 ]
+                                }
                             }
                         ]
                     },
@@ -789,8 +903,7 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                     "id": "obj-322",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -926,7 +1039,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1190,10 +1303,9 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "hint": "VFX to fullscreen",
                     "id": "obj-31",
                     "maxclass": "live.text",
@@ -1202,7 +1314,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 333.0, 424.0, 54.0, 43.5 ],
+                    "patching_rect": [ 333.0, 414.0, 56.0, 53.0 ],
                     "pictures": [ "fullscreen.png", "fullscreen.png" ],
                     "presentation": 1,
                     "presentation_rect": [ 492.0, 150.0, 41.0, 40.0 ],
@@ -1235,7 +1347,7 @@
                         }
                     },
                     "text": "Fullscreen",
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "textcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                     "texton": "Fullskm",
                     "usepicture": 1,
                     "varname": "fullscreen"
@@ -1249,7 +1361,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 36.0, 12.0, 24.0, 24.0 ]
+                    "patching_rect": [ 24.0, 4.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -1259,7 +1371,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 162.0, 98.0, 95.0, 22.0 ],
+                    "patching_rect": [ 162.5, 105.0, 95.0, 22.0 ],
                     "text": "enablevscroll $1"
                 }
             },
@@ -1281,7 +1393,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 111.0, 39.0, 95.0, 22.0 ],
+                    "patching_rect": [ 65.0, 39.0, 95.0, 22.0 ],
                     "text": "toolbarvisible $1"
                 }
             },
@@ -1306,7 +1418,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 20.5, 98.0, 119.0, 22.0 ],
+                    "patching_rect": [ 20.5, 99.0, 119.0, 22.0 ],
                     "text": "pattrmarker miskroot"
                 }
             },
@@ -1440,7 +1552,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 248.0, 327.0, 58.0, 22.0 ],
+                    "patching_rect": [ 248.0, 531.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -1451,7 +1563,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 248.0, 376.0, 29.5, 22.0 ],
+                    "patching_rect": [ 248.0, 561.0, 29.5, 22.0 ],
                     "text": "0"
                 }
             },
@@ -1538,7 +1650,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1660,7 +1772,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2852,10 +2964,9 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "id": "obj-64",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -2892,7 +3003,7 @@
                         }
                     },
                     "text": "Timer",
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "textcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                     "texton": "Timer",
                     "varname": "Tidstock"
                 }
@@ -2934,7 +3045,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3283,7 +3394,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1535.0, 91.5, 47.0, 22.0 ],
+                    "patching_rect": [ 1535.0, 97.0, 47.0, 22.0 ],
                     "text": "clearall"
                 }
             },
@@ -3380,10 +3491,9 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "id": "obj-120",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -3420,7 +3530,7 @@
                         }
                     },
                     "text": "LFO",
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "textcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                     "varname": "lfo"
                 }
             },
@@ -3448,7 +3558,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3614,7 +3724,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4117,7 +4227,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5299,8 +5409,8 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "id": "obj-364",
                     "maxclass": "textbutton",
                     "mode": 1,
@@ -5339,8 +5449,8 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "id": "obj-363",
                     "maxclass": "textbutton",
                     "numinlets": 1,
@@ -5363,15 +5473,15 @@
                         }
                     },
                     "text": "Edit Mapping",
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "textcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                     "texton": "",
                     "textoncolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
             },
             {
                 "box": {
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "id": "obj-350",
                     "maxclass": "textbutton",
                     "numinlets": 1,
@@ -5394,7 +5504,7 @@
                         }
                     },
                     "text": "KeyMapping",
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "textcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                     "texton": "KeyMapping ON!",
                     "textoncolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
@@ -5507,7 +5617,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1951.0, 57.0, 90.0, 20.0 ],
+                    "patching_rect": [ 1951.0, 146.0, 90.0, 20.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -5536,7 +5646,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -6024,7 +6134,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 1951.0, 92.0, 107.0, 22.0 ],
+                    "patching_rect": [ 1951.0, 187.0, 107.0, 22.0 ],
                     "text": "p kontrollerkontroll"
                 }
             },
@@ -6141,7 +6251,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1294.0, 182.0, 262.0, 20.0 ],
+                    "patching_rect": [ 1305.0, 189.0, 262.0, 20.0 ],
                     "text": "priority, lower number gets loaded before higher"
                 }
             },
@@ -6163,7 +6273,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 271.5, 39.0, 41.0, 22.0 ],
+                    "patching_rect": [ 242.25, 39.0, 41.0, 22.0 ],
                     "text": "set $1"
                 }
             },
@@ -6174,7 +6284,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 271.5, 5.0, 35.0, 22.0 ],
+                    "patching_rect": [ 242.25, 5.0, 35.0, 22.0 ],
                     "text": "r nav"
                 }
             },
@@ -6191,7 +6301,7 @@
             },
             {
                 "box": {
-                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
+                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
                     "activefgdialcolor": [ 0.5019607843137255, 0.48627450980392156, 0.48627450980392156, 1.0 ],
                     "activeneedlecolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "id": "obj-82",
@@ -6224,13 +6334,12 @@
                             "parameter_unitstyle": 0
                         }
                     },
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "delay_regen"
                 }
             },
             {
                 "box": {
-                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
+                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
                     "activefgdialcolor": [ 0.5019607843137255, 0.48627450980392156, 0.48627450980392156, 1.0 ],
                     "activeneedlecolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "id": "obj-81",
@@ -6263,13 +6372,12 @@
                             "parameter_unitstyle": 0
                         }
                     },
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "delaycolor"
                 }
             },
             {
                 "box": {
-                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
+                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
                     "activefgdialcolor": [ 0.5019607843137255, 0.48627450980392156, 0.48627450980392156, 1.0 ],
                     "activeneedlecolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "id": "obj-79",
@@ -6302,7 +6410,6 @@
                             "parameter_unitstyle": 0
                         }
                     },
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "delaytime"
                 }
             },
@@ -6319,7 +6426,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -6691,7 +6798,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -7005,7 +7112,7 @@
             },
             {
                 "box": {
-                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
+                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
                     "activefgdialcolor": [ 0.5019607843137255, 0.48627450980392156, 0.48627450980392156, 1.0 ],
                     "activeneedlecolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "id": "obj-62",
@@ -7038,13 +7145,12 @@
                             "parameter_unitstyle": 0
                         }
                     },
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "reverb_damping"
                 }
             },
             {
                 "box": {
-                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
+                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
                     "activefgdialcolor": [ 0.5019607843137255, 0.48627450980392156, 0.48627450980392156, 1.0 ],
                     "activeneedlecolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "id": "obj-58",
@@ -7077,13 +7183,12 @@
                             "parameter_unitstyle": 0
                         }
                     },
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "reverb_decay"
                 }
             },
             {
                 "box": {
-                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
+                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
                     "activefgdialcolor": [ 0.5019607843137255, 0.48627450980392156, 0.48627450980392156, 1.0 ],
                     "activeneedlecolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "id": "obj-57",
@@ -7116,7 +7221,6 @@
                             "parameter_unitstyle": 0
                         }
                     },
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "rev_size"
                 }
             },
@@ -7139,7 +7243,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 697.0, 454.0, 43.0, 20.0 ],
+                    "patching_rect": [ 688.0, 454.0, 43.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 728.5, 379.0, 43.0, 20.0 ],
                     "style": "MISK2",
@@ -7152,7 +7256,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 628.0, 454.0, 39.0, 20.0 ],
+                    "patching_rect": [ 617.5, 447.5, 39.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 679.5, 379.0, 39.0, 20.0 ],
                     "style": "MISK2",
@@ -7165,7 +7269,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 546.0, 454.0, 55.0, 20.0 ],
+                    "patching_rect": [ 521.0, 454.0, 55.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 621.5, 379.0, 55.0, 20.0 ],
                     "style": "MISK2",
@@ -7373,7 +7477,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -8051,7 +8155,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -9697,10 +9801,9 @@
             },
             {
                 "box": {
-                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                    "bgoncolor": [ 0.2235294117647059, 0.2235294117647059, 0.2235294117647059, 1.0 ],
+                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                    "bgoncolor": [ 0.15, 0.15, 0.15, 1.0 ],
                     "id": "obj-29",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -9742,8 +9845,8 @@
                         }
                     },
                     "text": "Edit soundcard",
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                    "textoffcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                    "textcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
+                    "textoffcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                     "varname": "Soundcard"
                 }
             },
@@ -9814,7 +9917,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -9838,9 +9941,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-60",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -9871,7 +9974,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "Microphone_boost"
                                 }
                             },
@@ -9956,9 +10058,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-46",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -9989,15 +10091,14 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "live.dial[1]"
                                 }
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-44",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -10028,7 +10129,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "live.dial"
                                 }
                             },
@@ -10055,7 +10155,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -10217,7 +10317,6 @@
                                             "parameter_unitstyle": 4
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "fx_level"
                                 }
                             },
@@ -10374,7 +10473,6 @@
                                             "parameter_unitstyle": 4
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "tree_level"
                                 }
                             },
@@ -10447,7 +10545,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -11171,7 +11269,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -11245,7 +11343,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -11318,7 +11416,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -11350,7 +11448,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -11684,7 +11782,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -11944,7 +12042,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -12552,7 +12650,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -12887,7 +12985,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -13147,7 +13245,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -14090,7 +14188,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -14361,7 +14459,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -14474,7 +14572,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -14670,7 +14768,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -15118,7 +15216,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -15737,8 +15835,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-26",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -15768,7 +15865,7 @@
                                         }
                                     },
                                     "text": "Whisper",
-                                    "textoffcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textoffcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Whisper",
                                     "varname": "whisper_toggle"
                                 }
@@ -15807,7 +15904,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -16071,7 +16168,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 808.0, 513.0, 50.0, 22.0 ],
-                                                    "text": "0"
+                                                    "text": "2"
                                                 }
                                             },
                                             {
@@ -16507,7 +16604,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -17897,9 +17994,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-108",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -17930,7 +18027,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "reverb_alias"
                                 }
                             },
@@ -17948,8 +18044,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "annotation": "Mute:a ljudkanalen",
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "hint": "Orange = Tyst",
@@ -17985,7 +18080,7 @@
                                         }
                                     },
                                     "text": "Mute",
-                                    "textoffcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textoffcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Mute",
                                     "varname": "mute_toggle[1]"
                                 }
@@ -18072,8 +18167,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "annotation": "Mute:a ljudkanalen",
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "hint": "Orange = Tyst",
@@ -18109,7 +18203,7 @@
                                         }
                                     },
                                     "text": "Mute",
-                                    "textoffcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textoffcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Mute",
                                     "varname": "mute_toggle"
                                 }
@@ -18853,7 +18947,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -19138,7 +19232,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -19678,7 +19772,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -20428,7 +20522,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -20482,7 +20576,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -20671,7 +20765,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -20801,7 +20895,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -21119,7 +21213,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -21150,7 +21244,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -21431,7 +21525,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -21532,7 +21626,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -21631,7 +21725,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -21811,7 +21905,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -22051,7 +22145,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -22189,7 +22283,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -22580,7 +22674,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -22600,7 +22694,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -22819,7 +22913,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -23408,7 +23502,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -23485,7 +23579,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -23804,7 +23898,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -24217,7 +24311,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -24353,7 +24447,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -24585,7 +24679,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -24633,7 +24727,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -24777,7 +24871,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -25025,7 +25119,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -25169,7 +25263,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -25313,7 +25407,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -25457,7 +25551,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -25601,7 +25695,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -25745,7 +25839,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -25889,7 +25983,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -26033,7 +26127,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -26203,7 +26297,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -26347,7 +26441,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -26607,7 +26701,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -26751,7 +26845,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -26895,7 +26989,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -27039,7 +27133,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -27183,7 +27277,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -27327,7 +27421,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -27471,7 +27565,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -27615,7 +27709,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -27697,7 +27791,7 @@
                                                                                                                         "appversion": {
                                                                                                                             "major": 9,
                                                                                                                             "minor": 1,
-                                                                                                                            "revision": 1,
+                                                                                                                            "revision": 2,
                                                                                                                             "architecture": "x64",
                                                                                                                             "modernui": 1
                                                                                                                         },
@@ -28146,7 +28240,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -28246,7 +28340,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -28409,7 +28503,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -28563,7 +28657,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -28949,7 +29043,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -29062,7 +29156,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -29214,7 +29308,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -29483,7 +29577,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -29622,7 +29716,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -29915,7 +30009,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -29937,7 +30031,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -30161,7 +30255,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -30448,7 +30542,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -30600,7 +30694,7 @@
                                                                                                         "appversion": {
                                                                                                             "major": 9,
                                                                                                             "minor": 1,
-                                                                                                            "revision": 1,
+                                                                                                            "revision": 2,
                                                                                                             "architecture": "x64",
                                                                                                             "modernui": 1
                                                                                                         },
@@ -32681,7 +32775,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -32921,7 +33015,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -33063,7 +33157,6 @@
                                         }
                                     },
                                     "text": "next",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "video_next"
                                 }
                             },
@@ -33080,10 +33173,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-361",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -33118,7 +33211,6 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "video_vol"
                                 }
                             },
@@ -33135,10 +33227,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "bgoncolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgoncolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "id": "obj-351",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -33174,7 +33265,7 @@
                                         }
                                     },
                                     "text": "Volume off",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Volume on",
                                     "varname": "live.text"
                                 }
@@ -33524,7 +33615,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -33920,10 +34011,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-214",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -33962,7 +34052,7 @@
                                         }
                                     },
                                     "text": "Forrest",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Forrest",
                                     "varname": "siluett"
                                 }
@@ -34039,7 +34129,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -34152,7 +34242,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -34281,10 +34371,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "hint": "Vinkelvolt. Vrider kuberna 90 grader",
                                     "id": "obj-185",
                                     "maxclass": "live.text",
@@ -34322,7 +34411,7 @@
                                         }
                                     },
                                     "text": "Turn 90",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Turn 90",
                                     "varname": "90grader"
                                 }
@@ -34409,7 +34498,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -34666,7 +34755,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -34894,7 +34983,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -35390,7 +35479,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -35859,10 +35948,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-232",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -35901,7 +35989,7 @@
                                         }
                                     },
                                     "text": "Mushroom",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Mushroom",
                                     "varname": "svamp_toggle"
                                 }
@@ -35970,10 +36058,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "bgoncolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgoncolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "id": "obj-49",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -36009,7 +36096,7 @@
                                         }
                                     },
                                     "text": "Shininess",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Shininess",
                                     "varname": "bloom_toggle"
                                 }
@@ -36027,11 +36114,11 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "appearance": 1,
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-62",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -36067,7 +36154,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "bloom_amount"
                                 }
                             },
@@ -36102,10 +36188,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-73",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -36141,7 +36226,7 @@
                                         }
                                     },
                                     "text": "Fill",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Fill",
                                     "varname": "aspect_ratio"
                                 }
@@ -36214,7 +36299,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -36743,7 +36828,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -36990,7 +37075,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -37344,7 +37429,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -37830,7 +37915,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -38004,7 +38089,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -38923,7 +39008,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -40282,10 +40367,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-310",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -40321,7 +40405,7 @@
                                         }
                                     },
                                     "text": "Follow",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Follow",
                                     "varname": "irrbloss_uggla"
                                 }
@@ -40449,7 +40533,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -40761,7 +40845,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -40933,7 +41017,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -41021,7 +41105,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -41499,7 +41583,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -41587,7 +41671,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -41981,7 +42065,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -42324,7 +42408,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -42694,7 +42778,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -42884,7 +42968,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -43074,7 +43158,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -43226,7 +43310,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -43345,7 +43429,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -44314,8 +44398,7 @@
                                             "expression": "themecolor.live_control_fg_on"
                                         }
                                     },
-                                    "text": "Clear",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ]
+                                    "text": "Clear"
                                 }
                             },
                             {
@@ -44529,7 +44612,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -44803,10 +44886,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-238",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -44842,7 +44925,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "bend_chordcubes"
                                 }
                             },
@@ -44870,10 +44952,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-212",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -44909,7 +44991,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "bend_cubes"
                                 }
                             },
@@ -44968,7 +45049,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -45054,7 +45135,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -45390,7 +45471,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -45897,7 +45978,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -47513,7 +47594,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -47620,7 +47701,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -48073,7 +48154,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -48562,7 +48643,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -50220,10 +50301,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-341",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -50260,7 +50340,7 @@
                                         }
                                     },
                                     "text": "Thred",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Thred",
                                     "varname": "figur2_thred"
                                 }
@@ -50301,8 +50381,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "bgoncolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
+                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgoncolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "id": "obj-320",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -50332,7 +50412,7 @@
                                         }
                                     },
                                     "text": "Images",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Images",
                                     "varname": "Fotografier"
                                 }
@@ -50396,10 +50476,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-93",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -50438,18 +50518,16 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_pos_y[1]"
                                 }
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "automation": "0",
                                     "automationon": "1",
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-103",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -50486,7 +50564,7 @@
                                         }
                                     },
                                     "text": "Cubes2",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Cubes2",
                                     "varname": "kuber2_toggle"
                                 }
@@ -50514,10 +50592,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-162",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -50556,16 +50634,15 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "cub2_amount"
                                 }
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-167",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -50604,16 +50681,15 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_pos[1]"
                                 }
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-172",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -50651,16 +50727,15 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_length[1]"
                                 }
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-176",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -50698,7 +50773,6 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_bredd[1]"
                                 }
                             },
@@ -50785,10 +50859,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-251",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -50826,7 +50900,6 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_distans[1]"
                                 }
                             },
@@ -50932,10 +51005,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-52",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -50974,7 +51046,7 @@
                                         }
                                     },
                                     "text": "Figure",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Figure",
                                     "varname": "figur2_toggle"
                                 }
@@ -50992,10 +51064,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-124",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -51032,7 +51103,7 @@
                                         }
                                     },
                                     "text": "Chord to color",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Chord to color",
                                     "varname": "chords_to_color_toggle"
                                 }
@@ -51195,10 +51266,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-281",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -51232,16 +51303,14 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "irrbloss_vind"
                                 }
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-203",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -51277,7 +51346,7 @@
                                         }
                                     },
                                     "text": "Irrbloss",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Irrbloss",
                                     "varname": "irrbloss_toggle"
                                 }
@@ -51295,7 +51364,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "annotation_name": "Starta VFX",
                                     "id": "obj-53",
                                     "maxclass": "live.text",
@@ -51386,10 +51455,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-194",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -51428,7 +51497,6 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_pos_y"
                                 }
                             },
@@ -51445,7 +51513,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "hint": "VFX i fullskm",
                                     "id": "obj-102",
                                     "maxclass": "live.text",
@@ -51497,12 +51565,11 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "automation": "0",
                                     "automationon": "1",
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-114",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -51539,7 +51606,7 @@
                                         }
                                     },
                                     "text": "Cubes",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Cubes",
                                     "varname": "kuber1_toggle"
                                 }
@@ -51658,9 +51725,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-113",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -51695,7 +51762,7 @@
                                         }
                                     },
                                     "text": "Animate",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Animate",
                                     "varname": "pattern_time_toggle"
                                 }
@@ -51724,10 +51791,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "bgoncolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
+                                    "activebgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgoncolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "hint": "Pointer follows computer pointer. Ignores XY-controllers",
                                     "id": "obj-83",
                                     "maxclass": "live.text",
@@ -51766,17 +51832,16 @@
                                         }
                                     },
                                     "text": "Attach",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Attach",
                                     "varname": "Muspekarkontroll"
                                 }
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "hint": "Mousepointer listens ",
                                     "id": "obj-24",
                                     "maxclass": "live.text",
@@ -51814,17 +51879,16 @@
                                         }
                                     },
                                     "text": "Sound reactive",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Sound reactive",
                                     "varname": "ball_soundsensitive"
                                 }
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "bgoncolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
+                                    "activebgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgoncolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "id": "obj-21",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -51863,7 +51927,7 @@
                                         }
                                     },
                                     "text": "Pointer",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Pointer",
                                     "varname": "vfx_pointer"
                                 }
@@ -51939,10 +52003,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-136",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -51981,7 +52045,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "cub1_amount"
                                 }
                             },
@@ -51998,10 +52061,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-22",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -52036,7 +52099,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "figur2_scale"
                                 }
                             },
@@ -52086,7 +52148,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -52750,10 +52812,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-270",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -52787,7 +52849,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "bg_pattern_zoom"
                                 }
                             },
@@ -52813,7 +52874,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -53330,7 +53391,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -53578,10 +53639,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-143",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -53620,16 +53681,15 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_pos"
                                 }
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-139",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -53667,16 +53727,15 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_length"
                                 }
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-138",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -53714,7 +53773,6 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_bredd"
                                 }
                             },
@@ -53872,10 +53930,10 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-75",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -53913,7 +53971,6 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "kuber_distans"
                                 }
                             },
@@ -54056,7 +54113,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -54355,7 +54412,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -55569,8 +55626,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgoncolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgoncolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-163",
                                     "maxclass": "textbutton",
                                     "numinlets": 1,
@@ -55592,7 +55649,7 @@
                                         }
                                     },
                                     "text": "Material",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "textoncolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "varname": "pointer-material"
                                 }
@@ -55932,11 +55989,11 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "appearance": 1,
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-68",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -55973,16 +56030,15 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "pointer_size"
                                 }
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "fgdialcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "fgdialcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "id": "obj-66",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -56018,7 +56074,6 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "soundsens_ratio"
                                 }
                             },
@@ -56132,7 +56187,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -59411,7 +59466,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -59872,7 +59927,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -60043,7 +60098,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -60719,7 +60774,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -60850,7 +60905,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -61626,7 +61681,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 1164.0, 187.0, 44.0, 22.0 ],
-                                                                    "text": "99"
+                                                                    "text": "127"
                                                                 }
                                                             },
                                                             {
@@ -63227,7 +63282,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -63270,7 +63325,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -63465,7 +63520,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -63861,7 +63916,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -64257,7 +64312,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -64653,7 +64708,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -65082,7 +65137,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 1,
+                                                                                            "revision": 2,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -66699,7 +66754,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -67020,7 +67075,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -68338,7 +68393,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -68599,7 +68654,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 1,
+                                                                            "revision": 2,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -70134,8 +70189,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-7",
                                     "maxclass": "live.text",
                                     "mode": 0,
@@ -70303,7 +70357,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -70637,7 +70691,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -72050,8 +72104,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-170",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -72495,7 +72548,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -72671,7 +72724,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -73125,7 +73178,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -73383,7 +73436,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -74322,7 +74375,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.8784313725490196, 0.8784313725490196, 0.8784313725490196, 1.0 ],
+                                    "activebgcolor": [ 0.739671451839917, 0.739671266475177, 0.739671314712202, 1.0 ],
                                     "id": "obj-268",
                                     "maxclass": "live.menu",
                                     "numinlets": 1,
@@ -74352,8 +74405,6 @@
                                             "parameter_type": 2
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "tricolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "padsynt_route"
                                 }
                             },
@@ -74421,7 +74472,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.8784313725490196, 0.8784313725490196, 0.8784313725490196, 1.0 ],
+                                    "activebgcolor": [ 0.739671451839917, 0.739671266475177, 0.739671314712202, 1.0 ],
                                     "id": "obj-257",
                                     "maxclass": "live.menu",
                                     "numinlets": 1,
@@ -74450,8 +74501,7 @@
                                             "parameter_type": 2
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "tricolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "tricolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                                     "varname": "sp_send"
                                 }
                             },
@@ -74614,7 +74664,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.8784313725490196, 0.8784313725490196, 0.8784313725490196, 1.0 ],
+                                    "activebgcolor": [ 0.739671451839917, 0.739671266475177, 0.739671314712202, 1.0 ],
                                     "id": "obj-75",
                                     "maxclass": "live.menu",
                                     "numinlets": 1,
@@ -74644,8 +74694,6 @@
                                             "parameter_type": 2
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "tricolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "synth_routing"
                                 }
                             },
@@ -74752,9 +74800,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-108",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -74785,7 +74833,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "reverb_alias"
                                 }
                             },
@@ -74825,7 +74872,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -75400,7 +75447,6 @@
                             {
                                 "box": {
                                     "activebgcolor": [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "annotation": "Mute:a ljudkanalen",
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "hint": "Orange = Tyst",
@@ -75648,9 +75694,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "hidden": 1,
                                     "id": "obj-207",
                                     "maxclass": "live.dial",
@@ -75686,7 +75732,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "Duration_padsynth"
                                 }
                             },
@@ -75703,7 +75748,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -75718,7 +75763,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 81.0, 699.0, 50.0, 22.0 ],
-                                                    "text": "52 101"
+                                                    "text": "52 77"
                                                 }
                                             },
                                             {
@@ -75733,7 +75778,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -76113,7 +76158,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -76681,7 +76726,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 247.0, 411.809814453125, 55.0, 22.0 ],
-                                                    "text": "0 12 0"
+                                                    "text": "12 0 0"
                                                 }
                                             },
                                             {
@@ -77139,8 +77184,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "id": "obj-104",
                                     "maxclass": "live.text",
@@ -77224,8 +77268,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "id": "obj-191",
                                     "maxclass": "live.text",
@@ -77262,8 +77305,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "annotation": "",
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "hint": "slumpar oktaverna i tonerna fr att voica om ackordet och varierar velocityn - lovely!",
@@ -77523,9 +77565,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "appearance": 1,
                                     "id": "obj-95",
                                     "maxclass": "live.dial",
@@ -77558,7 +77600,6 @@
                                         }
                                     },
                                     "showname": 0,
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "velocity_lock"
                                 }
                             },
@@ -77589,7 +77630,6 @@
                             {
                                 "box": {
                                     "activebgcolor": [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "annotation": "Mute:a ljudkanalen",
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "hint": "Orange = Tyst",
@@ -77656,8 +77696,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "bgcolor": [ 0.985500872135162, 0.963369905948639, 0.636205017566681, 0.0 ],
                                     "id": "obj-110",
                                     "maxclass": "live.text",
@@ -77893,7 +77932,7 @@
                                     "fontname": "Arial",
                                     "fontsize": 13.0,
                                     "id": "obj-27",
-                                    "items": [ "AU DLS Synth 1", ",", "Ableton Push 2 Live Port", ",", "Ableton Push 2 User Port", ",", "Scarlett 18i20 USB", ",", "from Max 1", ",", "from Max 2" ],
+                                    "items": [ "AU DLS Synth 1", ",", "Scarlett 18i20 USB", ",", "from Max 1", ",", "from Max 2" ],
                                     "labelclick": 1,
                                     "maxclass": "umenu",
                                     "numinlets": 1,
@@ -78266,9 +78305,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-71",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -78302,7 +78341,6 @@
                                             "parameter_unitstyle": 2
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "synth_length"
                                 }
                             },
@@ -78657,7 +78695,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -79335,7 +79373,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 787.0, 334.0, 50.0, 22.0 ],
-                                                    "text": "1"
+                                                    "text": "2"
                                                 }
                                             },
                                             {
@@ -79357,7 +79395,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 817.0, 230.0, 50.0, 22.0 ],
-                                                    "text": "1"
+                                                    "text": "2"
                                                 }
                                             },
                                             {
@@ -79504,7 +79542,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -79630,7 +79668,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 147.0, 217.0, 50.0, 22.0 ],
-                                                                    "text": "252"
+                                                                    "text": "207"
                                                                 }
                                                             },
                                                             {
@@ -79641,7 +79679,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 181.0, 394.0, 50.0, 22.0 ],
-                                                                    "text": "1"
+                                                                    "text": "2"
                                                                 }
                                                             },
                                                             {
@@ -82803,7 +82841,6 @@
                         }
                     },
                     "showname": 0,
-                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                     "varname": "master_gain"
                 }
             },
@@ -82831,7 +82868,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -82843,17 +82880,6 @@
                         "globalpatchername": "sp",
                         "title": "Samples",
                         "boxes": [
-                            {
-                                "box": {
-                                    "id": "obj-109",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 1006.0, 1280.0, 70.0, 22.0 ],
-                                    "text": "loadmess 1"
-                                }
-                            },
                             {
                                 "box": {
                                     "id": "obj-108",
@@ -82898,7 +82924,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -82973,7 +82999,7 @@
                                             },
                                             {
                                                 "box": {
-                                                    "bgcolor": [ 0.19215686274509805, 0.19215686274509805, 0.19215686274509805, 1.0 ],
+                                                    "bgcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                                     "id": "obj-234",
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
@@ -82996,7 +83022,7 @@
                                             },
                                             {
                                                 "box": {
-                                                    "bgcolor": [ 0.19215686274509805, 0.19215686274509805, 0.19215686274509805, 1.0 ],
+                                                    "bgcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                                     "id": "obj-235",
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
@@ -83260,7 +83286,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 33.0, 915.0, 50.0, 22.0 ],
-                                    "text": "pitch 0"
+                                    "text": "0"
                                 }
                             },
                             {
@@ -83297,7 +83323,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-233",
                                     "maxclass": "live.menu",
                                     "numinlets": 1,
@@ -83319,15 +83345,15 @@
                                         },
                                         "valueof": {
                                             "parameter_enum": [ "Trigger", "Gate", "Toggle", "Mute" ],
+                                            "parameter_initial": [ 0.0 ],
+                                            "parameter_initial_enable": 1,
                                             "parameter_longname": "live.menu[33]",
                                             "parameter_mmax": 3,
                                             "parameter_modmode": 0,
-                                            "parameter_shortname": "live.menu[2]",
+                                            "parameter_shortname": "sample_mode",
                                             "parameter_type": 2
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "tricolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "sample_mode"
                                 }
                             },
@@ -83344,8 +83370,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "automation": "0",
                                     "automationon": "1",
                                     "id": "obj-229",
@@ -83404,12 +83429,12 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "automation": "0",
                                     "automationon": "1",
-                                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
+                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "id": "obj-213",
-                                    "lcdbgcolor": [ 0.6549019607843137, 0.6549019607843137, 0.6549019607843137, 1.0 ],
+                                    "lcdbgcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
                                     "maxclass": "live.text",
                                     "numinlets": 1,
                                     "numoutlets": 2,
@@ -83469,8 +83494,8 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "bgcolor": [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
                                     "id": "obj-165",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -83490,7 +83515,7 @@
                                         },
                                         "valueof": {
                                             "parameter_enum": [ "val1", "val2" ],
-                                            "parameter_initial": [ 0.0 ],
+                                            "parameter_initial": [ 1 ],
                                             "parameter_initial_enable": 1,
                                             "parameter_longname": "live.text[2322]",
                                             "parameter_mmax": 1,
@@ -83516,10 +83541,8 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-158",
-                                    "labeltextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "maxclass": "live.text",
                                     "mode": 0,
                                     "numinlets": 1,
@@ -83552,7 +83575,7 @@
                                         }
                                     },
                                     "text": "Clear all",
-                                    "textoffcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textoffcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "texton": "Clear all",
                                     "varname": "clear_all"
                                 }
@@ -83635,7 +83658,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -84904,8 +84927,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-100",
                                     "maxclass": "live.text",
                                     "mode": 0,
@@ -84989,7 +85011,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 548.0, 997.168152, 50.0, 35.0 ],
-                                    "text": "0.996144"
+                                    "text": "0.994783"
                                 }
                             },
                             {
@@ -85084,7 +85106,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -85143,7 +85165,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -85567,7 +85589,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -86253,7 +86275,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 323.5, 948.0, 66.0, 22.0 ],
-                                    "text": "12 led 0"
+                                    "text": "1 led 0"
                                 }
                             },
                             {
@@ -86264,7 +86286,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 428.0, 980.0, 76.5, 22.0 ],
-                                    "text": "12 0.996144"
+                                    "text": "1 0.994783"
                                 }
                             },
                             {
@@ -86292,8 +86314,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-117",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -86517,7 +86538,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -86637,7 +86658,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -87037,7 +87058,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -87367,8 +87388,8 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "focusbordercolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
+                                    "focusbordercolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "id": "obj-127",
                                     "maxclass": "live.menu",
                                     "numinlets": 1,
@@ -87400,8 +87421,6 @@
                                             "parameter_type": 2
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "tricolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "sp_send"
                                 }
                             },
@@ -87564,8 +87583,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-145",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -87777,9 +87795,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-13",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -87810,7 +87828,6 @@
                                             "parameter_unitstyle": 0
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "reverb_alias"
                                 }
                             },
@@ -87863,7 +87880,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -88092,7 +88109,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -88317,7 +88334,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -88993,7 +89010,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -89898,7 +89915,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -90512,7 +90529,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -92281,8 +92298,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
-                                    "activetextcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "activebgcolor": [ 0.9, 0.9, 0.9, 1.0 ],
                                     "id": "obj-174",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -92316,8 +92332,8 @@
                                         }
                                     },
                                     "text": "Map",
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
-                                    "textoffcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                                    "textoffcolor": [ 0.803093898340726, 0.803093703499025, 0.803093754291355, 1.0 ],
                                     "texton": "Map",
                                     "varname": "map"
                                 }
@@ -92470,9 +92486,9 @@
                             },
                             {
                                 "box": {
-                                    "activedialcolor": [ 0.2627450980392157, 0.5686274509803921, 0.9019607843137255, 1.0 ],
-                                    "activefgdialcolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
-                                    "activeneedlecolor": [ 0.40784313725490196, 0.40784313725490196, 0.40784313725490196, 1.0 ],
+                                    "activedialcolor": [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ],
+                                    "activefgdialcolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+                                    "activeneedlecolor": [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
                                     "id": "obj-129",
                                     "maxclass": "live.dial",
                                     "numinlets": 1,
@@ -92505,7 +92521,6 @@
                                         }
                                     },
                                     "showname": 0,
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "monitor_gain"
                                 }
                             },
@@ -92988,7 +93003,6 @@
                                             "parameter_unitstyle": 4
                                         }
                                     },
-                                    "textcolor": [ 0.03137254901960784, 0.03137254901960784, 0.03137254901960784, 1.0 ],
                                     "varname": "samplepad_level"
                                 }
                             },
@@ -93021,7 +93035,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -94362,7 +94376,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -95153,7 +95167,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -95198,7 +95212,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 2,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -95710,7 +95724,7 @@
                                         "play_toggle": [ 1.0 ],
                                         "release": [ 838.2416764833537 ],
                                         "reverb_alias": [ 88.99999999999994 ],
-                                        "sample_mode": [ 3.0 ],
+                                        "sample_mode": [ 0.0 ],
                                         "samplepad_level": [ 0.0 ],
                                         "samples_ljudfiler": [
                                             {                                            }
@@ -96022,12 +96036,6 @@
                                     "destination": [ "obj-7", 0 ],
                                     "midpoints": [ 1037.0, 714.0, 1227.5, 714.0 ],
                                     "source": [ "obj-108", 1 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-165", 0 ],
-                                    "source": [ "obj-109", 0 ]
                                 }
                             },
                             {
@@ -97511,7 +97519,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -98145,7 +98153,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 478.0, 41.0, 124.0, 76.0 ],
+                    "patching_rect": [ 443.5, 219.0, 124.0, 76.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 763.0, 275.0, 206.0, 43.0 ],
                     "proportion": 0.5
@@ -98317,6 +98325,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-160", 0 ],
+                    "source": [ "obj-111", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-116", 0 ],
                     "midpoints": [ 1245.5, 928.5039360000001, 1226.3074339999998, 928.5039360000001, 1226.3074339999998, 822.047241, 1245.5, 822.047241 ],
                     "source": [ "obj-112", 0 ]
@@ -98458,7 +98472,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-155", 0 ],
-                    "midpoints": [ 1861.5, 369.0, 1656.0, 369.0, 1656.0, 78.0, 1544.5, 78.0 ],
+                    "midpoints": [ 1861.5, 369.0, 1650.0, 369.0, 1650.0, 84.0, 1544.5, 84.0 ],
                     "source": [ "obj-137", 3 ]
                 }
             },
@@ -98513,7 +98527,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-142", 0 ],
-                    "midpoints": [ 1960.5, 87.0, 1960.5, 87.0 ],
+                    "midpoints": [ 1960.5, 168.0, 1960.5, 168.0 ],
                     "source": [ "obj-144", 0 ]
                 }
             },
@@ -98580,6 +98594,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-166", 0 ],
+                    "source": [ "obj-160", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "midpoints": [ 1703.0, 234.0, 1678.5, 234.0 ],
                     "source": [ "obj-162", 1 ]
@@ -98603,6 +98623,19 @@
                 "patchline": {
                     "destination": [ "obj-168", 0 ],
                     "source": [ "obj-164", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-24", 0 ],
+                    "midpoints": [ 1251.5, 240.0, 987.0, 240.0, 987.0, 24.0, 423.0, 24.0, 423.0, 45.0, 332.5, 45.0 ],
+                    "source": [ "obj-165", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-165", 0 ],
+                    "source": [ "obj-166", 0 ]
                 }
             },
             {
@@ -98735,7 +98768,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-163", 0 ],
-                    "midpoints": [ 332.5, 93.0, 318.0, 93.0, 318.0, 36.0, 465.0, 36.0, 465.0, 27.0, 659.5, 27.0 ],
+                    "midpoints": [ 332.5, 93.0, 318.0, 93.0, 318.0, 36.0, 659.5, 36.0 ],
                     "order": 0,
                     "source": [ "obj-24", 0 ]
                 }
@@ -98795,7 +98828,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-37", 0 ],
-                    "midpoints": [ 332.5, 123.0, 309.0, 123.0, 309.0, 63.0, 318.0, 63.0, 318.0, 0.0, 332.5, 0.0 ],
+                    "midpoints": [ 332.5, 123.0, 309.0, 123.0, 309.0, 0.0, 332.5, 0.0 ],
                     "source": [ "obj-32", 0 ]
                 }
             },
@@ -98929,6 +98962,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-34", 0 ],
+                    "midpoints": [ 966.5, 447.0, 900.0, 447.0, 900.0, 474.0, 801.5, 474.0 ],
                     "source": [ "obj-48", 0 ]
                 }
             },
@@ -99070,6 +99104,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
+                    "midpoints": [ 74.5, 84.0, 141.0, 84.0, 141.0, 135.0, 120.5, 135.0 ],
                     "source": [ "obj-80", 0 ]
                 }
             },
@@ -99102,12 +99137,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
+                    "midpoints": [ 171.5, 96.0, 147.0, 96.0, 147.0, 135.0, 120.5, 135.0 ],
                     "source": [ "obj-86", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
+                    "midpoints": [ 172.0, 135.0, 120.5, 135.0 ],
                     "source": [ "obj-92", 0 ]
                 }
             },
@@ -99121,7 +99158,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-86", 0 ],
-                    "midpoints": [ 45.5, 72.0, 159.0, 72.0, 159.0, 69.0, 171.5, 69.0 ],
+                    "midpoints": [ 33.5, 72.0, 159.0, 72.0, 159.0, 69.0, 171.5, 69.0 ],
                     "order": 1,
                     "source": [ "obj-94", 0 ]
                 }
@@ -99129,7 +99166,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-92", 0 ],
-                    "midpoints": [ 45.5, 84.0, 159.0, 84.0, 159.0, 93.0, 171.5, 93.0 ],
+                    "midpoints": [ 33.5, 84.0, 159.0, 84.0, 159.0, 93.0, 172.0, 93.0 ],
                     "order": 0,
                     "source": [ "obj-94", 0 ]
                 }
@@ -100455,7 +100492,7 @@
             "obj-214::obj-10::obj-121": [ "live.text[197]", "live.text[11]", 0 ],
             "obj-214::obj-10::obj-122": [ "live.text[194]", "live.text[11]", 0 ],
             "obj-214::obj-10::obj-123": [ "live.text[195]", "live.text[11]", 0 ],
-            "obj-214::obj-10::obj-15": [ "live.text[2324]", "live.text[2322]", 0 ],
+            "obj-214::obj-10::obj-15": [ "live.text[2324]", "play_toggle", 0 ],
             "obj-214::obj-10::obj-152": [ "live.numbox[2031]", "live.numbox[2030]", 0 ],
             "obj-214::obj-10::obj-170": [ "live.menu[264]", "live.menu[263]", 0 ],
             "obj-214::obj-10::obj-28": [ "live.numbox[139]", "track", 0 ],
@@ -100505,7 +100542,7 @@
             "obj-214::obj-112::obj-121": [ "live.text[100]", "live.text[11]", 0 ],
             "obj-214::obj-112::obj-122": [ "live.text[98]", "live.text[11]", 0 ],
             "obj-214::obj-112::obj-123": [ "live.text[101]", "live.text[11]", 0 ],
-            "obj-214::obj-112::obj-15": [ "live.text[2328]", "live.text[2322]", 0 ],
+            "obj-214::obj-112::obj-15": [ "live.text[2328]", "play_toggle", 0 ],
             "obj-214::obj-112::obj-152": [ "live.numbox[2036]", "live.numbox[2030]", 0 ],
             "obj-214::obj-112::obj-170": [ "live.menu[269]", "live.menu[263]", 0 ],
             "obj-214::obj-112::obj-28": [ "live.numbox[80]", "track", 0 ],
@@ -100555,7 +100592,7 @@
             "obj-214::obj-113::obj-121": [ "live.text[114]", "live.text[11]", 0 ],
             "obj-214::obj-113::obj-122": [ "live.text[115]", "live.text[11]", 0 ],
             "obj-214::obj-113::obj-123": [ "live.text[113]", "live.text[11]", 0 ],
-            "obj-214::obj-113::obj-15": [ "live.text[2315]", "live.text[2322]", 0 ],
+            "obj-214::obj-113::obj-15": [ "live.text[2315]", "play_toggle", 0 ],
             "obj-214::obj-113::obj-152": [ "live.numbox[2035]", "live.numbox[2030]", 0 ],
             "obj-214::obj-113::obj-170": [ "live.menu[268]", "live.menu[263]", 0 ],
             "obj-214::obj-113::obj-28": [ "live.numbox[90]", "track", 0 ],
@@ -100605,7 +100642,7 @@
             "obj-214::obj-114::obj-121": [ "live.text[130]", "live.text[11]", 0 ],
             "obj-214::obj-114::obj-122": [ "live.text[131]", "live.text[11]", 0 ],
             "obj-214::obj-114::obj-123": [ "live.text[129]", "live.text[11]", 0 ],
-            "obj-214::obj-114::obj-15": [ "live.text[2327]", "live.text[2322]", 0 ],
+            "obj-214::obj-114::obj-15": [ "live.text[2327]", "play_toggle", 0 ],
             "obj-214::obj-114::obj-152": [ "live.numbox[2034]", "live.numbox[2030]", 0 ],
             "obj-214::obj-114::obj-170": [ "live.menu[267]", "live.menu[263]", 0 ],
             "obj-214::obj-114::obj-28": [ "live.numbox[100]", "track", 0 ],
@@ -100853,7 +100890,7 @@
             "obj-214::obj-213": [ "live.text[2334]", "loop_toggle", 0 ],
             "obj-214::obj-218": [ "live.tab[169]", "flik_samples", 0 ],
             "obj-214::obj-229": [ "live.text[2335]", "gl_tempoe_toggle", 0 ],
-            "obj-214::obj-233": [ "live.menu[33]", "live.menu[2]", 0 ],
+            "obj-214::obj-233": [ "live.menu[33]", "sample_mode", 0 ],
             "obj-214::obj-31.10::obj-56": [ "live.text[20]", "live.text[403]", 0 ],
             "obj-214::obj-31.11::obj-56": [ "live.text[21]", "live.text[403]", 0 ],
             "obj-214::obj-31.12::obj-56": [ "live.text[22]", "live.text[403]", 0 ],
@@ -100871,7 +100908,7 @@
             "obj-214::obj-37::obj-121": [ "live.text[234]", "live.text[11]", 0 ],
             "obj-214::obj-37::obj-122": [ "live.text[235]", "live.text[11]", 0 ],
             "obj-214::obj-37::obj-123": [ "live.text[1777]", "live.text[11]", 0 ],
-            "obj-214::obj-37::obj-15": [ "live.text[2323]", "live.text[2322]", 0 ],
+            "obj-214::obj-37::obj-15": [ "live.text[2323]", "play_toggle", 0 ],
             "obj-214::obj-37::obj-152": [ "live.numbox[2030]", "live.numbox[2030]", 0 ],
             "obj-214::obj-37::obj-170": [ "live.menu[263]", "live.menu[263]", 0 ],
             "obj-214::obj-37::obj-28": [ "live.numbox[1196]", "track", 0 ],
@@ -100921,7 +100958,7 @@
             "obj-214::obj-38::obj-121": [ "live.text[31]", "live.text[11]", 0 ],
             "obj-214::obj-38::obj-122": [ "live.text[30]", "live.text[11]", 0 ],
             "obj-214::obj-38::obj-123": [ "live.text[32]", "live.text[11]", 0 ],
-            "obj-214::obj-38::obj-15": [ "live.text[2333]", "live.text[2322]", 0 ],
+            "obj-214::obj-38::obj-15": [ "live.text[2333]", "play_toggle", 0 ],
             "obj-214::obj-38::obj-152": [ "live.numbox[2041]", "live.numbox[2030]", 0 ],
             "obj-214::obj-38::obj-170": [ "live.menu[274]", "live.menu[263]", 0 ],
             "obj-214::obj-38::obj-28": [ "live.numbox[40]", "track", 0 ],
@@ -101009,7 +101046,7 @@
             "obj-214::obj-51::obj-121": [ "live.text[156]", "live.text[11]", 0 ],
             "obj-214::obj-51::obj-122": [ "live.text[153]", "live.text[11]", 0 ],
             "obj-214::obj-51::obj-123": [ "live.text[155]", "live.text[11]", 0 ],
-            "obj-214::obj-51::obj-15": [ "live.text[2326]", "live.text[2322]", 0 ],
+            "obj-214::obj-51::obj-15": [ "live.text[2326]", "play_toggle", 0 ],
             "obj-214::obj-51::obj-152": [ "live.numbox[2033]", "live.numbox[2030]", 0 ],
             "obj-214::obj-51::obj-170": [ "live.menu[266]", "live.menu[263]", 0 ],
             "obj-214::obj-51::obj-28": [ "live.numbox[119]", "track", 0 ],
@@ -101059,7 +101096,7 @@
             "obj-214::obj-52::obj-121": [ "live.text[169]", "live.text[11]", 0 ],
             "obj-214::obj-52::obj-122": [ "live.text[171]", "live.text[11]", 0 ],
             "obj-214::obj-52::obj-123": [ "live.text[168]", "live.text[11]", 0 ],
-            "obj-214::obj-52::obj-15": [ "live.text[2325]", "live.text[2322]", 0 ],
+            "obj-214::obj-52::obj-15": [ "live.text[2325]", "play_toggle", 0 ],
             "obj-214::obj-52::obj-152": [ "live.numbox[2032]", "live.numbox[2030]", 0 ],
             "obj-214::obj-52::obj-170": [ "live.menu[265]", "live.menu[263]", 0 ],
             "obj-214::obj-52::obj-28": [ "live.numbox[129]", "track", 0 ],
@@ -101114,7 +101151,7 @@
             "obj-214::obj-90::obj-121": [ "live.text[43]", "live.text[11]", 0 ],
             "obj-214::obj-90::obj-122": [ "live.text[41]", "live.text[11]", 0 ],
             "obj-214::obj-90::obj-123": [ "live.text[42]", "live.text[11]", 0 ],
-            "obj-214::obj-90::obj-15": [ "live.text[2332]", "live.text[2322]", 0 ],
+            "obj-214::obj-90::obj-15": [ "live.text[2332]", "play_toggle", 0 ],
             "obj-214::obj-90::obj-152": [ "live.numbox[2040]", "live.numbox[2030]", 0 ],
             "obj-214::obj-90::obj-170": [ "live.menu[273]", "live.menu[263]", 0 ],
             "obj-214::obj-90::obj-28": [ "live.numbox[24]", "track", 0 ],
@@ -101164,7 +101201,7 @@
             "obj-214::obj-94::obj-121": [ "live.text[53]", "live.text[11]", 0 ],
             "obj-214::obj-94::obj-122": [ "live.text[54]", "live.text[11]", 0 ],
             "obj-214::obj-94::obj-123": [ "live.text[55]", "live.text[11]", 0 ],
-            "obj-214::obj-94::obj-15": [ "live.text[2331]", "live.text[2322]", 0 ],
+            "obj-214::obj-94::obj-15": [ "live.text[2331]", "play_toggle", 0 ],
             "obj-214::obj-94::obj-152": [ "live.numbox[2039]", "live.numbox[2030]", 0 ],
             "obj-214::obj-94::obj-170": [ "live.menu[272]", "live.menu[263]", 0 ],
             "obj-214::obj-94::obj-28": [ "live.numbox[50]", "track", 0 ],
@@ -101214,7 +101251,7 @@
             "obj-214::obj-97::obj-121": [ "live.text[69]", "live.text[11]", 0 ],
             "obj-214::obj-97::obj-122": [ "live.text[70]", "live.text[11]", 0 ],
             "obj-214::obj-97::obj-123": [ "live.text[68]", "live.text[11]", 0 ],
-            "obj-214::obj-97::obj-15": [ "live.text[2330]", "live.text[2322]", 0 ],
+            "obj-214::obj-97::obj-15": [ "live.text[2330]", "play_toggle", 0 ],
             "obj-214::obj-97::obj-152": [ "live.numbox[2038]", "live.numbox[2030]", 0 ],
             "obj-214::obj-97::obj-170": [ "live.menu[271]", "live.menu[263]", 0 ],
             "obj-214::obj-97::obj-28": [ "live.numbox[60]", "track", 0 ],
@@ -101264,7 +101301,7 @@
             "obj-214::obj-99::obj-121": [ "live.text[85]", "live.text[11]", 0 ],
             "obj-214::obj-99::obj-122": [ "live.text[83]", "live.text[11]", 0 ],
             "obj-214::obj-99::obj-123": [ "live.text[86]", "live.text[11]", 0 ],
-            "obj-214::obj-99::obj-15": [ "live.text[2329]", "live.text[2322]", 0 ],
+            "obj-214::obj-99::obj-15": [ "live.text[2329]", "play_toggle", 0 ],
             "obj-214::obj-99::obj-152": [ "live.numbox[2037]", "live.numbox[2030]", 0 ],
             "obj-214::obj-99::obj-170": [ "live.menu[270]", "live.menu[263]", 0 ],
             "obj-214::obj-99::obj-28": [ "live.numbox[70]", "track", 0 ],
@@ -106173,9 +106210,11 @@
                     "parameter_longname": "live.text[1777]"
                 },
                 "obj-214::obj-37::obj-15": {
+                    "parameter_initial_enable": 0,
                     "parameter_invisible": 0,
                     "parameter_longname": "live.text[2323]",
                     "parameter_modmode": 0,
+                    "parameter_shortname": "play_toggle",
                     "parameter_type": 2,
                     "parameter_unitstyle": 10
                 },

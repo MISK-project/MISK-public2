@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 565.0, 337.0, 672.0, 511.0 ],
+        "rect": [ 1114.0, 370.0, 672.0, 511.0 ],
         "openinpresentation": 1,
         "globalpatchername": "1_sample",
         "title": "Kontrollkanal #1",
@@ -480,28 +480,6 @@
             },
             {
                 "box": {
-                    "id": "obj-141",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1457.5, 368.0, 29.5, 22.0 ],
-                    "text": "1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-116",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1421.5, 368.0, 29.5, 22.0 ],
-                    "text": "0"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-106",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -536,7 +514,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1072,7 +1050,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1197,7 +1175,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 337.0, 591.0, 50.0, 22.0 ],
-                                    "text": "3"
+                                    "text": "4"
                                 }
                             },
                             {
@@ -2212,7 +2190,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3031,7 +3009,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4003,11 +3981,10 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_initial": [ 1 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "live.text[2323]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.text[2322]",
+                            "parameter_shortname": "play_toggle",
                             "parameter_type": 2
                         }
                     },
@@ -4190,7 +4167,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-12", 0 ],
-                    "midpoints": [ 1631.0, 444.0, 1446.0, 444.0, 1446.0, 402.0, 1125.0, 402.0, 1125.0, 351.0, 309.0, 351.0, 309.0, 330.0, 246.0, 330.0, 246.0, 294.0, 268.5, 294.0 ],
+                    "midpoints": [ 1631.0, 447.50390625, 1446.0, 447.50390625, 1446.0, 402.0, 1125.0, 402.0, 1125.0, 351.0, 309.0, 351.0, 309.0, 330.0, 246.0, 330.0, 246.0, 294.0, 268.5, 294.0 ],
                     "source": [ "obj-112", 3 ]
                 }
             },
@@ -4211,7 +4188,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "midpoints": [ 1530.5, 435.0, 1446.0, 435.0, 1446.0, 417.0, 1402.5, 417.0 ],
+                    "midpoints": [ 1530.5, 444.44921875, 1446.0, 444.44921875, 1446.0, 411.328125, 1402.5, 411.328125 ],
                     "source": [ "obj-112", 0 ]
                 }
             },
@@ -4234,13 +4211,6 @@
                     "destination": [ "obj-113", 0 ],
                     "midpoints": [ 625.5, 858.0, 626.5, 858.0 ],
                     "source": [ "obj-115", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-15", 0 ],
-                    "midpoints": [ 1431.0, 417.0, 1402.5, 417.0 ],
-                    "source": [ "obj-116", 0 ]
                 }
             },
             {
@@ -4455,13 +4425,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-15", 0 ],
-                    "midpoints": [ 1467.0, 417.0, 1402.5, 417.0 ],
-                    "source": [ "obj-141", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-144", 0 ],
                     "order": 1,
                     "source": [ "obj-142", 1 ]
@@ -4621,7 +4584,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "midpoints": [ 1199.5, 417.0, 1402.5, 417.0 ],
+                    "midpoints": [ 1199.5, 413.40625, 1402.5, 413.40625 ],
                     "source": [ "obj-167", 0 ]
                 }
             },
@@ -5299,6 +5262,6 @@
                 }
             }
         ],
-        "bgcolor": [ 0.9, 0.9, 0.9, 1.0 ]
+        "bgcolor": [ 1.0, 1.0, 0.0, 1.0 ]
     }
 }
