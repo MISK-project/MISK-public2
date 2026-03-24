@@ -1,0 +1,194 @@
+{
+    "filetype": "C74Snapshot",
+    "version": 2,
+    "minorversion": 0,
+    "name": "synth_simple.rnbopat",
+    "origin": "synth_simple.rnbopat",
+    "type": "rnbo",
+    "subtype": "",
+    "embed": 0,
+    "snapshot": {
+        "release": {
+            "value": 60.26412052824216
+        },
+        "decay": {
+            "value": 262.3845247690494
+        },
+        "sq_pulsew": {
+            "value": 0.49606299212598426
+        },
+        "sustain": {
+            "value": 0.2834645669291349
+        },
+        "vib_delay": {
+            "value": 3000.0
+        },
+        "__sps": {
+            "poly": [
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                },
+                {
+                    "__sps": {
+                        "osc.analog": {
+                            "decay": {
+                                "value": 10.0
+                            },
+                            "damping": {
+                                "value": 0.4
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "vibrato_speed": {
+            "value": 0.0
+        },
+        "attack": {
+            "value": 74.40014880029744
+        },
+        "FMAmount": {
+            "value": 0.0
+        },
+        "vib_amount": {
+            "value": 0.0
+        },
+        "__presetid": "synth_simple.rnbopat",
+        "waveform": {
+            "value": 1.0
+        },
+        "FMRatio": {
+            "value": 157.48031496062993
+        }
+    }
+}

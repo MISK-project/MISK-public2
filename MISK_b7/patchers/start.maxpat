@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 203.0, 173.0, 1070.0, 714.0 ],
+        "rect": [ 373.0, 189.0, 1070.0, 714.0 ],
         "openinpresentation": 1,
         "description": "MISK",
         "style": "MISK2",
@@ -1230,7 +1230,7 @@
                     "fontsize": 10.0,
                     "hint": "",
                     "id": "obj-116",
-                    "items": [ "None", ",", "System Device: HÃ¶gtalare i MacBook Pro", ",", "Preference: Scarlett 18i20 USB, Current: HÃ¶gtalare i MacBook Pro", ",", "VG279QR", ",", "HÃ¶gtalare i MacBook Pro", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "ZoomAudioDevice" ],
+                    "items": [ "None", ",", "System Device: Scarlett 18i20 USB", ",", "VG279QR", ",", "Scarlett 18i20 USB", ",", "BlackHole 2ch", ",", "HÃ¶gtalare i MacBook Pro", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "ZoomAudioDevice" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -7482,7 +7482,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 203.0, 199.0, 1070.0, 688.0 ],
+                        "rect": [ 0.0, 26.0, 1070.0, 688.0 ],
                         "openinpresentation": 1,
                         "showontab": 1,
                         "globalpatchername": "ut",
@@ -10392,7 +10392,7 @@
                             {
                                 "box": {
                                     "id": "obj-96",
-                                    "items": [ "None", ",", "System Device: MacBook Pro-mikrofon", ",", "Preference: Scarlett 18i20 USB, Current: MacBook Pro-mikrofon", ",", "NDI Audio", ",", "MacBook Pro-mikrofon", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice" ],
+                                    "items": [ "None", ",", "System Device: MacBook Pro-mikrofon", ",", "Scarlett 18i20 USB", ",", "NDI Audio", ",", "BlackHole 2ch", ",", "MacBook Pro-mikrofon", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -16185,7 +16185,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 808.0, 513.0, 50.0, 22.0 ],
-                                                    "text": "2"
+                                                    "text": "1"
                                                 }
                                             },
                                             {
@@ -18977,6 +18977,17 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-2",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 470.0, 508.0, 70.0, 22.0 ],
+                                    "text": "loadmess 0"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-1",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -19190,10 +19201,10 @@
                                             "parameter_enum": [ "val1", "val2" ],
                                             "parameter_initial": [ 0.0 ],
                                             "parameter_initial_enable": 1,
-                                            "parameter_longname": "live.text[1395]",
+                                            "parameter_longname": "fluid_camera_toggle",
                                             "parameter_mmax": 1,
                                             "parameter_modmode": 0,
-                                            "parameter_shortname": "live.text[1395]",
+                                            "parameter_shortname": "fluid_camera",
                                             "parameter_type": 2
                                         }
                                     },
@@ -19543,13 +19554,13 @@
                                                     "patching_rect": [ 25.0, 51.0, 56.0, 22.0 ],
                                                     "restore": {
                                                         "cg": [ 0.46000000834465 ],
-                                                        "d_ts": [ 1.0 ],
-                                                        "dd": [ 0.899999976158142 ],
+                                                        "d_ts": [ 66.0 ],
+                                                        "dd": [ 0.645669291338583 ],
                                                         "density_dis": [ 0.645669291338583 ],
                                                         "density_timest": [ 66.0 ],
                                                         "threshold": [ 0.0 ],
-                                                        "v_ts": [ 1.149999976158142 ],
-                                                        "vd": [ 0.899999976158142 ],
+                                                        "v_ts": [ 34.0 ],
+                                                        "vd": [ 0.346456692913386 ],
                                                         "vel_dis": [ 0.346456692913386 ],
                                                         "vel_timest": [ 33.99999999999999 ]
                                                     },
@@ -20497,14 +20508,14 @@
                                                         "background_alpha_offset": 18.299999237060547,
                                                         "velocity_gain": 100,
                                                         "velocity_hor/ver_flip": [ 0, 0 ],
-                                                        "velocity_dissipation": 0.899999976158142,
+                                                        "velocity_dissipation": 0.346456692913386,
                                                         "colour_thresh": 0.041,
                                                         "colour_gain": 0.46000000834465,
-                                                        "time_step": 1.149999976158142,
+                                                        "time_step": 34.0,
                                                         "cell_size": 1.25,
                                                         "gradient_scale": 100,
-                                                        "density_dissipation": 0.899999976158142,
-                                                        "density_timestep": 1.0,
+                                                        "density_dissipation": 0.645669291338583,
+                                                        "density_timestep": 66.0,
                                                         "normalise_render": 0,
                                                         "dim": [ 400, 300 ]
                                                     },
@@ -32466,8 +32477,8 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 22.0, 23.0, 56.0, 22.0 ],
                                     "restore": {
-                                        "Fluid_toggle": [ 1.0 ],
-                                        "ansikte_index": [ 1 ],
+                                        "Fluid_toggle": [ 0.0 ],
+                                        "ansikte_index": [ 4 ],
                                         "flik": [ 5.0 ],
                                         "screen_controller_selector": [ 0 ]
                                     },
@@ -32638,6 +32649,12 @@
                                 "patchline": {
                                     "destination": [ "obj-175", 0 ],
                                     "source": [ "obj-192", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-18", 0 ],
+                                    "source": [ "obj-2", 0 ]
                                 }
                             },
                             {
@@ -33845,7 +33862,6 @@
                                     "clickthrough": 0,
                                     "enablehscroll": 0,
                                     "enablevscroll": 0,
-                                    "hidden": 1,
                                     "id": "obj-228",
                                     "lockeddragscroll": 0,
                                     "lockedsize": 0,
@@ -33870,7 +33886,6 @@
                                     "clickthrough": 0,
                                     "enablehscroll": 0,
                                     "enablevscroll": 0,
-                                    "hidden": 1,
                                     "id": "obj-192",
                                     "lockeddragscroll": 0,
                                     "lockedsize": 0,
@@ -51795,9 +51810,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
-                                    "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
-                                    "bgoncolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "activebgcolor": [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+                                    "bgcolor": [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+                                    "bgoncolor": [ 1.0, 0.7019607843137254, 0.0, 1.0 ],
                                     "hint": "Pointer follows computer pointer. Ignores XY-controllers",
                                     "id": "obj-83",
                                     "maxclass": "live.text",
@@ -51810,16 +51825,16 @@
                                     "presentation_rect": [ 26.0, 221.0, 44.0, 20.0 ],
                                     "saved_attribute_attributes": {
                                         "activebgcolor": {
-                                            "expression": "themecolor.live_focus_frame"
+                                            "expression": ""
                                         },
                                         "activetextcolor": {
                                             "expression": "themecolor.live_control_fg_on"
                                         },
                                         "bgcolor": {
-                                            "expression": "themecolor.live_focus_frame"
+                                            "expression": ""
                                         },
                                         "bgoncolor": {
-                                            "expression": "themecolor.live_focus_frame"
+                                            "expression": ""
                                         },
                                         "textcolor": {
                                             "expression": "themecolor.live_control_fg_on"
@@ -51890,9 +51905,9 @@
                             },
                             {
                                 "box": {
-                                    "activebgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "activebgcolor": [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
                                     "bgcolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
-                                    "bgoncolor": [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+                                    "bgoncolor": [ 1.0, 0.7019607843137254, 0.0, 1.0 ],
                                     "id": "obj-21",
                                     "maxclass": "live.text",
                                     "numinlets": 1,
@@ -51904,7 +51919,7 @@
                                     "presentation_rect": [ 27.0, 192.0, 43.0, 22.0 ],
                                     "saved_attribute_attributes": {
                                         "activebgcolor": {
-                                            "expression": "themecolor.live_focus_frame"
+                                            "expression": ""
                                         },
                                         "activetextcolor": {
                                             "expression": "themecolor.live_control_fg_on"
@@ -51913,7 +51928,7 @@
                                             "expression": "themecolor.live_focus_frame"
                                         },
                                         "bgoncolor": {
-                                            "expression": "themecolor.live_focus_frame"
+                                            "expression": ""
                                         },
                                         "textcolor": {
                                             "expression": "themecolor.live_control_fg_on"
@@ -53464,7 +53479,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 50.0, 165.0, 50.0, 22.0 ],
-                                                    "text": "44100."
+                                                    "text": "48000."
                                                 }
                                             },
                                             {
@@ -53593,7 +53608,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 1083.0, 292.0, 50.0, 22.0 ],
-                                    "text": "44100"
+                                    "text": "48000"
                                 }
                             },
                             {
@@ -55818,7 +55833,7 @@
                                     "restore": {
                                         "90grader": [ 0.0 ],
                                         "Fotografier": [ 1.0 ],
-                                        "Muspekarkontroll": [ 1.0 ],
+                                        "Muspekarkontroll": [ 0.0 ],
                                         "aspect_ratio": [ 0.0 ],
                                         "background color number": [ 2 ],
                                         "background color toggle": [ 0 ],
@@ -55883,7 +55898,6 @@
                                         "tempo_noisepattern": [ 0 ],
                                         "vfx_bg_color": [ 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0 ],
                                         "vfx_pointer": [ 0.0 ],
-                                        "video_selector": [ 0 ],
                                         "video_vol": [ 0.0 ]
                                     },
                                     "text": "autopattr",
@@ -56122,7 +56136,6 @@
                             },
                             {
                                 "box": {
-                                    "hidden": 1,
                                     "id": "obj-48",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -56135,7 +56148,6 @@
                             },
                             {
                                 "box": {
-                                    "hidden": 1,
                                     "id": "obj-45",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -59573,7 +59585,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 53.9375, 1253.0, 50.0, 22.0 ],
-                                    "text": "45 0"
+                                    "text": "59 127"
                                 }
                             },
                             {
@@ -60613,7 +60625,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 1129.0, 391.0, 57.0, 35.0 ],
-                                                    "text": "7.921553"
+                                                    "text": "-0.024943"
                                                 }
                                             },
                                             {
@@ -61707,7 +61719,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 1164.0, 187.0, 44.0, 22.0 ],
-                                                                    "text": "29"
+                                                                    "text": "110"
                                                                 }
                                                             },
                                                             {
@@ -62225,7 +62237,7 @@
                                                             {
                                                                 "box": {
                                                                     "id": "obj-61",
-                                                                    "items": [ "Tangentbord som tillhšr Linn SŠbom", ",", "Tangentbord som tillhšr Linn SŠbom 2", ",", "Tangentbord som tillhšr Linn SŠbom 3", ",", "Johns", ",", "Johns 2", ",", "Johns 3", ",", "Johns 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Headset", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0x20, Usage: 0x8a", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x4", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x3", ",", "Page: 0xff00, Usage: 0x9" ],
+                                                                    "items": [ "Johns", ",", "Johns 2", ",", "Johns 3", ",", "Johns 4", ",", "Tangentbord som tillhšr Linn SŠbom", ",", "Tangentbord som tillhšr Linn SŠbom 2", ",", "Tangentbord som tillhšr Linn SŠbom 3", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Headset", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "Vendor Defined Usage 0x5", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x9", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0x3" ],
                                                                     "maxclass": "umenu",
                                                                     "numinlets": 1,
                                                                     "numoutlets": 3,
@@ -72601,7 +72613,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 77.0, 84.0, 50.0, 22.0 ],
-                                                    "text": "60 0"
+                                                    "text": "59 59"
                                                 }
                                             },
                                             {
@@ -72623,7 +72635,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 152.0, 603.0, 50.0, 22.0 ],
-                                                    "text": "50 100"
+                                                    "text": "59 100"
                                                 }
                                             },
                                             {
@@ -72816,6 +72828,7 @@
                                                             {
                                                                 "box": {
                                                                     "id": "obj-127",
+                                                                    "int": 1,
                                                                     "maxclass": "gswitch2",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 2,
@@ -72871,6 +72884,7 @@
                                                             {
                                                                 "box": {
                                                                     "id": "obj-104",
+                                                                    "int": 1,
                                                                     "maxclass": "gswitch2",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 2,
@@ -74809,7 +74823,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 621.5, 677.0, 50.0, 22.0 ],
-                                    "text": "60 0"
+                                    "text": "59 127"
                                 }
                             },
                             {
@@ -75639,7 +75653,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 537.0, 588.0, 50.0, 22.0 ],
-                                    "text": "60 0"
+                                    "text": "59 100"
                                 }
                             },
                             {
@@ -75788,7 +75802,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 81.0, 699.0, 50.0, 22.0 ],
-                                                    "text": "52 109"
+                                                    "text": "52 74"
                                                 }
                                             },
                                             {
@@ -76751,7 +76765,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 247.0, 411.809814453125, 55.0, 22.0 ],
-                                                    "text": "0 12 0"
+                                                    "text": "12 12 0"
                                                 }
                                             },
                                             {
@@ -78776,6 +78790,7 @@
                                             {
                                                 "box": {
                                                     "id": "obj-101",
+                                                    "int": 1,
                                                     "maxclass": "gswitch2",
                                                     "numinlets": 2,
                                                     "numoutlets": 2,
@@ -79171,7 +79186,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 182.0, 1043.0, 52.0, 22.0 ],
-                                                    "text": "50 127"
+                                                    "text": "59 127"
                                                 }
                                             },
                                             {
@@ -79397,7 +79412,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 787.0, 334.0, 50.0, 22.0 ],
-                                                    "text": "2"
+                                                    "text": "4"
                                                 }
                                             },
                                             {
@@ -79419,7 +79434,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 817.0, 230.0, 50.0, 22.0 ],
-                                                    "text": "2"
+                                                    "text": "4"
                                                 }
                                             },
                                             {
@@ -79687,13 +79702,12 @@
                                                             {
                                                                 "box": {
                                                                     "id": "obj-46",
-                                                                    "linecount": 2,
                                                                     "maxclass": "message",
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 147.0, 217.0, 50.0, 22.0 ],
-                                                                    "text": "1024368"
+                                                                    "text": "527"
                                                                 }
                                                             },
                                                             {
@@ -79704,7 +79718,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 181.0, 394.0, 50.0, 22.0 ],
-                                                                    "text": "2"
+                                                                    "text": "4"
                                                                 }
                                                             },
                                                             {
@@ -83311,7 +83325,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 33.0, 915.0, 50.0, 22.0 ],
-                                    "text": "pitch 0"
+                                    "text": "od 0."
                                 }
                             },
                             {
@@ -93424,7 +93438,7 @@
                                             {
                                                 "box": {
                                                     "id": "obj-8",
-                                                    "items": [ "None", ",", "System Device: MacBook Pro-mikrofon", ",", "Preference: Scarlett 18i20 USB, Current: MacBook Pro-mikrofon", ",", "NDI Audio", ",", "MacBook Pro-mikrofon", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice" ],
+                                                    "items": [ "None", ",", "System Device: MacBook Pro-mikrofon", ",", "Scarlett 18i20 USB", ",", "NDI Audio", ",", "BlackHole 2ch", ",", "MacBook Pro-mikrofon", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice" ],
                                                     "maxclass": "umenu",
                                                     "numinlets": 1,
                                                     "numoutlets": 3,
@@ -95747,7 +95761,7 @@
                                         "play_mode": [ 0 ],
                                         "play_toggle": [ 1.0 ],
                                         "release": [ 838.2416764833537 ],
-                                        "reverb_alias": [ 88.99999999999994 ],
+                                        "reverb_alias": [ 94.00000000000014 ],
                                         "sample_mode": [ 0.0 ],
                                         "samplepad_level": [ 0.0 ],
                                         "samples_ljudfiler": [
@@ -98027,19 +98041,19 @@
                         "Tidstock": [ 0.0 ],
                         "ctrl_recall_state": [ 1.0 ],
                         "ctrl_recall_state[1]": [ 1.0 ],
-                        "delay_regen": [ 70.00000000000003 ],
-                        "delaycolor": [ 64.00000000000003 ],
-                        "delaytime": [ 43.00000000000003 ],
+                        "delay_regen": [ 108.99999999999997 ],
+                        "delaycolor": [ 97.99999999999997 ],
+                        "delaytime": [ 83.00000000000007 ],
                         "flik": [ 0.0 ],
                         "ktrl_auxin_audioch": [ 1 ],
                         "lfo": [ 0.0 ],
                         "live.tab": [ 0.0 ],
-                        "master_gain": [ -1.143240073714185 ],
+                        "master_gain": [ 0.0 ],
                         "preset_numberkeys": [ 0.0 ],
                         "preset_selector_ctrl": [ 0 ],
                         "rev_size": [ 67.99999999999996 ],
-                        "reverb_damping": [ 95.99999999999997 ],
-                        "reverb_decay": [ 70.00000000000006 ],
+                        "reverb_damping": [ 55.00000000000004 ],
+                        "reverb_decay": [ 71.00000000000007 ],
                         "save": [ 0.0 ],
                         "save[1]": [ 0.0 ],
                         "save_presets": [ 0.0 ],
@@ -100102,7 +100116,7 @@
             "obj-152::obj-140::obj-286": [ "live.text[242]", "live.text[4]", 0 ],
             "obj-152::obj-140::obj-57": [ "live.text[240]", "active", 0 ],
             "obj-152::obj-140::obj-93": [ "live.numbox[36]", "Value_in", 0 ],
-            "obj-152::obj-18": [ "live.text[1395]", "live.text[1395]", 0 ],
+            "obj-152::obj-18": [ "fluid_camera_toggle", "fluid_camera", 0 ],
             "obj-152::obj-77": [ "live.tab[172]", "flik_camera", 0 ],
             "obj-157": [ "colour", "colour", 0 ],
             "obj-192::obj-100": [ "live.numbox[915]", "value", 0 ],
